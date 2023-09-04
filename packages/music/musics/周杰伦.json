@@ -1,13 +1,12 @@
-{
-	"artist": "周杰伦",
-	"songs": [
-		{
-			"url": "https://www.hifini.com/get_music.php?key=H8+0c6hNrrMFrLAhEt7RkGflu9Ox+730kJsLZZdu/PiyP+PptCqXHDUy2KC5fjhQcGVToMHFSLvGAPCNK2o",
-			"name": "可爱女人"
-		},
-		{
-			"url": "https://www.hifini.com/get_music.php?key=GJy4daBP9rMFrLAhEt7RkGflu9Ox+730kJsLZZdu/PiyP+PptCqSBDZM95u4VDVZS0dToMHFSLvGAPCNKGA",
-			"name": "完美主义"
-		}
-	]
-}
+[
+	{
+		"singer": "周杰伦",
+		"name": "可爱女人",
+		"url": "https://www.hifini.com/get_music.php?key=FJnuGjMP17JOb/v0vlG6djabEBcuXgfLCB3RuCfguVXZS/Eqga+VfFgPDcXc2UeGHICvNcwTxdB1Ac17XOw"
+	},
+	{
+		"singer": "周杰伦",
+		"name": "完美主义",
+		"url": "https://www.hifini.com/get_music.php?key=FMzsSzZXgeVOb/v0vlG6djabEBcuXgfLCB3RuCfguVXZS/Eqga+QZFtxIv7d80qPJ6KvNcwTxdB1Ac17X+Y"
+	}
+]

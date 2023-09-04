@@ -9,7 +9,7 @@ const quotedPrintable = require('quoted-printable');
 const utf8 = require('utf8');
 const path = require('path');
 
-const musics = ['../musics/周杰伦.txt'];
+const musics = ['../musics/周杰伦.txt', '../musics/陈奕迅.txt'];
 
 function encodePrintableCode(str) {
   str = quotedPrintable.encode(utf8.encode(str));
@@ -85,7 +85,7 @@ const parseJson = (str, defaultV) => {
   try {
     return JSON.parse(str);
   } catch {
-    return defaultV || {};
+    return defaultV || [];
   }
 };
 
@@ -96,35 +96,27 @@ const saveMusicUrl = (singerName, musicName, musicSrc, fileName) => {
 
   const musicStr = fs.readFileSync(path.resolve(__dirname, musicPath), 'utf-8');
   let musics = parseJson(musicStr);
-
-  const { songs = [] } = musics;
-
-  if (songs.length > 0) {
+  if (musics.length > 0) {
     // 去重
-    if (songs.some((item) => item.name === musicName)) {
+    if (musics.some((item) => item.name === musicName)) {
       return;
     }
-    musics = {
+    musics = [
       ...musics,
-      songs: [
-        ...musics.songs,
-        {
-          url: musicSrc,
-          name: musicName,
-        },
-      ],
-    };
+      {
+        singer: singerName,
+        name: musicName,
+        url: musicSrc,
+      },
+    ];
   } else {
-    musics = {
-      ...musics,
-      artist: singerName,
-      songs: [
-        {
-          url: musicSrc,
-          name: musicName,
-        },
-      ],
-    };
+    musics = [
+      {
+        singer: singerName,
+        name: musicName,
+        url: musicSrc,
+      },
+    ];
   }
   fs.writeFileSync(
     path.resolve(__dirname, musicPath),
@@ -141,6 +133,7 @@ const queryMisic = async (lines, singerName, fileName) => {
       continue;
     }
     let musicName = getMusciName(line);
+    console.log(1, encodePrintableCode(`${singerName}${musicName}`))
     const { data } = await axios(
       encodePrintableCode(`${singerName}${musicName}`)
     );

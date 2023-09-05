@@ -14,15 +14,22 @@ jobs:
       # 第一步：下载源码（CI/CD拉取代码到自己的本地）
       - name: Check out repository code
         uses: actions/checkout@v3
+
       # 第二步：依赖 node 18 环境
       - name: Install Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 18
+
+      # node 版本
+      - name: node V
+        run: node -v
+
       # 第三步：安装依赖
       - name: Install
         run: npm run install
+
       # 第四部：执行脚本
       - run: npm run git
-      
+
       - run: echo "🍏 This job's status is ${{ job.status }}."

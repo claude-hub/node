@@ -21,13 +21,9 @@ jobs:
         with:
           node-version: 18
 
-      # node 版本
-      - name: node V
-        run: node -v
-
       # 第三步：安装依赖
       - name: Install
-        run: npm run install
+        run: npm i
 
       # 第四部：执行脚本
       - run: npm run git

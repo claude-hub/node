@@ -19,6 +19,10 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
-      
+      # 第三步：安装依赖
+      - name: Install
+        run: npm run install
+      # 第四部：执行脚本
       - run: npm run git
+      
       - run: echo "🍏 This job's status is ${{ job.status }}."

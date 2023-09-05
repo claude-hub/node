@@ -1,7 +1,7 @@
 name: Cloud Music
 
 on: 
-  push
+  push:
   
   # schedule:
   #   # 每天运行一次
@@ -12,7 +12,7 @@ on:
   #   # - cron:  '0/5 * * * *'
 
 jobs:
-  Build Music:
+  Build_Music:
     runs-on: ubuntu-latest
     steps:
       # 第一步：下载源码（CI/CD拉取代码到自己的本地）

@@ -9,6 +9,8 @@ const quotedPrintable = require('quoted-printable');
 const utf8 = require('utf8');
 const path = require('path');
 
+require('./NeteaseCloudMusic');
+
 const musics = ['../musics/周杰伦.txt', '../musics/陈奕迅.txt'];
 
 function encodePrintableCode(str) {
@@ -163,17 +165,21 @@ const queryMisic = async (lines, singerName, fileName) => {
   }
 };
 
-musics.map(async (music) => {
-  const fileData = fs.readFileSync(path.resolve(__dirname, music), 'utf-8');
-  const lines = fileData
-    .split('\n')
-    .map((v) => v.trim())
-    .filter((item) => item);
-  const fileName = music.replace('.txt', '');
-  const [userStr = ''] = lines;
-  let singerName = '';
-  if (userStr.includes('歌手')) {
-    singerName = userStr.replace('歌手:', '');
-  }
-  await queryMisic(lines, singerName, fileName);
-});
+const parseMusic = () => {
+  musics.map(async (music) => {
+    const fileData = fs.readFileSync(path.resolve(__dirname, music), 'utf-8');
+    const lines = fileData
+      .split('\n')
+      .map((v) => v.trim())
+      .filter((item) => item);
+    const fileName = music.replace('.txt', '');
+    const [userStr = ''] = lines;
+    let singerName = '';
+    if (userStr.includes('歌手')) {
+      singerName = userStr.replace('歌手:', '');
+    }
+    await queryMisic(lines, singerName, fileName);
+  });
+}
+
+// parseMusic();

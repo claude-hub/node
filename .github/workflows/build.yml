@@ -3,12 +3,16 @@ name: Cloud Music
 on: 
   push:
   
-  schedule:
-    # 从0分钟开始，每5分钟运行一次
-    - cron:  '0/5 * * * *'
+  # schedule:
+  #   # 每天运行一次
+  #   - cron:  '0 0 * * *'
+  #   # 没小时运行一次
+  #   # - cron:  '0 * * * *'
+  #   # 从0分钟开始，每5分钟运行一次
+  #   # - cron:  '0/5 * * * *'
 
 jobs:
-  parse_music:
+  Build Music:
     runs-on: ubuntu-latest
     steps:
       # 第一步：下载源码（CI/CD拉取代码到自己的本地）
@@ -26,6 +30,6 @@ jobs:
         run: npm i
 
       # 第四部：执行脚本
-      - run: npm run git
+      - run: npm run music
 
       - run: echo "🍏 This job's status is ${{ job.status }}."

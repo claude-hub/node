@@ -1,7 +1,7 @@
 name: Cloud Music
 
 on: 
-  push:
+  push
   
   # schedule:
   #   # 每天运行一次

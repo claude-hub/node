@@ -1,0 +1,24 @@
+name: Cloud Music
+
+on: 
+  push:
+  
+  schedule:
+    # 从0分钟开始，每5分钟运行一次
+    - cron:  '0/5 * * * *'
+
+jobs:
+  music:
+    runs-on: ubuntu-latest
+    steps:
+      # 第一步：下载源码（CI/CD拉取代码到自己的本地）
+      - name: Check out repository code
+        uses: actions/checkout@v3
+      # 第二步：依赖 node 18 环境
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      
+      - run: npm run git
+      - run: echo "🍏 This job's status is ${{ job.status }}."

@@ -59,11 +59,15 @@ const queryArtistSongs = async (id) => {
   );
   const { songs = [] } = res.body;
   const list = songs.map((item) => {
-    const { name = '', id, al = {} } = item;
+    const { name = '', id, al = {}, ar = [], dt } = item;
     return {
       id,
       name,
-      picUrl: al.picUrl,
+      ar: ar.map(({ name }) => ({ name })),
+      dt,
+      al: {
+        picUrl: al.picUrl,
+      },
     };
   });
 
@@ -113,6 +117,7 @@ const writeFile = async (filePath, data) => {
  */
 const neteaseCloudMusic = async () => {
   const artists = await queryArtists();
+
   for (let index = 0; index < artists.length; index++) {
     const artist = artists[index];
     const { id: artistId, name: artistName } = artist;
@@ -123,9 +128,7 @@ const neteaseCloudMusic = async () => {
       const lyric = await queryLyric(songId);
       return {
         ...song,
-        singer: artistName,
         lyric,
-        url: [`https://music.163.com/song/media/outer/url?id=${songId}.mp3`],
       };
     });
     const musics = await Promise.all(info);

@@ -2,501 +2,764 @@
 	{
 		"id": 2067222280,
 		"name": "水龙吟 Samudrartha",
-		"picUrl": "https://p1.music.126.net/oDhurcFOPMPVMLnc6xF99A==/109951168765200998.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "[00:00.000] 作词 : 邪叫教主\n[00:00.718] 作曲 : 林一凡Fan (HOYO-MiX)\n[00:01.436] 编曲 : 文驰Vinchi (HOYO-MiX)\n[00:02.154] 制作人 : 林一凡Fan (HOYO-MiX)\n[00:02.872]\n[00:03.134]过往 潮汐\n[00:11.673]将我的伤痕 刻蚀成龙鳞\n[00:17.519]吐息中酝酿着风云\n[00:22.566]血脉 根须\n[00:32.132]在我皮肉下 交织成命运\n[00:37.729]扎根于烈火烧灼的龙心\n[00:43.318]磨砺 金石 做我的骨骼\n[00:47.836]放任 飓风 从喉中挣脱\n[00:52.903]用传说重塑我\n[00:57.941]用疼痛重铸我\n[01:02.457]\n[01:03.526]撕裂形骸解放\n[01:09.629]万钧雷霆的巨响\n[01:13.620]摇撼心魂激荡\n[01:20.277]惊涛骇浪\n[01:23.742]胸口鲜血滚烫\n[01:30.119]淬炼出爪牙锋芒\n[01:33.841]我必身披星光\n[01:40.227]再临于重渊之上\n[01:46.599]\n[02:06.833]撕裂形骸解放\n[02:12.963]万钧雷霆的巨响\n[02:16.414]摇撼心魂激荡\n[02:23.317]惊涛骇浪\n[02:27.048]胸口鲜血滚烫\n[02:33.147]淬炼出爪牙锋芒\n[02:37.130]我必身披星光\n[02:43.240]再临于重渊之上\n[02:47.489]\n[02:47.990] 歌手 Vocal Artist：优素\n[02:48.491] 乐队 Orchestra：龙之艺交响乐团 Art of Loong Orchestra\n[02:48.992] 古琴 Guqin：方静宇 Jingyu Fang\n[02:49.493] 和声 Back Vocal：优素 / 王可鑫 Eli.W (HOYO-MiX)\n[02:49.994] 录音棚 Recording Studio：奕和录音棚 YiHe Studio / 升赫录音棚Soundhub Studio / 上海广播大厦 Shanghai Media Group\n[02:50.495] 录音师 Recording Engineer：刘思宇 Red Liu / 焦磊@Soundhub Studios / 莫家伟 Jiawei Mo\n[02:50.996] 混音师 Mixing Engineer：宫奇Gon (HOYO-MiX)\n[02:51.497] 母带制作 Mastering Engineer：宫奇Gon (HOYO-MiX)\n[02:51.998] 出品 Produced by：HOYO-MiX\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=2067222280.mp3"
-		]
+		"ar": [
+			{
+				"name": "HOYO-MiX"
+			},
+			{
+				"name": "优素"
+			}
+		],
+		"dt": 172000,
+		"al": {
+			"picUrl": "https://p1.music.126.net/oDhurcFOPMPVMLnc6xF99A==/109951168765200998.jpg"
+		},
+		"lyric": "[00:00.000] 作词 : 邪叫教主\n[00:00.718] 作曲 : 林一凡Fan (HOYO-MiX)\n[00:01.436] 编曲 : 文驰Vinchi (HOYO-MiX)\n[00:02.154] 制作人 : 林一凡Fan (HOYO-MiX)\n[00:02.872]\n[00:03.134]过往 潮汐\n[00:11.673]将我的伤痕 刻蚀成龙鳞\n[00:17.519]吐息中酝酿着风云\n[00:22.566]血脉 根须\n[00:32.132]在我皮肉下 交织成命运\n[00:37.729]扎根于烈火烧灼的龙心\n[00:43.318]磨砺 金石 做我的骨骼\n[00:47.836]放任 飓风 从喉中挣脱\n[00:52.903]用传说重塑我\n[00:57.941]用疼痛重铸我\n[01:02.457]\n[01:03.526]撕裂形骸解放\n[01:09.629]万钧雷霆的巨响\n[01:13.620]摇撼心魂激荡\n[01:20.277]惊涛骇浪\n[01:23.742]胸口鲜血滚烫\n[01:30.119]淬炼出爪牙锋芒\n[01:33.841]我必身披星光\n[01:40.227]再临于重渊之上\n[01:46.599]\n[02:06.833]撕裂形骸解放\n[02:12.963]万钧雷霆的巨响\n[02:16.414]摇撼心魂激荡\n[02:23.317]惊涛骇浪\n[02:27.048]胸口鲜血滚烫\n[02:33.147]淬炼出爪牙锋芒\n[02:37.130]我必身披星光\n[02:43.240]再临于重渊之上\n[02:47.489]\n[02:47.990] 歌手 Vocal Artist：优素\n[02:48.491] 乐队 Orchestra：龙之艺交响乐团 Art of Loong Orchestra\n[02:48.992] 古琴 Guqin：方静宇 Jingyu Fang\n[02:49.493] 和声 Back Vocal：优素 / 王可鑫 Eli.W (HOYO-MiX)\n[02:49.994] 录音棚 Recording Studio：奕和录音棚 YiHe Studio / 升赫录音棚Soundhub Studio / 上海广播大厦 Shanghai Media Group\n[02:50.495] 录音师 Recording Engineer：刘思宇 Red Liu / 焦磊@Soundhub Studios / 莫家伟 Jiawei Mo\n[02:50.996] 混音师 Mixing Engineer：宫奇Gon (HOYO-MiX)\n[02:51.497] 母带制作 Mastering Engineer：宫奇Gon (HOYO-MiX)\n[02:51.998] 出品 Produced by：HOYO-MiX\n"
 	},
 	{
 		"id": 2026565329,
 		"name": "Da Capo",
-		"picUrl": "https://p1.music.126.net/awzv1LpuBJiKTeB7roh_Aw==/109951168434956885.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "[00:00.000] 作词 : TetraCalyx\n[00:00.048] 作曲 : 蔡近翰Zoe(HOYO-MiX)\n[00:00.096] 编曲 : 宫奇Gon(HOYO-MiX)/苑迪萌Dimeng Yuan(HOYO-MiX)/崔瀚普TSAR(HOYO-MiX)/车子玉Ziyu Che(HOYO-MiX)\n[00:00.144] 制作人 : 蔡近翰Zoe(HOYO-MiX)\n[00:00.195]When good old friends are going away\n[00:06.838]Will you wish them to remember your name?\n[00:13.480]When good old days are passing away\n[00:19.851]Will you promise your heart remains the same\n[00:27.289]Never can we suspend the time\n[00:33.943]Having to leave the tracks behind\n[00:40.316]there is a longer way ahead, After all.\n[00:54.403]There used to be a story teller\n[01:00.242]who always painted the sunshine and the rain\n[01:07.428]One has to eventually grow up\n[01:13.258]Spending a lifetime to taste the love and pain\n[01:20.705]Never can we suspend the time\n[01:27.345]Having to leave the tracks behind\n[01:33.718]there is a longer way ahead, After all.\n[01:47.005]If it’s too hard to say goodbye\n[01:53.372]Give us a try to sing a rhyme\n[01:59.768]“May you, the beauty of this world, always shine.”\n[02:13.309]\n[02:13.523] 演唱 Vocal Artist：车子玉Ziyu Che(HOYO-MiX)\n[02:13.737] 弦乐 Strings：龙之艺交响乐团Art of Loong Orchestra\n[02:13.951] 弦乐录音棚 Strings Recording Studio：上海音像公司录音棚YX STUDIO\n[02:14.165] 混音 Mixing Engineer：宫奇Gon(HOYO-MiX)\n[02:14.379] 母带 Mastering Engineer：宫奇Gon(HOYO-MiX)\n[02:14.593] 出品 Produced by：HOYO-MiX\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=2026565329.mp3"
-		]
+		"ar": [
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 134594,
+		"al": {
+			"picUrl": "https://p1.music.126.net/awzv1LpuBJiKTeB7roh_Aw==/109951168434956885.jpg"
+		},
+		"lyric": "[00:00.000] 作词 : TetraCalyx\n[00:00.048] 作曲 : 蔡近翰Zoe(HOYO-MiX)\n[00:00.096] 编曲 : 宫奇Gon(HOYO-MiX)/苑迪萌Dimeng Yuan(HOYO-MiX)/崔瀚普TSAR(HOYO-MiX)/车子玉Ziyu Che(HOYO-MiX)\n[00:00.144] 制作人 : 蔡近翰Zoe(HOYO-MiX)\n[00:00.195]When good old friends are going away\n[00:06.838]Will you wish them to remember your name?\n[00:13.480]When good old days are passing away\n[00:19.851]Will you promise your heart remains the same\n[00:27.289]Never can we suspend the time\n[00:33.943]Having to leave the tracks behind\n[00:40.316]there is a longer way ahead, After all.\n[00:54.403]There used to be a story teller\n[01:00.242]who always painted the sunshine and the rain\n[01:07.428]One has to eventually grow up\n[01:13.258]Spending a lifetime to taste the love and pain\n[01:20.705]Never can we suspend the time\n[01:27.345]Having to leave the tracks behind\n[01:33.718]there is a longer way ahead, After all.\n[01:47.005]If it’s too hard to say goodbye\n[01:53.372]Give us a try to sing a rhyme\n[01:59.768]“May you, the beauty of this world, always shine.”\n[02:13.309]\n[02:13.523] 演唱 Vocal Artist：车子玉Ziyu Che(HOYO-MiX)\n[02:13.737] 弦乐 Strings：龙之艺交响乐团Art of Loong Orchestra\n[02:13.951] 弦乐录音棚 Strings Recording Studio：上海音像公司录音棚YX STUDIO\n[02:14.165] 混音 Mixing Engineer：宫奇Gon(HOYO-MiX)\n[02:14.379] 母带 Mastering Engineer：宫奇Gon(HOYO-MiX)\n[02:14.593] 出品 Produced by：HOYO-MiX\n"
 	},
 	{
 		"id": 1859652717,
 		"name": "Moon Halo",
-		"picUrl": "https://p1.music.126.net/ciLKATqflV2YWSV3ltE2Kw==/109951166159281275.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "[00:00.00] 作词 : TetraCalyx\n[00:01.00] 作曲 : 蔡近翰Zoe(HOYO-MiX)/TetraCalyx\n[00:02.00] 编曲 : 宫奇Gon(HOYO-MiX)\n[00:03.00] 制作人 : 宫奇Gon(HOYO-MiX)\n[00:06.00]\n[00:08.24]Some deserts on this planet were oceans once\n[00:15.23]Somewhere shrouded by the night, the sun will shine\n[00:22.24]Sometimes I see a dying bird fall to the ground\n[00:29.15]But it used to fly so high\n[00:35.09]\n[00:35.20]I thought I were no more than a bystander till I felt a touch so real\n[00:42.22]I will no longer be a transient when I see smiles with tears\n[00:50.00]If I have never known the sore of farewell and pain of sacrifices\n[00:57.20]What else should I engrave on my mind\n[01:03.17]\n[01:05.07]Frozen into icy rocks, that's how it starts\n[01:12.08]Crumbled like the sands of time, that's how it ends\n[01:19.10]Every page of tragedy is thrown away burned out in the flame\n[01:31.19]\n[01:32.05]A shoulder for the past\n[01:35.02]Let out the cries imprisoned for so long\n[01:39.07]A pair of wings for me at this moment\n[01:44.00]To soar above this world\n[01:46.09]Turn into a shooting star that briefly shines but warms up every heart\n[01:54.10]May all the beauty be blessed\n[02:01.06]May all the beauty be blessed\n[02:08.05]\n[02:09.17]I will never go\n[02:16.22]There's a way back home\n[02:23.06]Brighter than tomorrow and yesterday\n[02:30.17]May all the beauty be blessed\n[02:36.22]\n[02:43.00]Wave good-bye to the past when hope and faith have grown so strong and sound\n[02:50.04]Unfold this pair of wings for me again\n[02:54.12]To soar above this world\n[02:57.00]Turned into a moon that always tells the warmth and brightness of the sun\n[03:04.23]May all the beauty be blessed\n[03:12.00]May all the beauty be blessed\n[03:18.22]\n[03:19.38] 人声录音 Recording: 徐威@52HzStudio\n[03:20.55] 弦乐 Strings: 龙之艺交响乐团\n[03:21.71] 混音 Mixing Engineer: 宫奇Gon(HOYO-MiX)\n[03:22.88] 母带 Mastering Engineer: 宫奇Gon(HOYO-MiX)\n[03:24.05] 出品 Produced by:HOYO-MiX\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=1859652717.mp3"
-		]
+		"ar": [
+			{
+				"name": "茶理理"
+			},
+			{
+				"name": "TetraCalyx"
+			},
+			{
+				"name": "Hanser"
+			},
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 204054,
+		"al": {
+			"picUrl": "https://p1.music.126.net/ciLKATqflV2YWSV3ltE2Kw==/109951166159281275.jpg"
+		},
+		"lyric": "[00:00.00] 作词 : TetraCalyx\n[00:01.00] 作曲 : 蔡近翰Zoe(HOYO-MiX)/TetraCalyx\n[00:02.00] 编曲 : 宫奇Gon(HOYO-MiX)\n[00:03.00] 制作人 : 宫奇Gon(HOYO-MiX)\n[00:06.00]\n[00:08.24]Some deserts on this planet were oceans once\n[00:15.23]Somewhere shrouded by the night, the sun will shine\n[00:22.24]Sometimes I see a dying bird fall to the ground\n[00:29.15]But it used to fly so high\n[00:35.09]\n[00:35.20]I thought I were no more than a bystander till I felt a touch so real\n[00:42.22]I will no longer be a transient when I see smiles with tears\n[00:50.00]If I have never known the sore of farewell and pain of sacrifices\n[00:57.20]What else should I engrave on my mind\n[01:03.17]\n[01:05.07]Frozen into icy rocks, that's how it starts\n[01:12.08]Crumbled like the sands of time, that's how it ends\n[01:19.10]Every page of tragedy is thrown away burned out in the flame\n[01:31.19]\n[01:32.05]A shoulder for the past\n[01:35.02]Let out the cries imprisoned for so long\n[01:39.07]A pair of wings for me at this moment\n[01:44.00]To soar above this world\n[01:46.09]Turn into a shooting star that briefly shines but warms up every heart\n[01:54.10]May all the beauty be blessed\n[02:01.06]May all the beauty be blessed\n[02:08.05]\n[02:09.17]I will never go\n[02:16.22]There's a way back home\n[02:23.06]Brighter than tomorrow and yesterday\n[02:30.17]May all the beauty be blessed\n[02:36.22]\n[02:43.00]Wave good-bye to the past when hope and faith have grown so strong and sound\n[02:50.04]Unfold this pair of wings for me again\n[02:54.12]To soar above this world\n[02:57.00]Turned into a moon that always tells the warmth and brightness of the sun\n[03:04.23]May all the beauty be blessed\n[03:12.00]May all the beauty be blessed\n[03:18.22]\n[03:19.38] 人声录音 Recording: 徐威@52HzStudio\n[03:20.55] 弦乐 Strings: 龙之艺交响乐团\n[03:21.71] 混音 Mixing Engineer: 宫奇Gon(HOYO-MiX)\n[03:22.88] 母带 Mastering Engineer: 宫奇Gon(HOYO-MiX)\n[03:24.05] 出品 Produced by:HOYO-MiX\n"
 	},
 	{
 		"id": 2045806409,
 		"name": "野火 Wildfire",
-		"picUrl": "https://p1.music.126.net/-K-1PuWcHjGLNuH4xPJwpQ==/109951168599498949.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "[00:00.000] 作词 : TetraCalyx\n[00:00.517] 作曲 : 宫奇Gon (HOYO-MiX)\n[00:01.034] 编曲 : 宫奇Gon (HOYO-MiX)\n[00:01.551] 制作人 : 宫奇Gon (HOYO-MiX)\n[00:02.069]\n[00:03.133]Wrapped in bitting wind\n[00:06.315]Hearts will never bleed\n[00:09.764]Frozen and banished\n[00:13.221]Out of grief\n[00:14.547]\n[00:16.417]In their restless dreams\n[00:19.606]they try so hard to breathe\n[00:23.071]Pulses flutter and sting\n[00:26.517]Within this bleakness\n[00:29.434]\n[00:43.246]Pain will come with the blade\n[00:46.429]Pain will wake up the despondent crowd in this dormant world somehow\n[00:59.394]Unsheathe a sword not to kill\n[01:00.185]Unsheathe a sword to rend those clouds above the ground\n[01:04.701]Wake up, it’s time to gather now\n[01:09.756]The only warmth remains in hands clasped so tight\n[01:16.918]The only fire exists in brave hearts\n[01:23.297]Seasons that refuse to change over the years\n[01:29.933]Will find their way back, back on track\n[01:41.091]\n[01:45.085]We’ve made a choice\n[01:45.872]Go fight against your fate!\n[01:49.058]\n[01:49.857]Pain will come with the blade\n[01:53.044]Pain will wake up the despondent crowd in this dormant world somehow\n[02:03.143]Unsheathe a sword not to kill\n[02:06.337]Unsheathe a sword to rend those clouds above the ground\n[02:11.639]Wake up, it’s time to gather now\n[02:21.738]\n[02:24.390]Forget about the rules written on weathered rock\n[02:28.645]There were chasers of light\n[02:31.036]find the way or get lost\n[02:32.893]We have no way to know\n[02:35.280]Where they all headed for\n[02:37.665]See a light from afar\n[02:39.534]Just blaze through the thorns\n[02:41.126]\n[02:42.189]We know it’s right over there\n[02:44.046]We have something to declare\n[02:46.168]Whatever is arriving, we’ll be prepared\n[02:56.002]\n[02:58.394]We’ve made a choice\n[02:59.183]Go fight against your fate!\n[03:02.383]\n[03:02.903]Pain will come with the blade\n[03:06.367]Pain will wake up the despondent crowd in this dormant world somehow\n[03:16.462]Unsheathe a sword not to kill\n[03:19.643]Unsheathe a sword to rend those clouds above the ground\n[03:25.214]Wake up to hear the cheering sound\n[03:32.123]\n[03:32.997] 歌手 Vocal Artist：Jonathan Steingard\n[03:33.871] 吉他 Guitar：宫奇Gon (HOYO-MiX)\n[03:34.745] 录音棚 Recording Studio：Suho Studios\n[03:35.619] 录音师 Recording Engineer：Mark Suhonen\n[03:36.493] 混音师 Mixing Engineer：宫奇Gon (HOYO-MiX)\n[03:37.367] 母带制作 Mastering Engineer：宫奇Gon (HOYO-MiX)\n[03:38.241] 出品 Produced by：HOYO-MiX\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=2045806409.mp3"
-		]
+		"ar": [
+			{
+				"name": "HOYO-MiX"
+			},
+			{
+				"name": "Jonathan Steingard"
+			}
+		],
+		"dt": 218242,
+		"al": {
+			"picUrl": "https://p1.music.126.net/-K-1PuWcHjGLNuH4xPJwpQ==/109951168599498949.jpg"
+		},
+		"lyric": "[00:00.000] 作词 : TetraCalyx\n[00:00.517] 作曲 : 宫奇Gon (HOYO-MiX)\n[00:01.034] 编曲 : 宫奇Gon (HOYO-MiX)\n[00:01.551] 制作人 : 宫奇Gon (HOYO-MiX)\n[00:02.069]\n[00:03.133]Wrapped in bitting wind\n[00:06.315]Hearts will never bleed\n[00:09.764]Frozen and banished\n[00:13.221]Out of grief\n[00:14.547]\n[00:16.417]In their restless dreams\n[00:19.606]they try so hard to breathe\n[00:23.071]Pulses flutter and sting\n[00:26.517]Within this bleakness\n[00:29.434]\n[00:43.246]Pain will come with the blade\n[00:46.429]Pain will wake up the despondent crowd in this dormant world somehow\n[00:59.394]Unsheathe a sword not to kill\n[01:00.185]Unsheathe a sword to rend those clouds above the ground\n[01:04.701]Wake up, it’s time to gather now\n[01:09.756]The only warmth remains in hands clasped so tight\n[01:16.918]The only fire exists in brave hearts\n[01:23.297]Seasons that refuse to change over the years\n[01:29.933]Will find their way back, back on track\n[01:41.091]\n[01:45.085]We’ve made a choice\n[01:45.872]Go fight against your fate!\n[01:49.058]\n[01:49.857]Pain will come with the blade\n[01:53.044]Pain will wake up the despondent crowd in this dormant world somehow\n[02:03.143]Unsheathe a sword not to kill\n[02:06.337]Unsheathe a sword to rend those clouds above the ground\n[02:11.639]Wake up, it’s time to gather now\n[02:21.738]\n[02:24.390]Forget about the rules written on weathered rock\n[02:28.645]There were chasers of light\n[02:31.036]find the way or get lost\n[02:32.893]We have no way to know\n[02:35.280]Where they all headed for\n[02:37.665]See a light from afar\n[02:39.534]Just blaze through the thorns\n[02:41.126]\n[02:42.189]We know it’s right over there\n[02:44.046]We have something to declare\n[02:46.168]Whatever is arriving, we’ll be prepared\n[02:56.002]\n[02:58.394]We’ve made a choice\n[02:59.183]Go fight against your fate!\n[03:02.383]\n[03:02.903]Pain will come with the blade\n[03:06.367]Pain will wake up the despondent crowd in this dormant world somehow\n[03:16.462]Unsheathe a sword not to kill\n[03:19.643]Unsheathe a sword to rend those clouds above the ground\n[03:25.214]Wake up to hear the cheering sound\n[03:32.123]\n[03:32.997] 歌手 Vocal Artist：Jonathan Steingard\n[03:33.871] 吉他 Guitar：宫奇Gon (HOYO-MiX)\n[03:34.745] 录音棚 Recording Studio：Suho Studios\n[03:35.619] 录音师 Recording Engineer：Mark Suhonen\n[03:36.493] 混音师 Mixing Engineer：宫奇Gon (HOYO-MiX)\n[03:37.367] 母带制作 Mastering Engineer：宫奇Gon (HOYO-MiX)\n[03:38.241] 出品 Produced by：HOYO-MiX\n"
 	},
 	{
 		"id": 1971144922,
 		"name": "TruE",
-		"picUrl": "https://p1.music.126.net/cu9T_JCh5mt3aipWJoy03w==/109951167767293721.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "[00:00.000] 作词 : TetraCalyx\n[00:01.000] 作曲 : 文驰Vinchi(HOYO-MiX)\n[00:02.000] 编曲 : 文驰Vinchi(HOYO-MiX)\n[00:03.000] 制作人 : 文驰Vinchi(HOYO-MiX)\n[00:05.530]\n[00:16.696]Say my name when a tree susurrates\n[00:27.845]Once and again telling a story lost in time\n[00:33.729]the way it starts and the way it ends\n[00:39.843]Never again making up stories in dismay\n[00:45.705]With several starts, but just one end\n[00:51.823]\n[00:52.617]Ah, how I long to embrace\n[01:03.538]The future breaking out of shades from the past\n[01:13.602]Still ablaze\n[01:16.789]\n[01:22.647]Save your tears for the day so far away\n[01:33.789]To irrigate the wilderness that’s still asleep\n[01:39.902]In the world waiting to be lit\n[01:45.771]To spread over the riverbeds so dry and dead\n[01:51.601]Let ships that ran aground re-launch their sails\n[01:57.977]\n[01:58.790]Ah, how I long to embrace\n[02:09.428]The future breaking out of shades from the past\n[02:18.725]Still ablaze\n[02:22.710]\n[02:24.317]Seeds bear new life when flowers dare to fade\n[02:38.419]\n[02:39.216]Petals linger about\n[02:44.268]awaiting one last dance\n[02:49.845]Shaking off all the dust from the past\n[02:56.220]New stories have yet to start\n[03:01.525]\n[03:02.520] 电吉他 Electric Guitar：宫奇Gon(HOYO-MiX)\n[03:03.515] 木吉他 Acoustic Guitar：李智谦 Zhiqian Li\n[03:04.510] 人声录音Vocal Recording：徐威 Wei Xu@52HzStudio\n[03:05.505] 混音师 Mixing Engineer：文驰Vinchi(HOYO-MiX)\n[03:06.500] 母带制作 Mastering Engineer：文驰Vinchi(HOYO-MiX)\n[03:07.495] 出品 Produced by：HOYO-MiX\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=1971144922.mp3"
-		]
+		"ar": [
+			{
+				"name": "黄龄"
+			},
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 187500,
+		"al": {
+			"picUrl": "https://p1.music.126.net/cu9T_JCh5mt3aipWJoy03w==/109951167767293721.jpg"
+		},
+		"lyric": "[00:00.000] 作词 : TetraCalyx\n[00:01.000] 作曲 : 文驰Vinchi(HOYO-MiX)\n[00:02.000] 编曲 : 文驰Vinchi(HOYO-MiX)\n[00:03.000] 制作人 : 文驰Vinchi(HOYO-MiX)\n[00:05.530]\n[00:16.696]Say my name when a tree susurrates\n[00:27.845]Once and again telling a story lost in time\n[00:33.729]the way it starts and the way it ends\n[00:39.843]Never again making up stories in dismay\n[00:45.705]With several starts, but just one end\n[00:51.823]\n[00:52.617]Ah, how I long to embrace\n[01:03.538]The future breaking out of shades from the past\n[01:13.602]Still ablaze\n[01:16.789]\n[01:22.647]Save your tears for the day so far away\n[01:33.789]To irrigate the wilderness that’s still asleep\n[01:39.902]In the world waiting to be lit\n[01:45.771]To spread over the riverbeds so dry and dead\n[01:51.601]Let ships that ran aground re-launch their sails\n[01:57.977]\n[01:58.790]Ah, how I long to embrace\n[02:09.428]The future breaking out of shades from the past\n[02:18.725]Still ablaze\n[02:22.710]\n[02:24.317]Seeds bear new life when flowers dare to fade\n[02:38.419]\n[02:39.216]Petals linger about\n[02:44.268]awaiting one last dance\n[02:49.845]Shaking off all the dust from the past\n[02:56.220]New stories have yet to start\n[03:01.525]\n[03:02.520] 电吉他 Electric Guitar：宫奇Gon(HOYO-MiX)\n[03:03.515] 木吉他 Acoustic Guitar：李智谦 Zhiqian Li\n[03:04.510] 人声录音Vocal Recording：徐威 Wei Xu@52HzStudio\n[03:05.505] 混音师 Mixing Engineer：文驰Vinchi(HOYO-MiX)\n[03:06.500] 母带制作 Mastering Engineer：文驰Vinchi(HOYO-MiX)\n[03:07.495] 出品 Produced by：HOYO-MiX\n"
 	},
 	{
 		"id": 2062730658,
 		"name": "Φ²",
-		"picUrl": "https://p1.music.126.net/3-PveIIWbJz9_FpZ_2Q3Ow==/109951168729156220.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "[00:00.000] 作词 : TetraCalyx\n[00:01.000] 作曲 : 李敬浩Hao (HOYO-MiX)\n[00:02.000] 编曲 : 姜鹏Silver.J (HOYO-MiX)\n[01:44.517]\n[01:50.009]Here I feel the touch brought by the real number solution.\n[01:50.546]Ripples of two souls now have reached our double slits.\n[01:55.588]Casting stripes of light and dark in the world as days and nights.\n[02:01.164]You set me free under the sun.\n[02:04.352]I fly your cradle dreams to the moon and back.\n[02:08.882]A worm will turn into a butterfly,\n[02:11.807]before one can answer \"who am I\".\n[02:14.993]After the ice turns into water,\n[02:17.925]the sea I hang upside down will be your sky.\n[02:24.296]\n[02:35.137] 混音 Mixing Engineer: 姜鹏Silver.J (HOYO-MiX)\n[02:45.978] 母带 Mastering Engineer: 姜鹏Silver.J (HOYO-MiX)\n[02:56.819] 出品 Produced by: HOYO-MiX\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=2062730658.mp3"
-		]
+		"ar": [
+			{
+				"name": "HOYO-MiX"
+			},
+			{
+				"name": "TetraCalyx"
+			}
+		],
+		"dt": 176820,
+		"al": {
+			"picUrl": "https://p1.music.126.net/3-PveIIWbJz9_FpZ_2Q3Ow==/109951168729156220.jpg"
+		},
+		"lyric": "[00:00.000] 作词 : TetraCalyx\n[00:01.000] 作曲 : 李敬浩Hao (HOYO-MiX)\n[00:02.000] 编曲 : 姜鹏Silver.J (HOYO-MiX)\n[01:44.517]\n[01:50.009]Here I feel the touch brought by the real number solution.\n[01:50.546]Ripples of two souls now have reached our double slits.\n[01:55.588]Casting stripes of light and dark in the world as days and nights.\n[02:01.164]You set me free under the sun.\n[02:04.352]I fly your cradle dreams to the moon and back.\n[02:08.882]A worm will turn into a butterfly,\n[02:11.807]before one can answer \"who am I\".\n[02:14.993]After the ice turns into water,\n[02:17.925]the sea I hang upside down will be your sky.\n[02:24.296]\n[02:35.137] 混音 Mixing Engineer: 姜鹏Silver.J (HOYO-MiX)\n[02:45.978] 母带 Mastering Engineer: 姜鹏Silver.J (HOYO-MiX)\n[02:56.819] 出品 Produced by: HOYO-MiX\n"
 	},
 	{
 		"id": 1910911958,
 		"name": "神女劈观·唤情 Devastation and Redemption",
-		"picUrl": "https://p1.music.126.net/8gMfTTbDifrypmWQ2fM0Ig==/109951166919194723.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "[00:00.00] 作词 : 豆子Dou\n[00:00.20] 作曲 : 陈致逸Yu-Peng Chen (HOYO-MiX)\n[00:00.41] 编曲 : 苑迪萌Dimemg Yuan（HOYO-MIX）\n[00:00.62] 演唱Vocal Artist：杨扬Yang Yang\n[00:00.83] 二胡Erhu：马稼骏Jiajun Ma\n[00:01.04] 古筝Guzheng：王宇宸Yuchen Wang\n[00:01.24] 电吉他Electric Guitar：苑迪萌Dimeng Yuan (HOYO-MiX)\n[00:01.45] 乐队Orchestra：龙之艺交响乐团Art of Dragon Orchestra\n[00:01.66] 录音棚Recording Studio：上海广播大厦Shanghai Media Group\n[00:01.87] 录音师Recording Engineer：莫家伟Jiawei Mo\n[00:02.08] 混音师Mixing Engineer ：黄巍Zach Huang\n[00:02.28] 母带制作Mastering Engineer：黄巍Zach Huang\n[00:02.49] 出品Produced by ：HOYO-MiX\n[00:02.71]可叹——\n[00:10.40]秋鸿折单复难双\n[00:20.44]痴人痴怨恨迷狂\n[00:30.52]只因那邪牲祭伏定祸殃\n[00:41.29]若非巾帼拔剑人皆命丧\n[00:52.39]\n[00:58.41]凡缘朦朦仙缘滔\n[01:03.40]天伦散去绛府邀\n[01:08.46]朱丝缚绝烂柯樵\n[01:13.48]雪泥鸿迹遥\n[01:18.55]鹤归不见昔华表\n[01:23.66]蛛丝枉结魂幡飘\n[01:28.68]因果红尘渺渺烟消\n[01:37.97]\n[01:38.13]《神女劈观》到这里本该接近尾声\n[01:41.58]但今日，我再添一笔\n[01:43.94]唱与诸位听——\n[01:48.50]\n[01:48.84]曲高未必人不识\n[01:53.91]自有知音和清词\n[01:58.89]红缨猎猎剑流星\n[02:04.10]直指怒潮洗海清\n[02:16.90]\n[02:17.80]彼时鹤归\n[02:19.36]茫茫天地无依靠\n[02:22.30]孤身离去\n[02:24.30]今日再会\n[02:25.68]新朋旧友坐满堂\n[02:28.32]共聚此时\n[02:32.44]\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=1910911958.mp3"
-		]
+		"ar": [
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 160940,
+		"al": {
+			"picUrl": "https://p1.music.126.net/8gMfTTbDifrypmWQ2fM0Ig==/109951166919194723.jpg"
+		},
+		"lyric": "[00:00.00] 作词 : 豆子Dou\n[00:00.20] 作曲 : 陈致逸Yu-Peng Chen (HOYO-MiX)\n[00:00.41] 编曲 : 苑迪萌Dimemg Yuan（HOYO-MIX）\n[00:00.62] 演唱Vocal Artist：杨扬Yang Yang\n[00:00.83] 二胡Erhu：马稼骏Jiajun Ma\n[00:01.04] 古筝Guzheng：王宇宸Yuchen Wang\n[00:01.24] 电吉他Electric Guitar：苑迪萌Dimeng Yuan (HOYO-MiX)\n[00:01.45] 乐队Orchestra：龙之艺交响乐团Art of Dragon Orchestra\n[00:01.66] 录音棚Recording Studio：上海广播大厦Shanghai Media Group\n[00:01.87] 录音师Recording Engineer：莫家伟Jiawei Mo\n[00:02.08] 混音师Mixing Engineer ：黄巍Zach Huang\n[00:02.28] 母带制作Mastering Engineer：黄巍Zach Huang\n[00:02.49] 出品Produced by ：HOYO-MiX\n[00:02.71]可叹——\n[00:10.40]秋鸿折单复难双\n[00:20.44]痴人痴怨恨迷狂\n[00:30.52]只因那邪牲祭伏定祸殃\n[00:41.29]若非巾帼拔剑人皆命丧\n[00:52.39]\n[00:58.41]凡缘朦朦仙缘滔\n[01:03.40]天伦散去绛府邀\n[01:08.46]朱丝缚绝烂柯樵\n[01:13.48]雪泥鸿迹遥\n[01:18.55]鹤归不见昔华表\n[01:23.66]蛛丝枉结魂幡飘\n[01:28.68]因果红尘渺渺烟消\n[01:37.97]\n[01:38.13]《神女劈观》到这里本该接近尾声\n[01:41.58]但今日，我再添一笔\n[01:43.94]唱与诸位听——\n[01:48.50]\n[01:48.84]曲高未必人不识\n[01:53.91]自有知音和清词\n[01:58.89]红缨猎猎剑流星\n[02:04.10]直指怒潮洗海清\n[02:16.90]\n[02:17.80]彼时鹤归\n[02:19.36]茫茫天地无依靠\n[02:22.30]孤身离去\n[02:24.30]今日再会\n[02:25.68]新朋旧友坐满堂\n[02:28.32]共聚此时\n[02:32.44]\n"
 	},
 	{
 		"id": 1913478990,
 		"name": "Regression",
-		"picUrl": "https://p1.music.126.net/DbD08enxZN2kDFScDFxcdQ==/109951166957048928.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "[00:00.000] 作词 : TetraCalyx\n[00:00.424] 作曲 : 林一凡Fan(HOYO-MiX)\n[00:00.848] 编曲 : 宫奇Gon(HOYO-MiX)/林一凡Fan(HOYO-MiX)\n[00:01.272] 制作人 : 宫奇Gon(HOYO-MiX)\n[00:01.696]\n[00:02.196]Too much of the past for one to memorize\n[00:15.946]Too many words remained for one to read through the lines\n[00:29.196]The ebb and flow of the crowd floods the world and paradise\n[00:42.196]Along the path of time\n[00:48.946]\n[00:51.051]Every night brings a dream but the day, relentlessly, keeps me awake\n[01:04.196]All the rest will be torn up whenever a choice is made\n[01:17.195]Every living soul in the fray striving for their own safe place\n[01:31.195]Life is too long to end at a grave\n[01:42.445]\n[01:45.619]Just a drop of water suffices\n[01:49.757]Encompassed and swallowed through space by the universe\n[01:55.432]\n[01:56.460]Back to the source\n[01:58.405]\n[01:58.896]Gone are those years living for a reason\n[02:02.886]Here it comes the moment of the scene of lost and found\n[02:09.331]\n[02:11.289]Personas played out on the stage\n[02:17.189]will return to the self when there's a curtain call\n[02:30.398]\n[02:32.797]Every night brings a dream but the day, relentlessly, keeps me awake\n[02:46.048]All the rest will be torn up whenever a choice is made\n[02:59.048]Everyone has their own desire leading to the ultimate\n[03:13.048]Life is too long to end at a grave\n[03:24.798]\n[03:27.548]Just a drop of water suffices\n[03:31.548]Still I wish to embrace the world with my thoughts\n[03:37.297]\n[03:38.298]A eulogy\n[03:40.297]\n[03:40.548]Time to leave where I have stood so long\n[03:44.798]Letting you go recover traces overlapped\n[03:51.048]\n[03:51.598]Ends, then begins.\n[03:55.385]\n[03:55.650] 人声录音Vocal Recording: 徐威@52HzStudio\n[03:55.915] 弦乐Strings: 龙之艺交响乐团 Art of Dragon Symphony Orchestra\n[03:56.180] 混音Mixing Engineer: 宫奇Gon(HOYO-MiX)\n[03:56.445] 母带Mastering Engineer: 宫奇Gon(HOYO-MiX)\n[03:56.710] 出品Produced by ：HOYO-MiX\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=1913478990.mp3"
-		]
+		"ar": [
+			{
+				"name": "阿云嘎"
+			},
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 236712,
+		"al": {
+			"picUrl": "https://p1.music.126.net/DbD08enxZN2kDFScDFxcdQ==/109951166957048928.jpg"
+		},
+		"lyric": "[00:00.000] 作词 : TetraCalyx\n[00:00.424] 作曲 : 林一凡Fan(HOYO-MiX)\n[00:00.848] 编曲 : 宫奇Gon(HOYO-MiX)/林一凡Fan(HOYO-MiX)\n[00:01.272] 制作人 : 宫奇Gon(HOYO-MiX)\n[00:01.696]\n[00:02.196]Too much of the past for one to memorize\n[00:15.946]Too many words remained for one to read through the lines\n[00:29.196]The ebb and flow of the crowd floods the world and paradise\n[00:42.196]Along the path of time\n[00:48.946]\n[00:51.051]Every night brings a dream but the day, relentlessly, keeps me awake\n[01:04.196]All the rest will be torn up whenever a choice is made\n[01:17.195]Every living soul in the fray striving for their own safe place\n[01:31.195]Life is too long to end at a grave\n[01:42.445]\n[01:45.619]Just a drop of water suffices\n[01:49.757]Encompassed and swallowed through space by the universe\n[01:55.432]\n[01:56.460]Back to the source\n[01:58.405]\n[01:58.896]Gone are those years living for a reason\n[02:02.886]Here it comes the moment of the scene of lost and found\n[02:09.331]\n[02:11.289]Personas played out on the stage\n[02:17.189]will return to the self when there's a curtain call\n[02:30.398]\n[02:32.797]Every night brings a dream but the day, relentlessly, keeps me awake\n[02:46.048]All the rest will be torn up whenever a choice is made\n[02:59.048]Everyone has their own desire leading to the ultimate\n[03:13.048]Life is too long to end at a grave\n[03:24.798]\n[03:27.548]Just a drop of water suffices\n[03:31.548]Still I wish to embrace the world with my thoughts\n[03:37.297]\n[03:38.298]A eulogy\n[03:40.297]\n[03:40.548]Time to leave where I have stood so long\n[03:44.798]Letting you go recover traces overlapped\n[03:51.048]\n[03:51.598]Ends, then begins.\n[03:55.385]\n[03:55.650] 人声录音Vocal Recording: 徐威@52HzStudio\n[03:55.915] 弦乐Strings: 龙之艺交响乐团 Art of Dragon Symphony Orchestra\n[03:56.180] 混音Mixing Engineer: 宫奇Gon(HOYO-MiX)\n[03:56.445] 母带Mastering Engineer: 宫奇Gon(HOYO-MiX)\n[03:56.710] 出品Produced by ：HOYO-MiX\n"
 	},
 	{
 		"id": 2043177987,
 		"name": "踏上旅途 Take the Journey",
-		"picUrl": "https://p1.music.126.net/RWIGyShmnjmUxizXco6fVg==/109951168505830245.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "[00:00.000] 作词 : 林一凡Fan (HOYO-MiX)\n[00:00.179] 作曲 : 林一凡Fan (HOYO-MiX)\n[00:00.358] 编曲 : 林一凡Fan (HOYO-MiX)\n[00:00.537] 制作人 : 林一凡Fan (HOYO-MiX)\n[00:00.717]\n[00:02.337]The way,\n[00:04.983]To celebrate.\n[00:08.701]I’ll be waiting\n[00:11.629]Till we make it\n[00:15.079]The day,\n[00:17.997]To celebrate.\n[00:21.717]I’ll be waiting\n[00:24.650]Till we make it.\n[00:27.322]\n[00:28.906]Oh——\n[00:35.287]We will see,\n[00:38.997]Come with me take the journey.\n[00:41.930]Oh——\n[00:48.309]We will see,\n[00:52.013]Come with me take the journey.\n[00:55.210]\n[00:55.475]\n[00:56.648] 歌手 Vocal：Anthony Lynch\n[00:57.821] 吉他 Guitar：Anthony Lynch\n[00:58.994] 人声编辑 Vocal Editor：刘思宇\n[01:00.167] 录音棚 Recording Studio：Imagina Production\n[01:01.340] 录音师 Recording Engineer：Alessandro Cliola\n[01:02.513] 混音师 Mixing Engineer：李敬浩Hao (HOYO-MiX)\n[01:03.686] 母带制作 Mastering Engineer：李敬浩Hao (HOYO-MiX)\n[01:04.859] 出品 Produced by：HOYO-MiX\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=2043177987.mp3"
-		]
+		"ar": [
+			{
+				"name": "HOYO-MiX"
+			},
+			{
+				"name": "Anthony Lynch"
+			}
+		],
+		"dt": 64864,
+		"al": {
+			"picUrl": "https://p1.music.126.net/RWIGyShmnjmUxizXco6fVg==/109951168505830245.jpg"
+		},
+		"lyric": "[00:00.000] 作词 : 林一凡Fan (HOYO-MiX)\n[00:00.179] 作曲 : 林一凡Fan (HOYO-MiX)\n[00:00.358] 编曲 : 林一凡Fan (HOYO-MiX)\n[00:00.537] 制作人 : 林一凡Fan (HOYO-MiX)\n[00:00.717]\n[00:02.337]The way,\n[00:04.983]To celebrate.\n[00:08.701]I’ll be waiting\n[00:11.629]Till we make it\n[00:15.079]The day,\n[00:17.997]To celebrate.\n[00:21.717]I’ll be waiting\n[00:24.650]Till we make it.\n[00:27.322]\n[00:28.906]Oh——\n[00:35.287]We will see,\n[00:38.997]Come with me take the journey.\n[00:41.930]Oh——\n[00:48.309]We will see,\n[00:52.013]Come with me take the journey.\n[00:55.210]\n[00:55.475]\n[00:56.648] 歌手 Vocal：Anthony Lynch\n[00:57.821] 吉他 Guitar：Anthony Lynch\n[00:58.994] 人声编辑 Vocal Editor：刘思宇\n[01:00.167] 录音棚 Recording Studio：Imagina Production\n[01:01.340] 录音师 Recording Engineer：Alessandro Cliola\n[01:02.513] 混音师 Mixing Engineer：李敬浩Hao (HOYO-MiX)\n[01:03.686] 母带制作 Mastering Engineer：李敬浩Hao (HOYO-MiX)\n[01:04.859] 出品 Produced by：HOYO-MiX\n"
 	},
 	{
 		"id": 1817410059,
 		"name": "Rex Incognito 尘世闲游",
-		"picUrl": "https://p1.music.126.net/hwxZS2Bv9Dht_8chjLLR-Q==/109951165690591384.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "[00:00.00-1] 作曲 : 陈致逸 Yu-Peng Chen (HOYO-MiX)\n[00:00.00-1] 编曲 : 苑迪萌 Dimeng Yuan (HOYO-MiX)\n[00:15.546] 二胡 Erhu:马稼骏 Jiajun Ma\n[00:31.092] 电吉他 Electric Guitar:苑迪萌 Dimeng Yuan(HOYO-MiX)\n[00:46.638] 弦乐 Strings:国际首席爱乐乐团 International Master Philharmonic Orchestra\n[01:02.184] 录音棚 Recording Studio:金田录音棚 Jintian Recording Studio\n[01:17.730] 录音师 Recording Engineer:王小四 Xiaosi Wang\n[01:33.276] 混音/母带 Mixing/Mastering Engineer:苑迪萌 Dimeng Yuan (HOYO-MiX)\n[01:48.822] 出品 Produced by:HOYO-MiX\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=1817410059.mp3"
-		]
+		"ar": [
+			{
+				"name": "陈致逸"
+			},
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 108827,
+		"al": {
+			"picUrl": "https://p1.music.126.net/hwxZS2Bv9Dht_8chjLLR-Q==/109951165690591384.jpg"
+		},
+		"lyric": "[00:00.00-1] 作曲 : 陈致逸 Yu-Peng Chen (HOYO-MiX)\n[00:00.00-1] 编曲 : 苑迪萌 Dimeng Yuan (HOYO-MiX)\n[00:15.546] 二胡 Erhu:马稼骏 Jiajun Ma\n[00:31.092] 电吉他 Electric Guitar:苑迪萌 Dimeng Yuan(HOYO-MiX)\n[00:46.638] 弦乐 Strings:国际首席爱乐乐团 International Master Philharmonic Orchestra\n[01:02.184] 录音棚 Recording Studio:金田录音棚 Jintian Recording Studio\n[01:17.730] 录音师 Recording Engineer:王小四 Xiaosi Wang\n[01:33.276] 混音/母带 Mixing/Mastering Engineer:苑迪萌 Dimeng Yuan (HOYO-MiX)\n[01:48.822] 出品 Produced by:HOYO-MiX\n"
 	},
 	{
 		"id": 2043169389,
 		"name": "星间旅行 Interstellar Journey (中文版)",
-		"picUrl": "https://p1.music.126.net/JaSa3Gt5oaJ77cDfJBR1fg==/109951168575641463.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "[00:00.000] 作词 : 往人不识\n[00:00.716] 作曲 : 王可鑫 Eli.W (HOYO-MiX)/苑迪萌 Dimeng Yuan (HOYO-MiX)\n[00:01.432] 编曲 : 王可鑫 Eli.W (HOYO-MiX)/宫奇Gon (HOYO-MiX)\n[00:02.148] 制作人 : 王可鑫 Eli.W (HOYO-MiX)\n[00:02.865]\n[00:20.722]这故事无关命运的刻意安排\n[00:27.635]毕竟终点尚且遥远渺小有如尘埃\n[00:32.691]\n[00:34.020]奔跑的心跳声 回忆中你的神态\n[00:37.476]告别过去 用一场对白\n[00:40.942]列车的轨迹将 秘密渐次揭开\n[00:44.144]而你却说往日已不再\n[00:48.665]\n[00:49.465]（又何必徘徊）\n[00:50.789]\n[00:51.059]这一路危机多过意外\n[00:54.238]但星辰唾手可摘\n[00:57.959]在抵达之前选择：推翻结局将它更改\n[01:04.880]把星球当作沿途站台\n[01:08.067]去开拓一个时代\n[01:11.786]看即便手中再小的火花也终将点亮星海\n[01:19.773]\n[01:21.195] 演唱 Vocal Artist：茶理理 Chalili\n[01:22.617] 吉他 Guitar：陈义 Yi Chen\n[01:24.039] 贝斯 Bass：ET\n[01:25.461] 人声录音棚 Vocal Recording Studio：奕和录音棚\n[01:26.883] 器乐录音棚 Instrument Recording Studio：24H STUDIO\n[01:28.305] 录音师 Recording Engineer：胡友林 Breeze\n[01:29.727] 混音师 Mixing Engineer：王可鑫 Eli.W (HOYO-MiX) / 宫奇Gon (HOYO-MiX) / 文驰Vinchi (HOYO-MiX)\n[01:31.149] 母带制作 Mastering Engineer：王可鑫 Eli.W (HOYO-MiX) / 李敬浩Hao(HOYO-MiX)\n[01:32.571] 出品 Produced by：HOYO-MiX\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=2043169389.mp3"
-		]
+		"ar": [
+			{
+				"name": "HOYO-MiX"
+			},
+			{
+				"name": "茶理理"
+			}
+		],
+		"dt": 92571,
+		"al": {
+			"picUrl": "https://p1.music.126.net/JaSa3Gt5oaJ77cDfJBR1fg==/109951168575641463.jpg"
+		},
+		"lyric": "[00:00.000] 作词 : 往人不识\n[00:00.716] 作曲 : 王可鑫 Eli.W (HOYO-MiX)/苑迪萌 Dimeng Yuan (HOYO-MiX)\n[00:01.432] 编曲 : 王可鑫 Eli.W (HOYO-MiX)/宫奇Gon (HOYO-MiX)\n[00:02.148] 制作人 : 王可鑫 Eli.W (HOYO-MiX)\n[00:02.865]\n[00:20.722]这故事无关命运的刻意安排\n[00:27.635]毕竟终点尚且遥远渺小有如尘埃\n[00:32.691]\n[00:34.020]奔跑的心跳声 回忆中你的神态\n[00:37.476]告别过去 用一场对白\n[00:40.942]列车的轨迹将 秘密渐次揭开\n[00:44.144]而你却说往日已不再\n[00:48.665]\n[00:49.465]（又何必徘徊）\n[00:50.789]\n[00:51.059]这一路危机多过意外\n[00:54.238]但星辰唾手可摘\n[00:57.959]在抵达之前选择：推翻结局将它更改\n[01:04.880]把星球当作沿途站台\n[01:08.067]去开拓一个时代\n[01:11.786]看即便手中再小的火花也终将点亮星海\n[01:19.773]\n[01:21.195] 演唱 Vocal Artist：茶理理 Chalili\n[01:22.617] 吉他 Guitar：陈义 Yi Chen\n[01:24.039] 贝斯 Bass：ET\n[01:25.461] 人声录音棚 Vocal Recording Studio：奕和录音棚\n[01:26.883] 器乐录音棚 Instrument Recording Studio：24H STUDIO\n[01:28.305] 录音师 Recording Engineer：胡友林 Breeze\n[01:29.727] 混音师 Mixing Engineer：王可鑫 Eli.W (HOYO-MiX) / 宫奇Gon (HOYO-MiX) / 文驰Vinchi (HOYO-MiX)\n[01:31.149] 母带制作 Mastering Engineer：王可鑫 Eli.W (HOYO-MiX) / 李敬浩Hao(HOYO-MiX)\n[01:32.571] 出品 Produced by：HOYO-MiX\n"
 	},
 	{
 		"id": 1882642256,
 		"name": "Oracle",
-		"picUrl": "https://p1.music.126.net/kXbv0KSaLcoaCvtMqxezGA==/109951166468775827.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "[00:00.00] 作词 : TetraCalyx\n[00:00.25] 作曲 : 文驰Vinchi(HOYO-MiX）\n[00:00.50] 编曲 : 文驰Vinchi(HOYO-MiX）\n[00:00.75] 制作人 : 文驰Vinchi(HOYO-MiX）\n[00:01.00]Carved on stones\n[00:06.17]Buried deep in the earth\n[00:11.18]Long submerged beneath waterfalls\n[00:21.05]Triggering a thunderstorm\n[00:27.01]Summoning gusts of wind\n[00:31.10]seething waves of sea, slapping on the reefs\n[00:42.06]to make a Voice\n[00:43.21]Tell us what to believe, without any doubt\n[00:49.20]Without any doubt never let us down\n[00:54.14]Tell us when to depart for a promise true\n[01:00.10]For a promise true despite the day of doom\n[01:10.14]A bloodline stretches out one more inch with every heartbeat\n[01:24.23]reaches a fingertip that has been staying at the words on the page\n[01:37.03]We have grown up before taking heart of grace\n[01:43.02]Taking heart of grace is how we blaze a way\n[01:47.20]We still struggle against the fear of being unarmed\n[01:53.15]The fear of being unarmed keeps our frailty apart\n[02:11.06]No one would be able to look down upon this world\n[02:22.04]So one is allowed to be born\n[02:38.09]We've known what to believe, without any doubt\n[02:44.09]Without any doubt never let us down\n[02:49.04]We have taken the road for a promise true\n[02:55.04]For a promise true despite the day of doom\n[03:00.36] 录音 Recording Engineer : 徐威@52HzStudio\n[03:05.69] 混音 Mixing Engineer : 文驰Vinchi\n[03:11.01] 母带 Mastering Engineer: 李敬浩Hao\n[03:16.34] 出品 Produced by:HOYO-MiX\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=1882642256.mp3"
-		]
+		"ar": [
+			{
+				"name": "黄霄雲"
+			},
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 196345,
+		"al": {
+			"picUrl": "https://p2.music.126.net/kXbv0KSaLcoaCvtMqxezGA==/109951166468775827.jpg"
+		},
+		"lyric": "[00:00.00] 作词 : TetraCalyx\n[00:00.25] 作曲 : 文驰Vinchi(HOYO-MiX）\n[00:00.50] 编曲 : 文驰Vinchi(HOYO-MiX）\n[00:00.75] 制作人 : 文驰Vinchi(HOYO-MiX）\n[00:01.00]Carved on stones\n[00:06.17]Buried deep in the earth\n[00:11.18]Long submerged beneath waterfalls\n[00:21.05]Triggering a thunderstorm\n[00:27.01]Summoning gusts of wind\n[00:31.10]seething waves of sea, slapping on the reefs\n[00:42.06]to make a Voice\n[00:43.21]Tell us what to believe, without any doubt\n[00:49.20]Without any doubt never let us down\n[00:54.14]Tell us when to depart for a promise true\n[01:00.10]For a promise true despite the day of doom\n[01:10.14]A bloodline stretches out one more inch with every heartbeat\n[01:24.23]reaches a fingertip that has been staying at the words on the page\n[01:37.03]We have grown up before taking heart of grace\n[01:43.02]Taking heart of grace is how we blaze a way\n[01:47.20]We still struggle against the fear of being unarmed\n[01:53.15]The fear of being unarmed keeps our frailty apart\n[02:11.06]No one would be able to look down upon this world\n[02:22.04]So one is allowed to be born\n[02:38.09]We've known what to believe, without any doubt\n[02:44.09]Without any doubt never let us down\n[02:49.04]We have taken the road for a promise true\n[02:55.04]For a promise true despite the day of doom\n[03:00.36] 录音 Recording Engineer : 徐威@52HzStudio\n[03:05.69] 混音 Mixing Engineer : 文驰Vinchi\n[03:11.01] 母带 Mastering Engineer: 李敬浩Hao\n[03:16.34] 出品 Produced by:HOYO-MiX\n"
 	},
 	{
 		"id": 2067225862,
 		"name": "蝉喓歌·仙骸有终 Pedujara Immortality's End",
-		"picUrl": "https://p1.music.126.net/oDhurcFOPMPVMLnc6xF99A==/109951168765200998.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "[00:00.00] 作词 : 牧久音\n[00:00.00] 作曲 : 文驰Vinchi (HOYO-MiX)\n[00:00.00] 编曲 : 文驰Vinchi (HOYO-MiX)\n[00:00.00]歌词大意：\n[00:48.34]叹晦明苦 短\n[01:17.53]生老病苦 皆归于死\n[01:19.32]仙骸有 终空叹 惋\n[01:37.21]神枝 莫莫  庶 卉 群生\n[01:49.03]木实 唪 唪 遍 南山\n[01:51.20] 乐队 Orchestra：国际首席爱乐乐团 International Master Philharmonic Orchestra\n[01:53.38] 人声 Vocal：舞乐蝉歌艺术工作室\n[01:55.56] 录音棚 Recording Studio：九紫天诚录音棚 SKY FIRE STUDIO / 贵阳起源音乐录音棚\n[01:57.74] 录音师 Recording Engineer：刘婉秋 / Suki朱新琪 / 梁琼元\n[01:59.92] 混音师 Mixing Engineer：文驰Vinchi (HOYO-MiX)\n[02:02.10] 母带制作 Mastering Engineer：Calbi/Fallone@SterlingSound\n[02:04.28] 出品 Produced by：HOYO-MiX\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=2067225862.mp3"
-		]
+		"ar": [
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 124285,
+		"al": {
+			"picUrl": "https://p2.music.126.net/oDhurcFOPMPVMLnc6xF99A==/109951168765200998.jpg"
+		},
+		"lyric": "[00:00.00] 作词 : 牧久音\n[00:00.00] 作曲 : 文驰Vinchi (HOYO-MiX)\n[00:00.00] 编曲 : 文驰Vinchi (HOYO-MiX)\n[00:00.00]歌词大意：\n[00:48.34]叹晦明苦 短\n[01:17.53]生老病苦 皆归于死\n[01:19.32]仙骸有 终空叹 惋\n[01:37.21]神枝 莫莫  庶 卉 群生\n[01:49.03]木实 唪 唪 遍 南山\n[01:51.20] 乐队 Orchestra：国际首席爱乐乐团 International Master Philharmonic Orchestra\n[01:53.38] 人声 Vocal：舞乐蝉歌艺术工作室\n[01:55.56] 录音棚 Recording Studio：九紫天诚录音棚 SKY FIRE STUDIO / 贵阳起源音乐录音棚\n[01:57.74] 录音师 Recording Engineer：刘婉秋 / Suki朱新琪 / 梁琼元\n[01:59.92] 混音师 Mixing Engineer：文驰Vinchi (HOYO-MiX)\n[02:02.10] 母带制作 Mastering Engineer：Calbi/Fallone@SterlingSound\n[02:04.28] 出品 Produced by：HOYO-MiX\n"
 	},
 	{
 		"id": 1818580987,
 		"name": "Domineer",
-		"picUrl": "https://p1.music.126.net/eo1oYY1OQobITrvSNf_nrA==/109951165705882625.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "[00:00.00] 作曲 : 文驰Vinchi (HOYO-MiX)\n[00:00.00] 编曲 : 文驰Vinchi (HOYO-MiX)\n[00:00.00]琵琶 Pipa:李响Xiang Li\n[00:14.05]混音师 Mixing Engineer:文驰Vinchi (HOYO-MiX)\n[00:38.64]母带制作 Mastering Engineer:宫奇Gon (HOYO-MiX)\n[01:04.99]出品 Produced by:HOYO-MiX\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=1818580987.mp3"
-		]
+		"ar": [
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 79058,
+		"al": {
+			"picUrl": "https://p2.music.126.net/eo1oYY1OQobITrvSNf_nrA==/109951165705882625.jpg"
+		},
+		"lyric": "[00:00.00] 作曲 : 文驰Vinchi (HOYO-MiX)\n[00:00.00] 编曲 : 文驰Vinchi (HOYO-MiX)\n[00:00.00]琵琶 Pipa:李响Xiang Li\n[00:14.05]混音师 Mixing Engineer:文驰Vinchi (HOYO-MiX)\n[00:38.64]母带制作 Mastering Engineer:宫奇Gon (HOYO-MiX)\n[01:04.99]出品 Produced by:HOYO-MiX\n"
 	},
 	{
 		"id": 2034615687,
 		"name": "太空漫步 Space Walk",
-		"picUrl": "https://p1.music.126.net/RWIGyShmnjmUxizXco6fVg==/109951168505830245.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "作曲 : 王可鑫 Eli.W (HOYO-MiX)/宫奇Gon (HOYO-MiX)\n\n编曲 Arranger：王可鑫 Eli.W (HOYO-MiX)\n吉他 Guitar：宫奇Gon (HOYO-MiX)\n混音师 Mixing Engineer：王可鑫 Eli.W (HOYO-MiX)\n母带制作 Mastering Engineer：宫奇Gon (HOYO-MiX)\n出品 Produced by：HOYO-MiX\t\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=2034615687.mp3"
-		]
+		"ar": [
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 115500,
+		"al": {
+			"picUrl": "https://p2.music.126.net/RWIGyShmnjmUxizXco6fVg==/109951168505830245.jpg"
+		},
+		"lyric": "作曲 : 王可鑫 Eli.W (HOYO-MiX)/宫奇Gon (HOYO-MiX)\n\n编曲 Arranger：王可鑫 Eli.W (HOYO-MiX)\n吉他 Guitar：宫奇Gon (HOYO-MiX)\n混音师 Mixing Engineer：王可鑫 Eli.W (HOYO-MiX)\n母带制作 Mastering Engineer：宫奇Gon (HOYO-MiX)\n出品 Produced by：HOYO-MiX\t\n"
 	},
 	{
 		"id": 2065195778,
 		"name": "Where the Heart Belongs",
-		"picUrl": "https://p1.music.126.net/V0Unxjn1j7xyvJnCRYjSPA==/109951168748296991.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "[00:00.000] 作词 : 黑金雨 Oil Li\n[00:00.948] 作曲 : 寇悠悠 UUU (HOYO-MiX)\n[00:01.896] 编曲 : 寇悠悠 UUU (HOYO-MiX)\n[00:02.844] 制作人 : 寇悠悠 UUU (HOYO-MiX)\n[00:03.795]歌手 Vocal Artist：Shye\n[00:04.795]和声 Chorus：陆可儿Kirby\n[00:05.795]\n[00:16.683]You know how I long for a home where my heart belongs\n[00:32.812]Be no passer-by or rolling stone, live with something lifelong\n[00:33.073]Evergreens, winds and sunshine, double cotton pillows bathing in light\n[00:42.405]You know how I long for a home where my heart settles down\n[00:49.050]All along with you(over and over, over and over)\n[00:52.503]I did, I'll do(over and over)\n[00:57.021]We'll get lines and folds(over and over, over and over)\n[01:00.743]Still, the moments will glow\n[01:02.600]\n[01:04.458]Every time we recall all the days\n[01:07.661]When we were so young\n[01:08.988]We could find that nothing's changed\n[01:11.378]Be right by your side to make dreams come true\n[01:15.629]All I wanna do is spend my life with you\n[01:20.415]Every time you feel like losing ways\n[01:23.331]Just turn around, I never go far away\n[01:27.865]Oh I wanna seek with you\n[01:31.324]For the final piece of soul and make me whole (Only you)\n[01:37.163]\n[01:37.703]Go somewhere we know\n[01:40.887]Only we know\n[01:44.865]If time could be slow\n[01:48.606]Forever, ever, ever\n[01:53.121]So we just go\n[01:56.571]Till someday we know\n[02:00.552]Till the end of the world\n[02:04.541]Forever, ever, ever\n[02:08.519]\n[02:28.978]Gimme hands\n[02:30.036]We shall never fall apart\n[02:31.897]Gimme fire\n[02:33.236]Come and burn my beating heart\n[02:36.704]Heat the air\n[02:37.496]Gonna make the lilies sway\n[02:40.417]All my senses fly away\n[02:43.597](Craving)\n[02:45.191]I'm gonna drown\n[02:47.054]Words have no meaning\n[02:48.653]I'm gonna drown\n[02:49.451]Can't help falling\n[02:51.588](I'm craving)\n[02:52.920]I'm sinking down\n[02:53.978]Down into feelings\n[02:56.368]I'm sinking down\n[02:57.426]Down into love\n[02:59.555]\n[03:01.044] 录音棚 Recording Studio：缪思录音棚Muses Studio；羊绒工作室Cashmere Studio\n[03:02.533] 录音师 Recording Engineer：范璨媚DoubleThree_33(缪思音乐MusesMusic)；袁雄宇Yuan\n[03:04.022] 混音师 Mixing Engineer：寇悠悠 UUU (HOYO-MiX)\n[03:05.511] 母带制作 Mastering Engineer ：寇悠悠 UUU (HOYO-MiX)\n[03:07.000] 出品 Produced by : HOYO-MiX\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=2065195778.mp3"
-		]
+		"ar": [
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 187000,
+		"al": {
+			"picUrl": "https://p2.music.126.net/V0Unxjn1j7xyvJnCRYjSPA==/109951168748296991.jpg"
+		},
+		"lyric": "[00:00.000] 作词 : 黑金雨 Oil Li\n[00:00.948] 作曲 : 寇悠悠 UUU (HOYO-MiX)\n[00:01.896] 编曲 : 寇悠悠 UUU (HOYO-MiX)\n[00:02.844] 制作人 : 寇悠悠 UUU (HOYO-MiX)\n[00:03.795]歌手 Vocal Artist：Shye\n[00:04.795]和声 Chorus：陆可儿Kirby\n[00:05.795]\n[00:16.683]You know how I long for a home where my heart belongs\n[00:32.812]Be no passer-by or rolling stone, live with something lifelong\n[00:33.073]Evergreens, winds and sunshine, double cotton pillows bathing in light\n[00:42.405]You know how I long for a home where my heart settles down\n[00:49.050]All along with you(over and over, over and over)\n[00:52.503]I did, I'll do(over and over)\n[00:57.021]We'll get lines and folds(over and over, over and over)\n[01:00.743]Still, the moments will glow\n[01:02.600]\n[01:04.458]Every time we recall all the days\n[01:07.661]When we were so young\n[01:08.988]We could find that nothing's changed\n[01:11.378]Be right by your side to make dreams come true\n[01:15.629]All I wanna do is spend my life with you\n[01:20.415]Every time you feel like losing ways\n[01:23.331]Just turn around, I never go far away\n[01:27.865]Oh I wanna seek with you\n[01:31.324]For the final piece of soul and make me whole (Only you)\n[01:37.163]\n[01:37.703]Go somewhere we know\n[01:40.887]Only we know\n[01:44.865]If time could be slow\n[01:48.606]Forever, ever, ever\n[01:53.121]So we just go\n[01:56.571]Till someday we know\n[02:00.552]Till the end of the world\n[02:04.541]Forever, ever, ever\n[02:08.519]\n[02:28.978]Gimme hands\n[02:30.036]We shall never fall apart\n[02:31.897]Gimme fire\n[02:33.236]Come and burn my beating heart\n[02:36.704]Heat the air\n[02:37.496]Gonna make the lilies sway\n[02:40.417]All my senses fly away\n[02:43.597](Craving)\n[02:45.191]I'm gonna drown\n[02:47.054]Words have no meaning\n[02:48.653]I'm gonna drown\n[02:49.451]Can't help falling\n[02:51.588](I'm craving)\n[02:52.920]I'm sinking down\n[02:53.978]Down into feelings\n[02:56.368]I'm sinking down\n[02:57.426]Down into love\n[02:59.555]\n[03:01.044] 录音棚 Recording Studio：缪思录音棚Muses Studio；羊绒工作室Cashmere Studio\n[03:02.533] 录音师 Recording Engineer：范璨媚DoubleThree_33(缪思音乐MusesMusic)；袁雄宇Yuan\n[03:04.022] 混音师 Mixing Engineer：寇悠悠 UUU (HOYO-MiX)\n[03:05.511] 母带制作 Mastering Engineer ：寇悠悠 UUU (HOYO-MiX)\n[03:07.000] 出品 Produced by : HOYO-MiX\n"
 	},
 	{
 		"id": 2067225863,
 		"name": "蝉喓歌·长命无绝 Pedujara Demiseless Existence",
-		"picUrl": "https://p1.music.126.net/oDhurcFOPMPVMLnc6xF99A==/109951168765200998.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "[00:00.00] 作词 : 牧久音\n[00:00.00] 作曲 : 文驰Vinchi (HOYO-MiX)\n[00:00.00] 编曲 : 文驰Vinchi (HOYO-MiX)\n[00:00.00]歌词大意：\n[00:01.28]受命 于 天 兮  寿考不忘\n[01:39.56]承天之佑  烂 然星 陈\n[01:42.96] 乐队 Orchestra：国际首席爱乐乐团 International Master Philharmonic Orchestra\n[01:46.36] 人声 Vocal：舞乐蝉歌艺术工作室\n[01:49.76] 录音棚 Recording Studio：九紫天诚录音棚 SKY FIRE STUDIO / 贵阳起源音乐录音棚\n[01:53.16] 录音师 Recording Engineer：刘婉秋 / Suki朱新琪 / 梁琼元\n[01:56.57] 混音师 Mixing Engineer：文驰Vinchi (HOYO-MiX)\n[01:59.97] 母带制作 Mastering Engineer：Calbi/Fallone@SterlingSound\n[02:03.37] 出品 Produced by：HOYO-MiX\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=2067225863.mp3"
-		]
+		"ar": [
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 123375,
+		"al": {
+			"picUrl": "https://p2.music.126.net/oDhurcFOPMPVMLnc6xF99A==/109951168765200998.jpg"
+		},
+		"lyric": "[00:00.00] 作词 : 牧久音\n[00:00.00] 作曲 : 文驰Vinchi (HOYO-MiX)\n[00:00.00] 编曲 : 文驰Vinchi (HOYO-MiX)\n[00:00.00]歌词大意：\n[00:01.28]受命 于 天 兮  寿考不忘\n[01:39.56]承天之佑  烂 然星 陈\n[01:42.96] 乐队 Orchestra：国际首席爱乐乐团 International Master Philharmonic Orchestra\n[01:46.36] 人声 Vocal：舞乐蝉歌艺术工作室\n[01:49.76] 录音棚 Recording Studio：九紫天诚录音棚 SKY FIRE STUDIO / 贵阳起源音乐录音棚\n[01:53.16] 录音师 Recording Engineer：刘婉秋 / Suki朱新琪 / 梁琼元\n[01:56.57] 混音师 Mixing Engineer：文驰Vinchi (HOYO-MiX)\n[01:59.97] 母带制作 Mastering Engineer：Calbi/Fallone@SterlingSound\n[02:03.37] 出品 Produced by：HOYO-MiX\n"
 	},
 	{
 		"id": 1915838141,
 		"name": "IRAS 17514",
-		"picUrl": "https://p1.music.126.net/GJkcvVoh7Z3FGHRu0EMdsA==/109951166991161947.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "[00:00.000] 作词 : TetraCalyx\n[00:01.000] 作曲 : 李敬浩Hao(HOYO-MiX)\n[00:02.000] 编曲 : 李敬浩Hao(HOYO-MiX)\n[00:53.259]The stars are distant as always\n[00:59.800]\n[01:00.288]Still shining with the light of their grand deaths in vacant space\n[01:09.050]\n[01:09.689]Let it penetrate the darkness when a beast roars a final wail\n[01:17.798]\n[01:18.298]Let it penetrate my heart so I can share your pain\n[01:27.298]\n[01:29.298]If there is a way to collect and portray\n[01:37.550]\n[01:37.800]A mood that cannot be projected into words\n[01:46.048]\n[01:46.426]If there is a way to turn back and rebuild all the long lost dreams\n[01:54.799]\n[01:55.093]Another branch will grow and flourish in the future\n[02:03.299]\n[02:03.549]The breeze of your world will wake you up again\n[02:06.382] 人声 Voice: 王成功 Chenggong.W\n[02:09.215] 混音 Mixing Engineer: 宫奇Gon(HOYO-MiX)\n[02:12.048] 母带 Mastering Engineer:文驰Vinchi(HOYO-MiX)\n[02:14.881] 出品 Produced by:HOYO-MiX\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=1915838141.mp3"
-		]
+		"ar": [
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 134884,
+		"al": {
+			"picUrl": "https://p2.music.126.net/GJkcvVoh7Z3FGHRu0EMdsA==/109951166991161947.jpg"
+		},
+		"lyric": "[00:00.000] 作词 : TetraCalyx\n[00:01.000] 作曲 : 李敬浩Hao(HOYO-MiX)\n[00:02.000] 编曲 : 李敬浩Hao(HOYO-MiX)\n[00:53.259]The stars are distant as always\n[00:59.800]\n[01:00.288]Still shining with the light of their grand deaths in vacant space\n[01:09.050]\n[01:09.689]Let it penetrate the darkness when a beast roars a final wail\n[01:17.798]\n[01:18.298]Let it penetrate my heart so I can share your pain\n[01:27.298]\n[01:29.298]If there is a way to collect and portray\n[01:37.550]\n[01:37.800]A mood that cannot be projected into words\n[01:46.048]\n[01:46.426]If there is a way to turn back and rebuild all the long lost dreams\n[01:54.799]\n[01:55.093]Another branch will grow and flourish in the future\n[02:03.299]\n[02:03.549]The breeze of your world will wake you up again\n[02:06.382] 人声 Voice: 王成功 Chenggong.W\n[02:09.215] 混音 Mixing Engineer: 宫奇Gon(HOYO-MiX)\n[02:12.048] 母带 Mastering Engineer:文驰Vinchi(HOYO-MiX)\n[02:14.881] 出品 Produced by:HOYO-MiX\n"
 	},
 	{
 		"id": 1492276411,
 		"name": "Liyue 璃月",
-		"picUrl": "https://p1.music.126.net/yoRaxBY77koSqhjh52g-DA==/109951165434255510.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "[00:00.00-1] 作曲 : 陈致逸 Yu-Peng Chen(HOYO-MiX)\n[00:00.00-1] 指挥 Conductor:Robert Ziegler\n[00:00.00-1] 乐队 Orchestra:伦敦爱乐乐团 London Philharmonic Orchestra\n[00:00.00-1] 乐队配器 Orchestrator:陈致逸 Yu-Peng Chen(HOYO-MiX)\n[00:00.00-1] 小提琴 Violin: Philippe Honore\n[00:00.00-1] 笛子 Dizi:屠化冰 Huabing Tu\n[00:00.00-1] 录音棚 Recording Studio:Air Studios\n[00:00.00-1] 录音师 Recording Engineer:Nick Wollage\n[00:00.00-1] 混音师 Mixing Engineer:Nick Wollage\n[00:00.00-1] 混音助理 Mixing Assistant:Laurence Anslow\n[00:00.00-1] 母带制作 Mastering Engineer:John Webber\n[00:00.00-1] 出品 Produced by:HOYO-MiX\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=1492276411.mp3"
-		]
+		"ar": [
+			{
+				"name": "陈致逸"
+			},
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 276250,
+		"al": {
+			"picUrl": "https://p2.music.126.net/yoRaxBY77koSqhjh52g-DA==/109951165434255510.jpg"
+		},
+		"lyric": "[00:00.00-1] 作曲 : 陈致逸 Yu-Peng Chen(HOYO-MiX)\n[00:00.00-1] 指挥 Conductor:Robert Ziegler\n[00:00.00-1] 乐队 Orchestra:伦敦爱乐乐团 London Philharmonic Orchestra\n[00:00.00-1] 乐队配器 Orchestrator:陈致逸 Yu-Peng Chen(HOYO-MiX)\n[00:00.00-1] 小提琴 Violin: Philippe Honore\n[00:00.00-1] 笛子 Dizi:屠化冰 Huabing Tu\n[00:00.00-1] 录音棚 Recording Studio:Air Studios\n[00:00.00-1] 录音师 Recording Engineer:Nick Wollage\n[00:00.00-1] 混音师 Mixing Engineer:Nick Wollage\n[00:00.00-1] 混音助理 Mixing Assistant:Laurence Anslow\n[00:00.00-1] 母带制作 Mastering Engineer:John Webber\n[00:00.00-1] 出品 Produced by:HOYO-MiX\n"
 	},
 	{
 		"id": 2041859189,
 		"name": "Polumnia Omnia 三千娑世御咏歌",
-		"picUrl": "https://p1.music.126.net/f9Hbu5v27bGmg5ALM8iN9Q==/109951168565989598.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "[00:00.00] 作词 : 项柳 Hsiang Liu\n[00:00.51] 作曲 : 陈致逸 Yu-Peng Chen (HOYO-MiX)\n[00:01.02] 管弦配器 Orchestrator：陈致逸 Yu-Peng Chen (HOYO-MiX)\n[00:01.54] 编曲（电子） Arranger：姜以君 Yijun Jiang (HOYO-MiX)\n[00:02.05] 乐队 Orchestra：Budapest Scoring Orchestra / Art of Loong Orchestra 龙之艺交响乐团\n[00:02.57] 演唱 Voice：陈致逸 Yu-Peng Chen (HOYO-MiX)\n[00:03.08] 尺八 Shakuhachi：顾剑楠 Jiannan Gu\n[00:03.59] 男高音合唱 Tenor Choir：徐小明 Xiaoming Xu / 李新宇 Xinyu Li / 胡笳 Jia Hu / 吴波涛 Botao Wu / 伍洲 Zhou Wu / 戴月 Yue Dai / 韩潇 Xiao Han / 董正妍 Zhengyan Dong\n[00:04.11] 录音棚 Recording Studio：Budapest Scoring / 上海音像公司录音棚 YX STUDIO / YX STUDIO / 52Hz Studio\n[00:04.62] 录音师 Recording Engineer：Dénes Rédly / 莫家伟 Jiawei Mo / 黄巍 Zach Huang\n[00:05.14] 音频编辑 Editing Engineer：徐威 Aaron Xu\n[00:05.65] 混音师 Mixing Engineer：黄巍 Zach Huang\n[00:06.16] 母带制作 Mastering Engineer：黄巍 Zach Huang\n[00:06.68] 出品 Produced by：HOYO-MiX\n[00:07.20]\n[00:07.39]Vosmet vetat res coelica\n[00:19.50]\n[00:25.43]Iam premet letum vastum te\n[00:37.41]Vae gnari sunt suimet quis in oculis (Vae gnari estis vestris quis in oculis)\n[00:49.41]\n[01:01.41]ごやのすゑなぞながされ\n[01:11.16]\n[01:11.92]Sapientes feroces vetitum per currunt nefas (Sapientes pelliciuntur in nefas)\n[01:19.02]tarda leti et necessitas semota corripiet gradum (tarda leti mors necessitudinis corripiet gradum)\n[01:28.52]\n[01:29.89]Iugis solum ipsius nihil debet\n[01:40.45]\n[01:46.42]Credas in nullum qua sunt edicta inutile (Cave vide qua sunt edicta inutile)\n[02:04.45]\n[02:10.42]Dominatus\n[02:13.42]Dominatus\n[02:14.92]Dominatus\n[02:16.45]\n[02:28.45]ごやのすゑなぞながされ\n[02:38.14]\n[02:38.89]Vae eis simulacrum in solio inanis fixere sapientes (Vae eis cui simulacrum conlaudent mirent augeant)\n[02:49.45]necessitas semota corripiet gradum (et necessitudinis corripiet gradum)\n[02:55.45]\n[02:56.95]Nunquam genitus desiderem\n[03:07.48]\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=2041859189.mp3"
-		]
+		"ar": [
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 200515,
+		"al": {
+			"picUrl": "https://p2.music.126.net/f9Hbu5v27bGmg5ALM8iN9Q==/109951168565989598.jpg"
+		},
+		"lyric": "[00:00.00] 作词 : 项柳 Hsiang Liu\n[00:00.51] 作曲 : 陈致逸 Yu-Peng Chen (HOYO-MiX)\n[00:01.02] 管弦配器 Orchestrator：陈致逸 Yu-Peng Chen (HOYO-MiX)\n[00:01.54] 编曲（电子） Arranger：姜以君 Yijun Jiang (HOYO-MiX)\n[00:02.05] 乐队 Orchestra：Budapest Scoring Orchestra / Art of Loong Orchestra 龙之艺交响乐团\n[00:02.57] 演唱 Voice：陈致逸 Yu-Peng Chen (HOYO-MiX)\n[00:03.08] 尺八 Shakuhachi：顾剑楠 Jiannan Gu\n[00:03.59] 男高音合唱 Tenor Choir：徐小明 Xiaoming Xu / 李新宇 Xinyu Li / 胡笳 Jia Hu / 吴波涛 Botao Wu / 伍洲 Zhou Wu / 戴月 Yue Dai / 韩潇 Xiao Han / 董正妍 Zhengyan Dong\n[00:04.11] 录音棚 Recording Studio：Budapest Scoring / 上海音像公司录音棚 YX STUDIO / YX STUDIO / 52Hz Studio\n[00:04.62] 录音师 Recording Engineer：Dénes Rédly / 莫家伟 Jiawei Mo / 黄巍 Zach Huang\n[00:05.14] 音频编辑 Editing Engineer：徐威 Aaron Xu\n[00:05.65] 混音师 Mixing Engineer：黄巍 Zach Huang\n[00:06.16] 母带制作 Mastering Engineer：黄巍 Zach Huang\n[00:06.68] 出品 Produced by：HOYO-MiX\n[00:07.20]\n[00:07.39]Vosmet vetat res coelica\n[00:19.50]\n[00:25.43]Iam premet letum vastum te\n[00:37.41]Vae gnari sunt suimet quis in oculis (Vae gnari estis vestris quis in oculis)\n[00:49.41]\n[01:01.41]ごやのすゑなぞながされ\n[01:11.16]\n[01:11.92]Sapientes feroces vetitum per currunt nefas (Sapientes pelliciuntur in nefas)\n[01:19.02]tarda leti et necessitas semota corripiet gradum (tarda leti mors necessitudinis corripiet gradum)\n[01:28.52]\n[01:29.89]Iugis solum ipsius nihil debet\n[01:40.45]\n[01:46.42]Credas in nullum qua sunt edicta inutile (Cave vide qua sunt edicta inutile)\n[02:04.45]\n[02:10.42]Dominatus\n[02:13.42]Dominatus\n[02:14.92]Dominatus\n[02:16.45]\n[02:28.45]ごやのすゑなぞながされ\n[02:38.14]\n[02:38.89]Vae eis simulacrum in solio inanis fixere sapientes (Vae eis cui simulacrum conlaudent mirent augeant)\n[02:49.45]necessitas semota corripiet gradum (et necessitudinis corripiet gradum)\n[02:55.45]\n[02:56.95]Nunquam genitus desiderem\n[03:07.48]\n"
 	},
 	{
 		"id": 2062727339,
 		"name": "Circle of Life",
-		"picUrl": "https://p1.music.126.net/3-PveIIWbJz9_FpZ_2Q3Ow==/109951168729156220.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "作曲 : 刘佳诺Raven.Rossignol(HOYO-MiX)\n\n编曲 Arranger: 刘佳诺Raven.Rossignol(HOYO-MiX)\n混音 Mixing Engineer: 刘佳诺Raven.Rossignol(HOYO-MiX)\n母带 Mastering Engineer: 姜鹏Silver.J (HOYO-MiX)\n出品 Produced by: HOYO-MiX\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=2062727339.mp3"
-		]
+		"ar": [
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 101694,
+		"al": {
+			"picUrl": "https://p2.music.126.net/3-PveIIWbJz9_FpZ_2Q3Ow==/109951168729156220.jpg"
+		},
+		"lyric": "作曲 : 刘佳诺Raven.Rossignol(HOYO-MiX)\n\n编曲 Arranger: 刘佳诺Raven.Rossignol(HOYO-MiX)\n混音 Mixing Engineer: 刘佳诺Raven.Rossignol(HOYO-MiX)\n母带 Mastering Engineer: 姜鹏Silver.J (HOYO-MiX)\n出品 Produced by: HOYO-MiX\n"
 	},
 	{
 		"id": 2067225861,
 		"name": "蝉喓歌·晦明苦短 Pedujara Ephemeral Twilight",
-		"picUrl": "https://p1.music.126.net/oDhurcFOPMPVMLnc6xF99A==/109951168765200998.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "[00:00.00] 作词 : 牧久音\n[00:00.00] 作曲 : 文驰Vinchi (HOYO-MiX)\n[00:00.00] 编曲 : 文驰Vinchi (HOYO-MiX)\n[00:00.00]歌词大意：\n[00:23.72]朝幪幪 暮枯瘁\n[00:52.20]蜉蝣 朝露  来日 苦 短\n[01:33.60]晦明 苦 短\n[01:37.37] 乐队 Orchestra：国际首席爱乐乐团 International Master Philharmonic Orchestra\n[01:41.14] 人声 Vocal：舞乐蝉歌艺术工作室\n[01:44.91] 录音棚 Recording Studio：九紫天诚录音棚 SKY FIRE STUDIO / 贵阳起源音乐录音棚\n[01:48.68] 录音师 Recording Engineer：刘婉秋 / Suki朱新琪 / 梁琼元\n[01:52.45] 混音师 Mixing Engineer：文驰Vinchi (HOYO-MiX)\n[01:56.22] 母带制作 Mastering Engineer：Calbi/Fallone@SterlingSound\n[01:59.99] 出品 Produced by：HOYO-MiX\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=2067225861.mp3"
-		]
+		"ar": [
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 120000,
+		"al": {
+			"picUrl": "https://p2.music.126.net/oDhurcFOPMPVMLnc6xF99A==/109951168765200998.jpg"
+		},
+		"lyric": "[00:00.00] 作词 : 牧久音\n[00:00.00] 作曲 : 文驰Vinchi (HOYO-MiX)\n[00:00.00] 编曲 : 文驰Vinchi (HOYO-MiX)\n[00:00.00]歌词大意：\n[00:23.72]朝幪幪 暮枯瘁\n[00:52.20]蜉蝣 朝露  来日 苦 短\n[01:33.60]晦明 苦 短\n[01:37.37] 乐队 Orchestra：国际首席爱乐乐团 International Master Philharmonic Orchestra\n[01:41.14] 人声 Vocal：舞乐蝉歌艺术工作室\n[01:44.91] 录音棚 Recording Studio：九紫天诚录音棚 SKY FIRE STUDIO / 贵阳起源音乐录音棚\n[01:48.68] 录音师 Recording Engineer：刘婉秋 / Suki朱新琪 / 梁琼元\n[01:52.45] 混音师 Mixing Engineer：文驰Vinchi (HOYO-MiX)\n[01:56.22] 母带制作 Mastering Engineer：Calbi/Fallone@SterlingSound\n[01:59.99] 出品 Produced by：HOYO-MiX\n"
 	},
 	{
 		"id": 1992139167,
 		"name": "Hustle and Bustle of Ormos 喧繁之港",
-		"picUrl": "https://p1.music.126.net/mi40R92CSJ6zeroCvLxQQA==/109951167997564898.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "作曲 : 陈致逸 Yu-Peng Chen (HOYO-MiX)\n\n编曲 Arranger：陈致逸 Yu-Peng Chen (HOYO-MiX)\n指挥 Conductor：Robert Ziegler\n乐队 Orchestra：伦敦交响乐团 London Symphony Orchestra\n班苏里笛 Bansuri：Eliza Marshall\n西塔尔琴 Sitar：Arjun Verma\n萨兹琴 Saz：Dursuncan Cakin\n民乐监制 Folk Instruments Supervisor：Kuljit Bhamra\n录音棚 Recording Studio：St Luke's/Air-Edel Recording Studios/Redfort Studio\n录音师 Recording Engineer：Lewis Jones/Oliver Thompson/Kuljit Bhamra\n音频编辑 Editing Engineer：George Oulton/Freddie Light\n混音师 Mixing Engineer：Lewis Jones\n母带制作 Mastering Engineer：Simon Gibson\n出品 Produced by：HOYO-MiX\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=1992139167.mp3"
-		]
+		"ar": [
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 108213,
+		"al": {
+			"picUrl": "https://p2.music.126.net/mi40R92CSJ6zeroCvLxQQA==/109951167997564898.jpg"
+		},
+		"lyric": "作曲 : 陈致逸 Yu-Peng Chen (HOYO-MiX)\n\n编曲 Arranger：陈致逸 Yu-Peng Chen (HOYO-MiX)\n指挥 Conductor：Robert Ziegler\n乐队 Orchestra：伦敦交响乐团 London Symphony Orchestra\n班苏里笛 Bansuri：Eliza Marshall\n西塔尔琴 Sitar：Arjun Verma\n萨兹琴 Saz：Dursuncan Cakin\n民乐监制 Folk Instruments Supervisor：Kuljit Bhamra\n录音棚 Recording Studio：St Luke's/Air-Edel Recording Studios/Redfort Studio\n录音师 Recording Engineer：Lewis Jones/Oliver Thompson/Kuljit Bhamra\n音频编辑 Editing Engineer：George Oulton/Freddie Light\n混音师 Mixing Engineer：Lewis Jones\n母带制作 Mastering Engineer：Simon Gibson\n出品 Produced by：HOYO-MiX\n"
 	},
 	{
 		"id": 1920740889,
 		"name": "ReOracle",
-		"picUrl": "https://p1.music.126.net/T_KEXE301-CuVfgaNYfJJw==/109951167055474167.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "[00:00.00] 作词 : TetraCalyx\n[00:00.33] 作曲 : 文驰Vinchi(HOYO-MiX)\n[00:00.66] 编曲 : 文驰Vinchi(HOYO-MiX)\n[00:00.99] 制作人 : 文驰Vinchi(HOYO-MiX)\n[00:01.32]Carved on stones\n[00:06.52]Buried deep in the earth\n[00:11.82]Long submerged beneath waterfalls\n[00:21.08]Triggering a thunderstorm\n[00:27.21]Summoning gusts of wind\n[00:31.67]seething waves of sea, slapping on the reefs\n[00:42.35]to make a Voice\n[00:43.93]Tell us what to believe, without any doubt\n[00:50.03]Without any doubt never let us down\n[00:54.70]Tell us when to depart for a promise true\n[01:00.45]For a promise true despite the day of doom\n[01:10.52]A bloodline stretches out one more inch with every heartbeat\n[01:25.20]reaches a fingertip that has been staying at the Words on the Page\n[01:37.37]We have grown up before taking heart of grace\n[01:43.24]Taking heart of grace is how we blaze a way\n[01:47.92]We still struggle against the fear of being unarmed\n[01:53.86]The fear of being unarmed keeps our frailty apart\n[02:11.22]No one would be able to look down upon this world\n[02:22.53]So one is allowed to be born\n[02:38.47]We've known what to believe, without any doubt\n[02:44.67]Without any doubt never let us down\n[02:49.13]We have taken the road for a promise true\n[02:55.24]For a promise true despite the day of doom\n[03:01.51] 录音Recording Engineer: 徐威@52HzStudio\n[03:07.78] 混音Mixing Engineer: 文驰Vinchi(HOYO-MiX)\n[03:14.05] 母带Mastering Engineer: 李敬浩Hao(HOYO-MiX)\n[03:20.33] 出品 Produced by:HOYO-MiX\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=1920740889.mp3"
-		]
+		"ar": [
+			{
+				"name": "黄霄雲"
+			},
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 200333,
+		"al": {
+			"picUrl": "https://p2.music.126.net/T_KEXE301-CuVfgaNYfJJw==/109951167055474167.jpg"
+		},
+		"lyric": "[00:00.00] 作词 : TetraCalyx\n[00:00.33] 作曲 : 文驰Vinchi(HOYO-MiX)\n[00:00.66] 编曲 : 文驰Vinchi(HOYO-MiX)\n[00:00.99] 制作人 : 文驰Vinchi(HOYO-MiX)\n[00:01.32]Carved on stones\n[00:06.52]Buried deep in the earth\n[00:11.82]Long submerged beneath waterfalls\n[00:21.08]Triggering a thunderstorm\n[00:27.21]Summoning gusts of wind\n[00:31.67]seething waves of sea, slapping on the reefs\n[00:42.35]to make a Voice\n[00:43.93]Tell us what to believe, without any doubt\n[00:50.03]Without any doubt never let us down\n[00:54.70]Tell us when to depart for a promise true\n[01:00.45]For a promise true despite the day of doom\n[01:10.52]A bloodline stretches out one more inch with every heartbeat\n[01:25.20]reaches a fingertip that has been staying at the Words on the Page\n[01:37.37]We have grown up before taking heart of grace\n[01:43.24]Taking heart of grace is how we blaze a way\n[01:47.92]We still struggle against the fear of being unarmed\n[01:53.86]The fear of being unarmed keeps our frailty apart\n[02:11.22]No one would be able to look down upon this world\n[02:22.53]So one is allowed to be born\n[02:38.47]We've known what to believe, without any doubt\n[02:44.67]Without any doubt never let us down\n[02:49.13]We have taken the road for a promise true\n[02:55.24]For a promise true despite the day of doom\n[03:01.51] 录音Recording Engineer: 徐威@52HzStudio\n[03:07.78] 混音Mixing Engineer: 文驰Vinchi(HOYO-MiX)\n[03:14.05] 母带Mastering Engineer: 李敬浩Hao(HOYO-MiX)\n[03:20.33] 出品 Produced by:HOYO-MiX\n"
 	},
 	{
 		"id": 1861578703,
 		"name": "Rage Beneath the Mountains 岩壑之崩",
-		"picUrl": "https://p1.music.126.net/klj1ylCHIDtuINQEXo1WEg==/109951166180599033.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "[00:00.000] 作词 : 孙宇 Yu Sun\n[00:01.000] 作曲 : Yu-Peng Chen 陈致逸(HOYO-MiX)\n[00:02.000] 制作人 : HOYO-MiX\n[02:01.740]（邃宇兮 黑翳逐）\n[02:05.300]（山野兮 窘步）\n[02:08.990]出！（幽宫兮 余既伏）\n[02:11.220]君常违兮 国隳芜（乌有兮 归处）\n[02:14.950]蓄雠怨增欷（零落兮 困洿渎）\n[02:18.350]惶惶兮 索陵迟恶途（奈何乎！）\n[02:23.600]归兮！\n[02:25.380]巉石峦岳毂转乎\n[02:28.930]万川湍流吞穹庐\n[02:32.280]山崩岩崒\n[02:35.020]愆辜安除？（愆辜安除？）\n[02:40.790]\n[03:06.450]零落兮 困洿渎\n[03:09.940]浇季兮 穷路\n[03:13.450]林峻茂兮 掩殊途\n[03:16.000]审行迷延伫远兮 山穹覆\n[03:17.123] 出品 Produced by:HOYO-MiX\n[03:18.246] 管弦乐配器 Orchestrator:何迦德 Jiade He\n[03:19.369] 电声乐队编配 Band Arranger:苑迪萌 Dimeng Yuan(HOYO-MiX)\n[03:20.492] 笛子 Dizi:顾剑楠 Jiannan Gu\n[03:21.615] 二胡 Erhu:马稼骏 Jiajun Ma\n[03:22.738] 电吉他 Electric Guitar:葛金桥 Jinqiao Ge\n[03:23.861] 电贝司 Electric Bass:张栗 Li Zhang\n[03:24.984] 合唱 Choir:上海朱梓溶艺术工作室 Shanghai Zhu Zirong Art Studio\n[03:26.107] 弦乐 Strings:国际首席爱乐乐团 International Master Philharmonic Orchestra\n[03:27.230] 录音棚 Recording Studio:上海广播大厦 Shanghai Media Group、金田录音棚 Jintian Recording Studio\n[03:28.353] 录音师 Recording Engineer:莫家伟 Jiawei Mo、王小四 Xiaosi Wang\n[03:29.476] 混音师 Mixing Engineer:黄巍 Zach Huang\n[03:30.599] 母带制作 Mastering Engineer:黄巍 Zach Huang\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=1861578703.mp3"
-		]
+		"ar": [
+			{
+				"name": "陈致逸"
+			},
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 210610,
+		"al": {
+			"picUrl": "https://p2.music.126.net/klj1ylCHIDtuINQEXo1WEg==/109951166180599033.jpg"
+		},
+		"lyric": "[00:00.000] 作词 : 孙宇 Yu Sun\n[00:01.000] 作曲 : Yu-Peng Chen 陈致逸(HOYO-MiX)\n[00:02.000] 制作人 : HOYO-MiX\n[02:01.740]（邃宇兮 黑翳逐）\n[02:05.300]（山野兮 窘步）\n[02:08.990]出！（幽宫兮 余既伏）\n[02:11.220]君常违兮 国隳芜（乌有兮 归处）\n[02:14.950]蓄雠怨增欷（零落兮 困洿渎）\n[02:18.350]惶惶兮 索陵迟恶途（奈何乎！）\n[02:23.600]归兮！\n[02:25.380]巉石峦岳毂转乎\n[02:28.930]万川湍流吞穹庐\n[02:32.280]山崩岩崒\n[02:35.020]愆辜安除？（愆辜安除？）\n[02:40.790]\n[03:06.450]零落兮 困洿渎\n[03:09.940]浇季兮 穷路\n[03:13.450]林峻茂兮 掩殊途\n[03:16.000]审行迷延伫远兮 山穹覆\n[03:17.123] 出品 Produced by:HOYO-MiX\n[03:18.246] 管弦乐配器 Orchestrator:何迦德 Jiade He\n[03:19.369] 电声乐队编配 Band Arranger:苑迪萌 Dimeng Yuan(HOYO-MiX)\n[03:20.492] 笛子 Dizi:顾剑楠 Jiannan Gu\n[03:21.615] 二胡 Erhu:马稼骏 Jiajun Ma\n[03:22.738] 电吉他 Electric Guitar:葛金桥 Jinqiao Ge\n[03:23.861] 电贝司 Electric Bass:张栗 Li Zhang\n[03:24.984] 合唱 Choir:上海朱梓溶艺术工作室 Shanghai Zhu Zirong Art Studio\n[03:26.107] 弦乐 Strings:国际首席爱乐乐团 International Master Philharmonic Orchestra\n[03:27.230] 录音棚 Recording Studio:上海广播大厦 Shanghai Media Group、金田录音棚 Jintian Recording Studio\n[03:28.353] 录音师 Recording Engineer:莫家伟 Jiawei Mo、王小四 Xiaosi Wang\n[03:29.476] 混音师 Mixing Engineer:黄巍 Zach Huang\n[03:30.599] 母带制作 Mastering Engineer:黄巍 Zach Huang\n"
 	},
 	{
 		"id": 1937111536,
 		"name": "Combat Beneath the Waves 寒光裂涛",
-		"picUrl": "https://p1.music.126.net/ItGglGmjUh3x7HL2qHkurQ==/109951167277673214.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "作曲 : 陈致逸 Yu-Peng Chen (HOYO-MiX)\n\n乐队配器 Orchestrator:陈致逸 Yu-Peng Chen (HOYO-MiX)\n演唱 Voice:林禾 He Lin\n第一小提琴 1st Violin:朱玥 Yue Zhu\n第二小提琴 2nd Violin:罗畅 Chang Luo\n中提琴 Viola:茅异竹 Yizhu Mao\n大提琴 Cello:陈小龙 Xiaolong Chen\n低音提琴 Double Bass:杨冰洋 Bingyang Yang\n录音棚 Recording Studio:上海广播大厦 Shanghai Media Group\n混音师 Mixing Engineer:黄巍 Zach Huang、刘俊杰 Junjie Liu\n母带制作 Mastering Engineer:黄巍 Zach Huang\n出品 Produced by:HOYO-MiX\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=1937111536.mp3"
-		]
+		"ar": [
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 246593,
+		"al": {
+			"picUrl": "https://p2.music.126.net/ItGglGmjUh3x7HL2qHkurQ==/109951167277673214.jpg"
+		},
+		"lyric": "作曲 : 陈致逸 Yu-Peng Chen (HOYO-MiX)\n\n乐队配器 Orchestrator:陈致逸 Yu-Peng Chen (HOYO-MiX)\n演唱 Voice:林禾 He Lin\n第一小提琴 1st Violin:朱玥 Yue Zhu\n第二小提琴 2nd Violin:罗畅 Chang Luo\n中提琴 Viola:茅异竹 Yizhu Mao\n大提琴 Cello:陈小龙 Xiaolong Chen\n低音提琴 Double Bass:杨冰洋 Bingyang Yang\n录音棚 Recording Studio:上海广播大厦 Shanghai Media Group\n混音师 Mixing Engineer:黄巍 Zach Huang、刘俊杰 Junjie Liu\n母带制作 Mastering Engineer:黄巍 Zach Huang\n出品 Produced by:HOYO-MiX\n"
 	},
 	{
 		"id": 1833805540,
 		"name": "Moonlike Smile 皎洁的笑颜",
-		"picUrl": "https://p1.music.126.net/_U__1_DT6eLbvObNtK3apg==/109951165849462124.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "[00:00.00-1] 作曲 : 陈致逸 Yu-Peng Chen (HOYO-MiX)\n[00:11.136] 乐队配器 Orchestrator:陈致逸 Yu-Peng Chen (HOYO-MiX)\n[00:22.272] 钢琴 Piano:陈致逸 Yu-Peng Chen(HOYO-MiX)\n[00:33.408] 弦乐 Strings:国际首席爱乐乐团 International Master Philharmonic Orchestra\n[00:44.544] 录音棚 Recording Studio:金田录音棚 Jintian Recording Studio\n[00:55.680] 录音师 Recording Engineer:王小四 Xiaosi Wang\n[01:06.816] 混音/母带 Mixing/Mastering Engineer:黄巍 Zach Huang\n[01:17.952] 出品 Produced by:HOYO-MiX\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=1833805540.mp3"
-		]
+		"ar": [
+			{
+				"name": "陈致逸"
+			},
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 77958,
+		"al": {
+			"picUrl": "https://p2.music.126.net/_U__1_DT6eLbvObNtK3apg==/109951165849462124.jpg"
+		},
+		"lyric": "[00:00.00-1] 作曲 : 陈致逸 Yu-Peng Chen (HOYO-MiX)\n[00:11.136] 乐队配器 Orchestrator:陈致逸 Yu-Peng Chen (HOYO-MiX)\n[00:22.272] 钢琴 Piano:陈致逸 Yu-Peng Chen(HOYO-MiX)\n[00:33.408] 弦乐 Strings:国际首席爱乐乐团 International Master Philharmonic Orchestra\n[00:44.544] 录音棚 Recording Studio:金田录音棚 Jintian Recording Studio\n[00:55.680] 录音师 Recording Engineer:王小四 Xiaosi Wang\n[01:06.816] 混音/母带 Mixing/Mastering Engineer:黄巍 Zach Huang\n[01:17.952] 出品 Produced by:HOYO-MiX\n"
 	},
 	{
 		"id": 1913532421,
 		"name": "Termination of Desires 何妄何执",
-		"picUrl": "https://p1.music.126.net/sL4gC4eV14eROyZv6oFgNA==/109951166957932349.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "作曲 : 陈致逸 Yu-Peng Chen (HOYO-MiX)/苑迪萌 Dimeng Yuan (HOYO-MiX)\n\n编曲 Arranger:苑迪萌 Dimeng Yuan (HOYO-MiX)\n乐队 Orchestra:国际首席爱乐乐团 International Master Philharmonic Orchestra\n尺八 Shakuhachi:顾剑楠 Jiannan Gu\n电吉他 Electric Guitar:苑迪萌 Dimeng Yuan(HOYO-MiX)\n电贝司 Electric Bass:苑迪萌 Dimeng Yuan(HOYO-MiX)\n录音棚 Recording Studio:52HZ Studio 金田录音棚 Jintian Recording Studio\n录音师 Recording Engineer:黄巍 Zach Huang / 王小四 Xiaosi Wang\n混音师 Mixing Engineer:苑迪萌 Dimeng Yuan (HOYO-MiX)\n母带制作 Mastering Engineer:苑迪萌 Dimeng Yuan (HOYO-MiX)\n出品 Produced by:HOYO-MiX\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=1913532421.mp3"
-		]
+		"ar": [
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 155007,
+		"al": {
+			"picUrl": "https://p2.music.126.net/sL4gC4eV14eROyZv6oFgNA==/109951166957932349.jpg"
+		},
+		"lyric": "作曲 : 陈致逸 Yu-Peng Chen (HOYO-MiX)/苑迪萌 Dimeng Yuan (HOYO-MiX)\n\n编曲 Arranger:苑迪萌 Dimeng Yuan (HOYO-MiX)\n乐队 Orchestra:国际首席爱乐乐团 International Master Philharmonic Orchestra\n尺八 Shakuhachi:顾剑楠 Jiannan Gu\n电吉他 Electric Guitar:苑迪萌 Dimeng Yuan(HOYO-MiX)\n电贝司 Electric Bass:苑迪萌 Dimeng Yuan(HOYO-MiX)\n录音棚 Recording Studio:52HZ Studio 金田录音棚 Jintian Recording Studio\n录音师 Recording Engineer:黄巍 Zach Huang / 王小四 Xiaosi Wang\n混音师 Mixing Engineer:苑迪萌 Dimeng Yuan (HOYO-MiX)\n母带制作 Mastering Engineer:苑迪萌 Dimeng Yuan (HOYO-MiX)\n出品 Produced by:HOYO-MiX\n"
 	},
 	{
 		"id": 2013454822,
 		"name": "黄金庭院",
-		"picUrl": "https://p1.music.126.net/Z4T5tuK0yKANWMv3I7oJIQ==/109951168224568755.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "[00:00.000] 作词 : Hanser\n[00:01.000] 作曲 : 姜鹏Silver.J(HOYO-MiX)/陈永辉Yonghui.C(HOYO-MiX)\n[00:02.000] 编曲 : 姜鹏Silver.J(HOYO-MiX)\n[00:03.000] 制作人 : 姜鹏Silver.J (HOYO-MiX)\n[00:11.620]\n[00:12.426]跟着精灵和歌声指引\n[00:14.815]终于找到这里\n[00:17.736]沉重的包袱放到一边去\n[00:20.401]快来加入游戏\n[00:23.323]带上新玩具 拿一支画笔\n[00:26.245]再注入热情 和想象力\n[00:27.854]\n[00:31.500]闹得过火 有人会帮你冷静\n[00:33.092]受伤也不要紧\n[00:34.688]偷点勇气 去碰碰危险机器\n[00:38.420]才更尽兴\n[00:39.749]不小心撞倒禁忌的实验瓶\n[00:42.670]请不要犹豫 快火速逃离\n[00:45.327]还没说完的故事 下次再慢慢地\n[00:49.583]都讲给你听\n[00:52.500]\n[00:53.146] 混音 Mixing Engineer：姜鹏Silver.J (HOYO-MiX)\n[00:53.792] 出品 Produced by：HOYO-MiX\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=2013454822.mp3"
-		]
+		"ar": [
+			{
+				"name": "宴宁"
+			},
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 53793,
+		"al": {
+			"picUrl": "https://p2.music.126.net/Z4T5tuK0yKANWMv3I7oJIQ==/109951168224568755.jpg"
+		},
+		"lyric": "[00:00.000] 作词 : Hanser\n[00:01.000] 作曲 : 姜鹏Silver.J(HOYO-MiX)/陈永辉Yonghui.C(HOYO-MiX)\n[00:02.000] 编曲 : 姜鹏Silver.J(HOYO-MiX)\n[00:03.000] 制作人 : 姜鹏Silver.J (HOYO-MiX)\n[00:11.620]\n[00:12.426]跟着精灵和歌声指引\n[00:14.815]终于找到这里\n[00:17.736]沉重的包袱放到一边去\n[00:20.401]快来加入游戏\n[00:23.323]带上新玩具 拿一支画笔\n[00:26.245]再注入热情 和想象力\n[00:27.854]\n[00:31.500]闹得过火 有人会帮你冷静\n[00:33.092]受伤也不要紧\n[00:34.688]偷点勇气 去碰碰危险机器\n[00:38.420]才更尽兴\n[00:39.749]不小心撞倒禁忌的实验瓶\n[00:42.670]请不要犹豫 快火速逃离\n[00:45.327]还没说完的故事 下次再慢慢地\n[00:49.583]都讲给你听\n[00:52.500]\n[00:53.146] 混音 Mixing Engineer：姜鹏Silver.J (HOYO-MiX)\n[00:53.792] 出品 Produced by：HOYO-MiX\n"
 	},
 	{
 		"id": 2014247586,
 		"name": "Surasthana Fantasia 净善的遐歌",
-		"picUrl": "https://p1.music.126.net/IeL9sF23cLRvBUaN7Kzp9g==/109951168231923046.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "作曲 : 陈致逸 Yu-Peng Chen (HOYO-MiX)\n\n编曲 Arranger：陈致逸 Yu-Peng Chen (HOYO-MiX)/姜以君 Yijun Jiang (HOYO-MiX)\n乐队 Orchestra：Budapest Scoring Orchestra/国际首席爱乐乐团 International Master Philharmonic Orchestra\n原声吉他 Acoustic Guitar：范晔 Ye Fan\n合唱指挥 Choir Conductor：齐放 Fang Qi\n合唱 Choir：Sfuture艺术团\n录音棚 Recording Studio：Budapest Scoring/金田录音棚 Jintian Recording Studio/52Hz Studio/Sound Pro Studio\n录音师 Recording Engineer：Viktor Szabó/王小四 Xiaosi Wang/黄巍 Zach Huang/朱忠强 Zhongqiang Zhu\n混音师 Mixing Engineer：黄巍 Zach Huang\n母带制作 Mastering Engineer：阿烈 A Lie/吴身宝 Bob Wu\n出品 Produced by：HOYO-MiX\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=2014247586.mp3"
-		]
+		"ar": [
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 141051,
+		"al": {
+			"picUrl": "https://p2.music.126.net/IeL9sF23cLRvBUaN7Kzp9g==/109951168231923046.jpg"
+		},
+		"lyric": "作曲 : 陈致逸 Yu-Peng Chen (HOYO-MiX)\n\n编曲 Arranger：陈致逸 Yu-Peng Chen (HOYO-MiX)/姜以君 Yijun Jiang (HOYO-MiX)\n乐队 Orchestra：Budapest Scoring Orchestra/国际首席爱乐乐团 International Master Philharmonic Orchestra\n原声吉他 Acoustic Guitar：范晔 Ye Fan\n合唱指挥 Choir Conductor：齐放 Fang Qi\n合唱 Choir：Sfuture艺术团\n录音棚 Recording Studio：Budapest Scoring/金田录音棚 Jintian Recording Studio/52Hz Studio/Sound Pro Studio\n录音师 Recording Engineer：Viktor Szabó/王小四 Xiaosi Wang/黄巍 Zach Huang/朱忠强 Zhongqiang Zhu\n混音师 Mixing Engineer：黄巍 Zach Huang\n母带制作 Mastering Engineer：阿烈 A Lie/吴身宝 Bob Wu\n出品 Produced by：HOYO-MiX\n"
 	},
 	{
 		"id": 1334672916,
 		"name": "Lyin (See you in the next world)",
-		"picUrl": "https://p1.music.126.net/TAiliOjM10DlKiL56fPIMw==/109951163737497396.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "作曲 : 蔡近翰Zoe (HOYO-MiX)\n编曲 : 郑宇界JODODO(HOYO-MiX)\n出品 Produced by:HOYO-MiX",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=1334672916.mp3"
-		]
+		"ar": [
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 117993,
+		"al": {
+			"picUrl": "https://p2.music.126.net/TAiliOjM10DlKiL56fPIMw==/109951163737497396.jpg"
+		},
+		"lyric": "作曲 : 蔡近翰Zoe (HOYO-MiX)\n编曲 : 郑宇界JODODO(HOYO-MiX)\n出品 Produced by:HOYO-MiX"
 	},
 	{
 		"id": 1818580990,
 		"name": "Fantasy Note",
-		"picUrl": "https://p1.music.126.net/eo1oYY1OQobITrvSNf_nrA==/109951165705882625.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "[00:00.00] 作曲 : 文驰Vinchi (HOYO-MiX)\n[00:00.00] 编曲 : 文驰Vinchi (HOYO-MiX)\n[00:00.00]小提琴 Violin:朱玥Yue Zhu\n[00:20.71]混音师 Mixing Engineer:文驰Vinchi (HOYO-MiX)\n[00:52.92]母带制作 Mastering Engineer:宫奇Gon (HOYO-MiX)\n[01:27.43]出品 Produced by:HOYO-MiX\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=1818580990.mp3"
-		]
+		"ar": [
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 105864,
+		"al": {
+			"picUrl": "https://p2.music.126.net/eo1oYY1OQobITrvSNf_nrA==/109951165705882625.jpg"
+		},
+		"lyric": "[00:00.00] 作曲 : 文驰Vinchi (HOYO-MiX)\n[00:00.00] 编曲 : 文驰Vinchi (HOYO-MiX)\n[00:00.00]小提琴 Violin:朱玥Yue Zhu\n[00:20.71]混音师 Mixing Engineer:文驰Vinchi (HOYO-MiX)\n[00:52.92]母带制作 Mastering Engineer:宫奇Gon (HOYO-MiX)\n[01:27.43]出品 Produced by:HOYO-MiX\n"
 	},
 	{
 		"id": 2014256630,
 		"name": "Winding Through Avidya 绰巡林风",
-		"picUrl": "https://p1.music.126.net/IeL9sF23cLRvBUaN7Kzp9g==/109951168231923046.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "作曲 : 陈致逸 Yu-Peng Chen (HOYO-MiX)\n\n编曲 Arranger：赵鑫 Xin Zhao (HOYO-MiX)\n乐队 Orchestra：Budapest Scoring Orchestra/国际首席爱乐乐团 International Master Philharmonic Orchestra\n班苏里笛 Bansuri：顾剑楠 Jiannan Gu\n乌德琴 Oud：Kian\n二胡 Erhu：马稼骏 Jiajun Ma\n小提琴 Violin：欧阳东方 Dongfang Ouyang\n录音棚 Recording Studio：Budapest Scoring/金田录音棚 Jintian Recording Studio/52Hz Studio\n录音师 Recording Engineer：Dénes Rédly/王小四 Xiaosi Wang/黄巍 Zach Huang\n混音师 Mixing Engineer：赵鑫 Xin Zhao (HOYO-MiX)\n母带制作 Mastering Engineer：阿烈 A Lie/吴身宝 Bob Wu\n出品 Produced by：HOYO-MiX\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=2014256630.mp3"
-		]
+		"ar": [
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 128000,
+		"al": {
+			"picUrl": "https://p2.music.126.net/IeL9sF23cLRvBUaN7Kzp9g==/109951168231923046.jpg"
+		},
+		"lyric": "作曲 : 陈致逸 Yu-Peng Chen (HOYO-MiX)\n\n编曲 Arranger：赵鑫 Xin Zhao (HOYO-MiX)\n乐队 Orchestra：Budapest Scoring Orchestra/国际首席爱乐乐团 International Master Philharmonic Orchestra\n班苏里笛 Bansuri：顾剑楠 Jiannan Gu\n乌德琴 Oud：Kian\n二胡 Erhu：马稼骏 Jiajun Ma\n小提琴 Violin：欧阳东方 Dongfang Ouyang\n录音棚 Recording Studio：Budapest Scoring/金田录音棚 Jintian Recording Studio/52Hz Studio\n录音师 Recording Engineer：Dénes Rédly/王小四 Xiaosi Wang/黄巍 Zach Huang\n混音师 Mixing Engineer：赵鑫 Xin Zhao (HOYO-MiX)\n母带制作 Mastering Engineer：阿烈 A Lie/吴身宝 Bob Wu\n出品 Produced by：HOYO-MiX\n"
 	},
 	{
 		"id": 1492276426,
 		"name": "Moon in One's Cup 杯中明月",
-		"picUrl": "https://p1.music.126.net/yoRaxBY77koSqhjh52g-DA==/109951165434255510.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "[00:00.00-1] 作曲 : 陈致逸 Yu-Peng Chen(HOYO-MiX)\n[00:09.032] 指挥 Conductor:张洁敏 Jiemin Zhang\n[00:18.064] 乐队 Orchestra:上海交响乐团 Shanghai Symphony Orchestra\n[00:27.096] 乐队配器 Orchestrator:陈致逸 Yu-Peng Chen(HOYO-MiX)\n[00:36.128] 古筝 Guzheng: 陆莎莎 Shasha Lu、赵墨佳 Mojia Zhao\n[00:45.160] 琵琶 Pipa:施文卿 Wenqing Shi\n[00:54.192] 录音棚 Recording Studio:上海交响乐团音乐厅 Shanghai Symphony Hall\n[01:03.224] 音乐监制 Music Supervisor:安栋 Dong An\n[01:12.256] 录音师 Recording Engineer:陆晓幸 Xiaoxing Lu\n[01:21.288] 声音工程师 Sound Engineer:房大磊 Dalei Fang\n[01:30.320] 混音师 Mixing Engineer:Nick Wollage\n[01:39.352] 混音助理 Mixing Assistant:Tom Bailey\n[01:48.384] 母带制作 Mastering Engineer:John Webber\n[01:57.416] 出品 Produced by:HOYO-MiX\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=1492276426.mp3"
-		]
+		"ar": [
+			{
+				"name": "陈致逸"
+			},
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 117421,
+		"al": {
+			"picUrl": "https://p2.music.126.net/yoRaxBY77koSqhjh52g-DA==/109951165434255510.jpg"
+		},
+		"lyric": "[00:00.00-1] 作曲 : 陈致逸 Yu-Peng Chen(HOYO-MiX)\n[00:09.032] 指挥 Conductor:张洁敏 Jiemin Zhang\n[00:18.064] 乐队 Orchestra:上海交响乐团 Shanghai Symphony Orchestra\n[00:27.096] 乐队配器 Orchestrator:陈致逸 Yu-Peng Chen(HOYO-MiX)\n[00:36.128] 古筝 Guzheng: 陆莎莎 Shasha Lu、赵墨佳 Mojia Zhao\n[00:45.160] 琵琶 Pipa:施文卿 Wenqing Shi\n[00:54.192] 录音棚 Recording Studio:上海交响乐团音乐厅 Shanghai Symphony Hall\n[01:03.224] 音乐监制 Music Supervisor:安栋 Dong An\n[01:12.256] 录音师 Recording Engineer:陆晓幸 Xiaoxing Lu\n[01:21.288] 声音工程师 Sound Engineer:房大磊 Dalei Fang\n[01:30.320] 混音师 Mixing Engineer:Nick Wollage\n[01:39.352] 混音助理 Mixing Assistant:Tom Bailey\n[01:48.384] 母带制作 Mastering Engineer:John Webber\n[01:57.416] 出品 Produced by:HOYO-MiX\n"
 	},
 	{
 		"id": 2067222265,
 		"name": "雷车动地 Thundering Chariot",
-		"picUrl": "https://p1.music.126.net/oDhurcFOPMPVMLnc6xF99A==/109951168765200998.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "作曲 : 汪玉珏Yj.W (HOYO-MiX)\n\n编曲 Arranger：汪玉珏Yj.W (HOYO-MiX)\n乐队 Orchestra：龙之艺交响乐团 Art of Loong Orchestra\n琵琶 Pipa：施文卿\n吉他 Guitar：宫奇Gon (HOYO-MiX)\n录音棚 Recording Studio：52Hz studio / 上海音像公司录音棚 YX STUDIO\n录音师 Recording Engineer：徐威 Aaron Xu / 莫家伟 Jiawei Mo\n混音师 Mixing Engineer：宫奇Gon (HOYO-MiX)\n母带制作 Mastering Engineer：Calbi/Fallone@SterlingSound / 宫奇Gon (HOYO-MiX)\n出品 Produced by：HOYO-MiX\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=2067222265.mp3"
-		]
+		"ar": [
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 102074,
+		"al": {
+			"picUrl": "https://p2.music.126.net/oDhurcFOPMPVMLnc6xF99A==/109951168765200998.jpg"
+		},
+		"lyric": "作曲 : 汪玉珏Yj.W (HOYO-MiX)\n\n编曲 Arranger：汪玉珏Yj.W (HOYO-MiX)\n乐队 Orchestra：龙之艺交响乐团 Art of Loong Orchestra\n琵琶 Pipa：施文卿\n吉他 Guitar：宫奇Gon (HOYO-MiX)\n录音棚 Recording Studio：52Hz studio / 上海音像公司录音棚 YX STUDIO\n录音师 Recording Engineer：徐威 Aaron Xu / 莫家伟 Jiawei Mo\n混音师 Mixing Engineer：宫奇Gon (HOYO-MiX)\n母带制作 Mastering Engineer：Calbi/Fallone@SterlingSound / 宫奇Gon (HOYO-MiX)\n出品 Produced by：HOYO-MiX\n"
 	},
 	{
 		"id": 1913532410,
 		"name": "Dance of Aphros 浪沫起舞",
-		"picUrl": "https://p1.music.126.net/sL4gC4eV14eROyZv6oFgNA==/109951166957932349.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "作曲 : 陈致逸 Yu-Peng Chen (HOYO-MiX)\n\n编曲 Arranger:苑迪萌 Dimeng Yuan (HOYO-MiX)\n尼龙弦吉他 Nylon-Stringed Guitar:范晔 Ye Fan\n钢弦吉他 Steel-Stringed Guitar:苑迪萌 Dimeng Yuan(HOYO-MiX)\n电吉他 Electric Guitar:苑迪萌 Dimeng Yuan(HOYO-MiX)\n录音棚 Recording Studio:上海广播大厦 Shanghai Media Group\n录音师 Recording Engineer:莫家伟 Jiawei Mo\n混音师 Mixing Engineer:黄巍 Zach Huang\n母带制作 Mastering Engineer:黄巍 Zach Huang\n出品 Produced by:HOYO-MiX\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=1913532410.mp3"
-		]
+		"ar": [
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 109499,
+		"al": {
+			"picUrl": "https://p2.music.126.net/sL4gC4eV14eROyZv6oFgNA==/109951166957932349.jpg"
+		},
+		"lyric": "作曲 : 陈致逸 Yu-Peng Chen (HOYO-MiX)\n\n编曲 Arranger:苑迪萌 Dimeng Yuan (HOYO-MiX)\n尼龙弦吉他 Nylon-Stringed Guitar:范晔 Ye Fan\n钢弦吉他 Steel-Stringed Guitar:苑迪萌 Dimeng Yuan(HOYO-MiX)\n电吉他 Electric Guitar:苑迪萌 Dimeng Yuan(HOYO-MiX)\n录音棚 Recording Studio:上海广播大厦 Shanghai Media Group\n录音师 Recording Engineer:莫家伟 Jiawei Mo\n混音师 Mixing Engineer:黄巍 Zach Huang\n母带制作 Mastering Engineer:黄巍 Zach Huang\n出品 Produced by:HOYO-MiX\n"
 	},
 	{
 		"id": 2041859147,
 		"name": "Maidens of Sanctity 花与树的女儿们",
-		"picUrl": "https://p1.music.126.net/f9Hbu5v27bGmg5ALM8iN9Q==/109951168565989598.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "作曲 : 姜以君 Yijun Jiang (HOYO-MiX)\n\n编曲 Arranger：姜以君 Yijun Jiang (HOYO-MiX)\n演唱 Voice：车子玉 Ziyu Che (HOYO-MiX)\n混音师 Mixing Engineer：黄巍 Zach Huang\n母带制作 Mastering Engineer：黄巍 Zach Huang\n出品 Produced by：HOYO-MiX\n\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=2041859147.mp3"
-		]
+		"ar": [
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 115797,
+		"al": {
+			"picUrl": "https://p2.music.126.net/f9Hbu5v27bGmg5ALM8iN9Q==/109951168565989598.jpg"
+		},
+		"lyric": "作曲 : 姜以君 Yijun Jiang (HOYO-MiX)\n\n编曲 Arranger：姜以君 Yijun Jiang (HOYO-MiX)\n演唱 Voice：车子玉 Ziyu Che (HOYO-MiX)\n混音师 Mixing Engineer：黄巍 Zach Huang\n母带制作 Mastering Engineer：黄巍 Zach Huang\n出品 Produced by：HOYO-MiX\n\n"
 	},
 	{
 		"id": 1817410057,
 		"name": "Qilin's Prance 麟跃幽岩",
-		"picUrl": "https://p1.music.126.net/hwxZS2Bv9Dht_8chjLLR-Q==/109951165690591384.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "[00:00.00-1] 作曲 : 陈致逸 Yu-Peng Chen (HOYO-MiX)\n[00:00.00-1] 编曲 : 苑迪萌 Dimeng Yuan (HOYO-MiX)\n[00:14.359] 笛子 Dizi:顾剑楠 Jiannan Gu\n[00:28.718] 电吉他 Electric Guitar:苑迪萌 Dimeng Yuan(HOYO-MiX)\n[00:43.077] 弦乐 Strings:国际首席爱乐乐团 International Master Philharmonic Orchestra\n[00:57.436] 录音棚 Recording Studio:金田录音棚 Jintian Recording Studio\n[01:11.795] 录音师 Recording Engineer:王小四 Xiaosi Wang\n[01:26.154] 混音/母带 Mixing/Mastering Engineer:苑迪萌 Dimeng Yuan (HOYO-MiX)\n[01:40.513] 出品 Produced by:HOYO-MiX\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=1817410057.mp3"
-		]
+		"ar": [
+			{
+				"name": "陈致逸"
+			},
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 100519,
+		"al": {
+			"picUrl": "https://p2.music.126.net/hwxZS2Bv9Dht_8chjLLR-Q==/109951165690591384.jpg"
+		},
+		"lyric": "[00:00.00-1] 作曲 : 陈致逸 Yu-Peng Chen (HOYO-MiX)\n[00:00.00-1] 编曲 : 苑迪萌 Dimeng Yuan (HOYO-MiX)\n[00:14.359] 笛子 Dizi:顾剑楠 Jiannan Gu\n[00:28.718] 电吉他 Electric Guitar:苑迪萌 Dimeng Yuan(HOYO-MiX)\n[00:43.077] 弦乐 Strings:国际首席爱乐乐团 International Master Philharmonic Orchestra\n[00:57.436] 录音棚 Recording Studio:金田录音棚 Jintian Recording Studio\n[01:11.795] 录音师 Recording Engineer:王小四 Xiaosi Wang\n[01:26.154] 混音/母带 Mixing/Mastering Engineer:苑迪萌 Dimeng Yuan (HOYO-MiX)\n[01:40.513] 出品 Produced by:HOYO-MiX\n"
 	},
 	{
 		"id": 1913532415,
 		"name": "Blossoms of Summer Night 硝华流焰",
-		"picUrl": "https://p1.music.126.net/sL4gC4eV14eROyZv6oFgNA==/109951166957932349.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "作曲 : 苑迪萌 Dimeng Yuan (HOYO-MiX)\n\n编曲 Arranger:苑迪萌 Dimeng Yuan (HOYO-MiX)\n乐队 Orchestra:国际首席爱乐乐团 International Master Philharmonic Orchestra\n篠笛 Shinobue:顾剑楠 Jiannan Gu\n尺八 Shakuhachi:顾剑楠 Jiannan Gu\n电吉他 Electric Guitar:苑迪萌 Dimeng Yuan(HOYO-MiX)\n电贝司 Electric Bass:苑迪萌 Dimeng Yuan(HOYO-MiX)\n录音棚 Recording Studio:上海广播大厦 Shanghai Media Group 金田录音棚 Jintian Recording Studio\n录音师 Recording Engineer:莫家伟 Jiawei Mo 王小四 Xiaosi Wang\n混音师 Mixing Engineer:苑迪萌 Dimeng Yuan (HOYO-MiX)\n母带制作 Mastering Engineer:苑迪萌 Dimeng Yuan (HOYO-MiX)\n出品 Produced by:HOYO-MiX\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=1913532415.mp3"
-		]
+		"ar": [
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 99984,
+		"al": {
+			"picUrl": "https://p2.music.126.net/sL4gC4eV14eROyZv6oFgNA==/109951166957932349.jpg"
+		},
+		"lyric": "作曲 : 苑迪萌 Dimeng Yuan (HOYO-MiX)\n\n编曲 Arranger:苑迪萌 Dimeng Yuan (HOYO-MiX)\n乐队 Orchestra:国际首席爱乐乐团 International Master Philharmonic Orchestra\n篠笛 Shinobue:顾剑楠 Jiannan Gu\n尺八 Shakuhachi:顾剑楠 Jiannan Gu\n电吉他 Electric Guitar:苑迪萌 Dimeng Yuan(HOYO-MiX)\n电贝司 Electric Bass:苑迪萌 Dimeng Yuan(HOYO-MiX)\n录音棚 Recording Studio:上海广播大厦 Shanghai Media Group 金田录音棚 Jintian Recording Studio\n录音师 Recording Engineer:莫家伟 Jiawei Mo 王小四 Xiaosi Wang\n混音师 Mixing Engineer:苑迪萌 Dimeng Yuan (HOYO-MiX)\n母带制作 Mastering Engineer:苑迪萌 Dimeng Yuan (HOYO-MiX)\n出品 Produced by:HOYO-MiX\n"
 	},
 	{
 		"id": 1992141906,
 		"name": "For Riddles, for Wonders 几初的智愿",
-		"picUrl": "https://p1.music.126.net/mi40R92CSJ6zeroCvLxQQA==/109951167997564898.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "作曲 : 陈致逸 Yu-Peng Chen (HOYO-MiX)\n\n编曲 Arranger：陈致逸 Yu-Peng Chen (HOYO-MiX)\n指挥 Conductor：Robert Ziegler\n乐队 Orchestra：伦敦交响乐团 London Symphony Orchestra\n班苏里笛 Bansuri：Eliza Marshall\n西塔尔琴 Sitar：Arjun Verma\n民乐监制 Folk Instruments Supervisor：Kuljit Bhamra\n录音棚 Recording Studio：St Luke's/Redfort Studio\n录音师 Recording Engineer：Lewis Jones/Kuljit Bhamra\n音频编辑 Editing Engineer：George Oulton/Freddie Light\n混音师 Mixing Engineer：Lewis Jones\n母带制作 Mastering Engineer：Simon Gibson\n出品 Produced by：HOYO-MiX\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=1992141906.mp3"
-		]
+		"ar": [
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 134426,
+		"al": {
+			"picUrl": "https://p2.music.126.net/mi40R92CSJ6zeroCvLxQQA==/109951167997564898.jpg"
+		},
+		"lyric": "作曲 : 陈致逸 Yu-Peng Chen (HOYO-MiX)\n\n编曲 Arranger：陈致逸 Yu-Peng Chen (HOYO-MiX)\n指挥 Conductor：Robert Ziegler\n乐队 Orchestra：伦敦交响乐团 London Symphony Orchestra\n班苏里笛 Bansuri：Eliza Marshall\n西塔尔琴 Sitar：Arjun Verma\n民乐监制 Folk Instruments Supervisor：Kuljit Bhamra\n录音棚 Recording Studio：St Luke's/Redfort Studio\n录音师 Recording Engineer：Lewis Jones/Kuljit Bhamra\n音频编辑 Editing Engineer：George Oulton/Freddie Light\n混音师 Mixing Engineer：Lewis Jones\n母带制作 Mastering Engineer：Simon Gibson\n出品 Produced by：HOYO-MiX\n"
 	},
 	{
 		"id": 2024659883,
 		"name": "Finality",
-		"picUrl": "https://p1.music.126.net/A6t-w6Q4PXcd_Lku9zaHTA==/109951168379389990.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "[00:00.00-1] 作曲 : 李敬浩Hao(HOYO-MiX)\n[00:41.000] 编曲 Arranger：李敬浩Hao(HOYO-MiX)\n[01:22.000] 混音 Mixing Engineer：李敬浩Hao(HOYO-MiX)\n[02:03.000] 母带 Matering Engineer：李敬浩Hao(HOYO-MiX)\n[02:44.000] 出品 Produced by：HOYO-MiX\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=2024659883.mp3"
-		]
+		"ar": [
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 164000,
+		"al": {
+			"picUrl": "https://p2.music.126.net/A6t-w6Q4PXcd_Lku9zaHTA==/109951168379389990.jpg"
+		},
+		"lyric": "[00:00.00-1] 作曲 : 李敬浩Hao(HOYO-MiX)\n[00:41.000] 编曲 Arranger：李敬浩Hao(HOYO-MiX)\n[01:22.000] 混音 Mixing Engineer：李敬浩Hao(HOYO-MiX)\n[02:03.000] 母带 Matering Engineer：李敬浩Hao(HOYO-MiX)\n[02:44.000] 出品 Produced by：HOYO-MiX\n"
 	},
 	{
 		"id": 1992344596,
 		"name": "Melody of Brave Seeds 和合大梦的曲调",
-		"picUrl": "https://p1.music.126.net/mi40R92CSJ6zeroCvLxQQA==/109951167997564898.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "作曲 : 陈致逸 Yu-Peng Chen (HOYO-MiX)\n\n编曲 Arranger：陈致逸 Yu-Peng Chen (HOYO-MiX) \n西塔尔琴 Sitar：Jonathan Mayer\n合唱指挥 Choir Conductor：齐放 Fang Qi\n合唱 Choir：Sfuture艺术团\n民乐监制 Folk Instruments Supervisor：Kuljit Bhamra\n录音棚 Recording Studio：Redfort Studio/Sound Pro Studio\n录音师 Recording Engineer：Kuljit Bhamra/曹晓冬 Xiaodong Cao\n音频编辑 Editing Engineer：George Oulton/Freddie Light/徐威 Aaron Xu\n混音师 Mixing Engineer：Lewis Jones/黄巍 Zach Huang\n母带制作 Mastering Engineer：Simon Gibson\n出品 Produced by：HOYO-MiX\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=1992344596.mp3"
-		]
+		"ar": [
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 117946,
+		"al": {
+			"picUrl": "https://p2.music.126.net/mi40R92CSJ6zeroCvLxQQA==/109951167997564898.jpg"
+		},
+		"lyric": "作曲 : 陈致逸 Yu-Peng Chen (HOYO-MiX)\n\n编曲 Arranger：陈致逸 Yu-Peng Chen (HOYO-MiX) \n西塔尔琴 Sitar：Jonathan Mayer\n合唱指挥 Choir Conductor：齐放 Fang Qi\n合唱 Choir：Sfuture艺术团\n民乐监制 Folk Instruments Supervisor：Kuljit Bhamra\n录音棚 Recording Studio：Redfort Studio/Sound Pro Studio\n录音师 Recording Engineer：Kuljit Bhamra/曹晓冬 Xiaodong Cao\n音频编辑 Editing Engineer：George Oulton/Freddie Light/徐威 Aaron Xu\n混音师 Mixing Engineer：Lewis Jones/黄巍 Zach Huang\n母带制作 Mastering Engineer：Simon Gibson\n出品 Produced by：HOYO-MiX\n"
 	},
 	{
 		"id": 1455706958,
 		"name": "Genshin Impact Main Theme 原神",
-		"picUrl": "https://p1.music.126.net/Ww8vFazA3y8UhREv7G9Urg==/109951165065099945.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "作曲 : 陈致逸 Yu-Peng Chen(HOYO-MiX)\n指挥 : Robert Ziegler\n乐队 : 伦敦爱乐乐团 London Philharmonic Orchestra\n录音棚 : Air Studios\n录音师 : Nick Wollage\n工程师 ProTools Operator : Laurence Anslow\n混音 : Nick Wollage\n母带 : John Webber\n出品 : HOYO-MiX\n指挥 Conductor:Robert Ziegler\n乐队 Orchestra:伦敦爱乐乐团 London Philharmonic Orchestra\n录音棚 Recording Studio:Air Studios\n录音师 Recording Engineer:Nick Wollage\n工程师 ProTools Operator:Laurence Anslow\n混音 Mixing Engineer:Nick Wollage\n母带 Mastering Engineer:John Webber\n出品 Produced by:HOYO-MiX\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=1455706958.mp3"
-		]
+		"ar": [
+			{
+				"name": "陈致逸"
+			},
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 106500,
+		"al": {
+			"picUrl": "https://p2.music.126.net/Ww8vFazA3y8UhREv7G9Urg==/109951165065099945.jpg"
+		},
+		"lyric": "作曲 : 陈致逸 Yu-Peng Chen(HOYO-MiX)\n指挥 : Robert Ziegler\n乐队 : 伦敦爱乐乐团 London Philharmonic Orchestra\n录音棚 : Air Studios\n录音师 : Nick Wollage\n工程师 ProTools Operator : Laurence Anslow\n混音 : Nick Wollage\n母带 : John Webber\n出品 : HOYO-MiX\n指挥 Conductor:Robert Ziegler\n乐队 Orchestra:伦敦爱乐乐团 London Philharmonic Orchestra\n录音棚 Recording Studio:Air Studios\n录音师 Recording Engineer:Nick Wollage\n工程师 ProTools Operator:Laurence Anslow\n混音 Mixing Engineer:Nick Wollage\n母带 Mastering Engineer:John Webber\n出品 Produced by:HOYO-MiX\n"
 	},
 	{
 		"id": 1859938906,
 		"name": "小家伙",
-		"picUrl": "https://p1.music.126.net/3AmwyNMasWFiiOIESHbqSw==/109951166162848710.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "[00:00.00] 作词 : Hanser\n[00:01.00] 作曲 : 文驰Vinchi(HOYO-MiX)\n[00:02.00] 编曲 : 文驰Vinchi(HOYO-MiX)\n[00:03.00] 制作人 : 文驰Vinchi(HOYO-MiX)\n[00:04.00] 混音 Mixing Engineer: 文驰Vinchi(HOYO-MiX)\n[00:05.00] 出品 Produced by:HOYO-MiX\n[00:07.18]是什么东西在这里闹得翻天覆地\n[00:12.00]是科技和上古的利器\n[00:15.04]龙女仆已经把番茄汁准备在手里\n[00:19.12]死神也一起专心这场游戏(走起)\n[00:23.08]虽然个头很迷你 但能力大的出奇\n[00:25.06]麻烦碰见在发脾气 还请保持点距离\n[00:27.04]要是得罪那就赶紧说声对不起\n[00:30.20]虽然明天大大大的磕绊有很多\n[00:34.17]但有伙伴们一起排排坐\n[00:38.11]麻烦从身边哒哒哒哒地路过\n[00:42.03]难不倒小家伙\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=1859938906.mp3"
-		]
+		"ar": [
+			{
+				"name": "Hanser"
+			},
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 49666,
+		"al": {
+			"picUrl": "https://p2.music.126.net/3AmwyNMasWFiiOIESHbqSw==/109951166162848710.jpg"
+		},
+		"lyric": "[00:00.00] 作词 : Hanser\n[00:01.00] 作曲 : 文驰Vinchi(HOYO-MiX)\n[00:02.00] 编曲 : 文驰Vinchi(HOYO-MiX)\n[00:03.00] 制作人 : 文驰Vinchi(HOYO-MiX)\n[00:04.00] 混音 Mixing Engineer: 文驰Vinchi(HOYO-MiX)\n[00:05.00] 出品 Produced by:HOYO-MiX\n[00:07.18]是什么东西在这里闹得翻天覆地\n[00:12.00]是科技和上古的利器\n[00:15.04]龙女仆已经把番茄汁准备在手里\n[00:19.12]死神也一起专心这场游戏(走起)\n[00:23.08]虽然个头很迷你 但能力大的出奇\n[00:25.06]麻烦碰见在发脾气 还请保持点距离\n[00:27.04]要是得罪那就赶紧说声对不起\n[00:30.20]虽然明天大大大的磕绊有很多\n[00:34.17]但有伙伴们一起排排坐\n[00:38.11]麻烦从身边哒哒哒哒地路过\n[00:42.03]难不倒小家伙\n"
 	},
 	{
 		"id": 1969195578,
 		"name": "Elysian Realm",
-		"picUrl": "https://p1.music.126.net/htzLixA-NYQ0Uj16KKQ45w==/109951167741983274.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "[00:00.00] 作曲 : 李敬浩Hao(HOYO-MiX)\n[99:00.00]纯音乐，请欣赏\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=1969195578.mp3"
-		]
+		"ar": [
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 109714,
+		"al": {
+			"picUrl": "https://p2.music.126.net/htzLixA-NYQ0Uj16KKQ45w==/109951167741983274.jpg"
+		},
+		"lyric": "[00:00.00] 作曲 : 李敬浩Hao(HOYO-MiX)\n[99:00.00]纯音乐，请欣赏\n"
 	},
 	{
 		"id": 1937111535,
 		"name": "Thunderings of the Merciless 雷霆的威光",
-		"picUrl": "https://p1.music.126.net/ItGglGmjUh3x7HL2qHkurQ==/109951167277673214.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "作曲 : 陈致逸 Yu-Peng Chen (HOYO-MiX)\n编曲 : 赵鑫 Xin Zhao (HOYO-MiX)\n\n乐队 Orchestra:国际首席爱乐乐团 International Master Philharmonic Orchestra\n尺八 Shakuhachi:寄田 真見乃 Mamino Yorita\n筝 Koto:渡邊 香澄 Kasumi Watanabe\n钢琴 Piano:陈致逸 Yu-Peng Chen(HOYO-MiX)\n录音棚 Recording Studio:Heartbeat Recording Studio、金田录音棚 Jintian Recording Studio\n音乐监制 Music Supervisor:千葉 智史 Satoshi Chiba (Sony Music Publishing (Japan) Inc.)\n录音师 Recording Engineer:吉羽 貴史 Takashi Yoshiba (Smart Break Sound)、王小四 Xiaosi Wang\n混音师 Mixing Engineer:黄巍 Zach Huang\n母带制作 Mastering Engineer:黄巍 Zach Huang\n联合制作 Co-produced by:Sony Music Entertainment (Japan) Inc.\n出品 Produced by:HOYO-MiX\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=1937111535.mp3"
-		]
-	},
-	{
-		"id": 2034614720,
-		"name": "星穹铁道 Star Rail",
-		"picUrl": "https://p1.music.126.net/RWIGyShmnjmUxizXco6fVg==/109951168505830245.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "作曲 : 林一凡Fan (HOYO-MiX)\n\n编曲 Arranger：文驰Vinchi (HOYO-MiX)\n乐队 Orchestra：龙之艺交响乐团 Art of Loong Orchestra\n大提琴 Cello：陈小龙 Xiaolong Chen\n录音棚 Recording Studio：上海音像公司录音棚 YX STUDIO\n录音师 Recording Engineer：莫家伟 Jiawei Mo\n混音师 Mixing Engineer：文驰Vinchi (HOYO-MiX)\n母带制作 Mastering Engineer：宫奇Gon (HOYO-MiX)\n出品 Produced by：HOYO-MiX\t\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=2034614720.mp3"
-		]
-	},
-	{
-		"id": 2067225849,
-		"name": "天下熙熙 Anthropic Domain",
-		"picUrl": "https://p1.music.126.net/oDhurcFOPMPVMLnc6xF99A==/109951168765200998.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "作曲 : 林一凡Fan (HOYO-MiX)\n\n编曲 Arranger：林一凡Fan (HOYO-MiX)\n乐队 Orchestra：龙之艺交响乐团 Art of Loong Orchestra\n琵琶 Pipa：施文卿\n古筝 Guzheng：施佳加\n排鼓 Paigu：李承颖\n大提琴Cello：陈小龙\n人声 Vocal：王皓 / 张超俊 / 苏美玲 / 田佳 / 林一凡Fan (HOYO-MiX)\n录音棚 Recording Studio：52Hz studio / 上海音像公司录音棚 YX STUDIO / 牛班录音棚 New Band Studio\n录音师 Recording Engineer：黄巍 Zach Huang / 徐威 Aaron Xu / 莫家伟 Jiawei Mo / 胡友林 Breeze\n混音师 Mixing Engineer：林一凡Fan (HOYO-MiX)\n母带制作 Mastering Engineer：Calbi/Fallone@SterlingSound\n出品 Produced by：HOYO-MiX\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=2067225849.mp3"
-		]
-	},
-	{
-		"id": 2067222264,
-		"name": "邀挽明月成宵宴 Lustrous Moonlight",
-		"picUrl": "https://p1.music.126.net/oDhurcFOPMPVMLnc6xF99A==/109951168765200998.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "作曲 : 林一凡Fan (HOYO-MiX)\n\n编曲 Arranger：林一凡Fan (HOYO-MiX)\n乐队 Orchestra：龙之艺交响乐团 Art of Loong Orchestra\n古筝 Guzheng：施佳加\n笛子 Dizi：顾剑楠\n二胡 Erhu：马稼骏\n琵琶 Pipa：施文卿\n录音棚 Recording Studio：升赫录音棚Soundhub Studio / 上海音像公司录音棚 YX STUDIO\n录音师 Recording Engineer：焦磊@Soundhub Studios / 莫家伟 Jiawei Mo\n混音师 Mixing Engineer：林一凡Fan (HOYO-MiX)\n母带制作 Mastering Engineer：Calbi/Fallone@SterlingSound\n出品 Produced by：HOYO-MiX\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=2067222264.mp3"
-		]
+		"ar": [
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 208817,
+		"al": {
+			"picUrl": "https://p2.music.126.net/ItGglGmjUh3x7HL2qHkurQ==/109951167277673214.jpg"
+		},
+		"lyric": "作曲 : 陈致逸 Yu-Peng Chen (HOYO-MiX)\n编曲 : 赵鑫 Xin Zhao (HOYO-MiX)\n\n乐队 Orchestra:国际首席爱乐乐团 International Master Philharmonic Orchestra\n尺八 Shakuhachi:寄田 真見乃 Mamino Yorita\n筝 Koto:渡邊 香澄 Kasumi Watanabe\n钢琴 Piano:陈致逸 Yu-Peng Chen(HOYO-MiX)\n录音棚 Recording Studio:Heartbeat Recording Studio、金田录音棚 Jintian Recording Studio\n音乐监制 Music Supervisor:千葉 智史 Satoshi Chiba (Sony Music Publishing (Japan) Inc.)\n录音师 Recording Engineer:吉羽 貴史 Takashi Yoshiba (Smart Break Sound)、王小四 Xiaosi Wang\n混音师 Mixing Engineer:黄巍 Zach Huang\n母带制作 Mastering Engineer:黄巍 Zach Huang\n联合制作 Co-produced by:Sony Music Entertainment (Japan) Inc.\n出品 Produced by:HOYO-MiX\n"
 	},
 	{
 		"id": 1910966474,
 		"name": "华灯星聚 Myriad of Lights",
-		"picUrl": "https://p1.music.126.net/8gMfTTbDifrypmWQ2fM0Ig==/109951166919194723.jpg",
-		"singer": "HOYO-MiX",
-		"lyric": "作曲 : 陈致逸Yu-Peng Chen (HOYO-MiX)\n\n编曲 Arranger : 陈致逸Yu-Peng Chen (HOYO-MiX)\n二胡 Erhu:马稼骏Jiajun Ma\n笛子 Dizi:顾剑楠Jiannan Gu\n古筝 Guzheng:王宇宸Yuchen Wang\n原声吉他Acoustic Guitar: 赵鑫Xin Zhao(HOYO-MiX)\n电吉他Electric Guitar: 赵鑫Xin Zhao(HOYO-MiX)\n乐队Orchestra：龙之艺交响乐团Art of Dragon Orchestra\n录音棚Recording Studio：上海广播大厦Shanghai Media Group \n录音师Recording Engineer：莫家伟Jiawei Mo \n混音师Mixing Engineer ：黄巍Zach Huang \n母带制作Mastering Engineer：黄巍Zach Huang  \n出品Produced by ：HOYO-MiX\n",
-		"url": [
-			"https://music.163.com/song/media/outer/url?id=1910966474.mp3"
-		]
+		"ar": [
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 248021,
+		"al": {
+			"picUrl": "https://p2.music.126.net/8gMfTTbDifrypmWQ2fM0Ig==/109951166919194723.jpg"
+		},
+		"lyric": "作曲 : 陈致逸Yu-Peng Chen (HOYO-MiX)\n\n编曲 Arranger : 陈致逸Yu-Peng Chen (HOYO-MiX)\n二胡 Erhu:马稼骏Jiajun Ma\n笛子 Dizi:顾剑楠Jiannan Gu\n古筝 Guzheng:王宇宸Yuchen Wang\n原声吉他Acoustic Guitar: 赵鑫Xin Zhao(HOYO-MiX)\n电吉他Electric Guitar: 赵鑫Xin Zhao(HOYO-MiX)\n乐队Orchestra：龙之艺交响乐团Art of Dragon Orchestra\n录音棚Recording Studio：上海广播大厦Shanghai Media Group \n录音师Recording Engineer：莫家伟Jiawei Mo \n混音师Mixing Engineer ：黄巍Zach Huang \n母带制作Mastering Engineer：黄巍Zach Huang  \n出品Produced by ：HOYO-MiX\n"
+	},
+	{
+		"id": 2034614720,
+		"name": "星穹铁道 Star Rail",
+		"ar": [
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 68056,
+		"al": {
+			"picUrl": "https://p2.music.126.net/RWIGyShmnjmUxizXco6fVg==/109951168505830245.jpg"
+		},
+		"lyric": "作曲 : 林一凡Fan (HOYO-MiX)\n\n编曲 Arranger：文驰Vinchi (HOYO-MiX)\n乐队 Orchestra：龙之艺交响乐团 Art of Loong Orchestra\n大提琴 Cello：陈小龙 Xiaolong Chen\n录音棚 Recording Studio：上海音像公司录音棚 YX STUDIO\n录音师 Recording Engineer：莫家伟 Jiawei Mo\n混音师 Mixing Engineer：文驰Vinchi (HOYO-MiX)\n母带制作 Mastering Engineer：宫奇Gon (HOYO-MiX)\n出品 Produced by：HOYO-MiX\t\n"
+	},
+	{
+		"id": 2067225849,
+		"name": "天下熙熙 Anthropic Domain",
+		"ar": [
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 104796,
+		"al": {
+			"picUrl": "https://p2.music.126.net/oDhurcFOPMPVMLnc6xF99A==/109951168765200998.jpg"
+		},
+		"lyric": "作曲 : 林一凡Fan (HOYO-MiX)\n\n编曲 Arranger：林一凡Fan (HOYO-MiX)\n乐队 Orchestra：龙之艺交响乐团 Art of Loong Orchestra\n琵琶 Pipa：施文卿\n古筝 Guzheng：施佳加\n排鼓 Paigu：李承颖\n大提琴Cello：陈小龙\n人声 Vocal：王皓 / 张超俊 / 苏美玲 / 田佳 / 林一凡Fan (HOYO-MiX)\n录音棚 Recording Studio：52Hz studio / 上海音像公司录音棚 YX STUDIO / 牛班录音棚 New Band Studio\n录音师 Recording Engineer：黄巍 Zach Huang / 徐威 Aaron Xu / 莫家伟 Jiawei Mo / 胡友林 Breeze\n混音师 Mixing Engineer：林一凡Fan (HOYO-MiX)\n母带制作 Mastering Engineer：Calbi/Fallone@SterlingSound\n出品 Produced by：HOYO-MiX\n"
+	},
+	{
+		"id": 2067222264,
+		"name": "邀挽明月成宵宴 Lustrous Moonlight",
+		"ar": [
+			{
+				"name": "HOYO-MiX"
+			}
+		],
+		"dt": 121455,
+		"al": {
+			"picUrl": "https://p2.music.126.net/oDhurcFOPMPVMLnc6xF99A==/109951168765200998.jpg"
+		},
+		"lyric": "作曲 : 林一凡Fan (HOYO-MiX)\n\n编曲 Arranger：林一凡Fan (HOYO-MiX)\n乐队 Orchestra：龙之艺交响乐团 Art of Loong Orchestra\n古筝 Guzheng：施佳加\n笛子 Dizi：顾剑楠\n二胡 Erhu：马稼骏\n琵琶 Pipa：施文卿\n录音棚 Recording Studio：升赫录音棚Soundhub Studio / 上海音像公司录音棚 YX STUDIO\n录音师 Recording Engineer：焦磊@Soundhub Studios / 莫家伟 Jiawei Mo\n混音师 Mixing Engineer：林一凡Fan (HOYO-MiX)\n母带制作 Mastering Engineer：Calbi/Fallone@SterlingSound\n出品 Produced by：HOYO-MiX\n"
 	}
 ]

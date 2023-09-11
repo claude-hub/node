@@ -143,4 +143,10 @@ const neteaseCloudMusic = async () => {
   await writeFile(`../musics/artists/index.json`, singers);
 };
 
-neteaseCloudMusic();
+const downloadMusic = () => {
+};
+
+module.exports = {
+  neteaseCloudMusic,
+  downloadMusic,
+};

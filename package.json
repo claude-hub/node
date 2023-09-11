@@ -5,7 +5,8 @@
     "packages/*"
   ],
   "scripts": {
-    "music": "lerna run build --scope=@cloud/music",
+    "music": "lerna run parse --scope=@cloud/music",
+    "download": "lerna run download --scope=@cloud/music",
     "git": "lerna run git --scope=@cloud/git"
   },
   "dependencies": {},

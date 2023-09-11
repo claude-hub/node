@@ -1,7 +1,6 @@
-const fs = require('fs');
-const path = require('path');
 const request = require('../utils/request');
-const { createPath } = require('../utils/file');
+const path = require('path');
+const { writeFile } = require('../utils/file');
 
 /**
  * 查询歌词
@@ -97,19 +96,23 @@ const queryArtists = async () => {
 };
 
 /**
- * 把音乐信息写入文件
- * @param {*} filePath
- * @param {*} data
+ * 解析歌手的所有音乐
+ * @param {*} artistId
+ * @returns
  */
-const writeFile = async (filePath, data) => {
-  const musicPath = path.join(__dirname, filePath);
+const artistSongs = async (artistId) => {
+  const songs = await queryArtistSongs(artistId);
 
-  await createPath(musicPath);
-
-  fs.writeFileSync(
-    path.resolve(__dirname, musicPath),
-    JSON.stringify(data, '', '\t')
-  );
+  const info = songs.map(async (song) => {
+    const { id: songId } = song;
+    const lyric = await queryLyric(songId);
+    return {
+      ...song,
+      lyric,
+    };
+  });
+  const musics = await Promise.all(info);
+  return musics;
 };
 
 /**
@@ -121,32 +124,27 @@ const neteaseCloudMusic = async () => {
   for (let index = 0; index < artists.length; index++) {
     const artist = artists[index];
     const { id: artistId, name: artistName } = artist;
-    const songs = await queryArtistSongs(artistId);
+    const musics = await artistSongs(artistId);
 
-    const info = songs.map(async (song) => {
-      const { id: songId } = song;
-      const lyric = await queryLyric(songId);
-      return {
-        ...song,
-        lyric,
-      };
-    });
-    const musics = await Promise.all(info);
-
-    await writeFile(`../musics/artists/${artistName}.json`, musics);
+    await writeFile(
+      path.resolve(__dirname, `../musics/artists/${artistName}.json`),
+      musics
+    );
   }
   const singers = artists.map((artist) => {
     const { name, picUrl } = artist;
     return { name, picUrl };
   });
 
-  await writeFile(`../musics/artists/index.json`, singers);
-};
-
-const downloadMusic = () => {
+  await writeFile(
+    path.resolve(__dirname, `../musics/artists/index.json`),
+    singers
+  );
 };
 
 module.exports = {
+  artistSongs,
+  queryArtistSongs,
   neteaseCloudMusic,
-  downloadMusic,
+  queryArtists,
 };

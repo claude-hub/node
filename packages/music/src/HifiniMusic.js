@@ -125,59 +125,81 @@ const saveMusicUrl = (singerName, musicName, musicSrc, fileName) => {
   console.log(`==== music ${musicName} save success!`);
 };
 
-const queryMisic = async (lines, singerName, fileName) => {
-  for (let index = 0; index < lines.length; index++) {
-    const line = lines[index];
+// const queryMisic = async (lines, singerName, fileName) => {
+//   for (let index = 0; index < lines.length; index++) {
+//     const line = lines[index];
 
-    if (index === 0 && line.includes('歌手')) {
-      continue;
-    }
-    let musicName = getMusciName(line);
-    console.log(1, encodePrintableCode(`${singerName}${musicName}`))
-    const { data } = await axios(
-      encodePrintableCode(`${singerName}${musicName}`)
-    );
-    const url = parseHtmlAndGetData(data, singerName);
-    console.log(2, url);
-    if (!url) {
-      continue;
-    }
+//     if (index === 0 && line.includes('歌手')) {
+//       continue;
+//     }
+//     let musicName = getMusciName(line);
+//     console.log(1, encodePrintableCode(`${singerName}${musicName}`))
+//     const { data } = await axios(
+//       encodePrintableCode(`${singerName}${musicName}`)
+//     );
+//     const url = parseHtmlAndGetData(data, singerName);
+//     console.log(2, url);
+//     if (!url) {
+//       continue;
+//     }
 
-    const { data: html } = await axios(url);
+//     const { data: html } = await axios(url);
 
-    if (!html) {
-      console.error(musicName + '  url error->' + url + '\n');
-    }
-    const musicSrc = getMusicSrc(html);
-    const musicInfo = {
-      name: musicName,
-      filePath: `${line}.mp3`,
-      musicSrc: 'null',
-    };
-    console.log(3, musicSrc, new Date().toLocaleString());
-    if (!musicSrc) {
-      console.log(`save -> ${musicInfo.filePath} -->  failed`);
-    } else {
-      saveMusicUrl(singerName, musicName, musicSrc, fileName);
-    }
-  }
-};
+//     if (!html) {
+//       console.error(musicName + '  url error->' + url + '\n');
+//     }
+//     const musicSrc = getMusicSrc(html);
+//     const musicInfo = {
+//       name: musicName,
+//       filePath: `${line}.mp3`,
+//       musicSrc: 'null',
+//     };
+//     console.log(3, musicSrc, new Date().toLocaleString());
+//     if (!musicSrc) {
+//       console.log(`save -> ${musicInfo.filePath} -->  failed`);
+//     } else {
+//       saveMusicUrl(singerName, musicName, musicSrc, fileName);
+//     }
+//   }
+// };
 
-const parseMusic = () => {
-  musics.map(async (music) => {
-    const fileData = fs.readFileSync(path.resolve(__dirname, music), 'utf-8');
-    const lines = fileData
-      .split('\n')
-      .map((v) => v.trim())
-      .filter((item) => item);
-    const fileName = music.replace('.txt', '');
-    const [userStr = ''] = lines;
-    let singerName = '';
-    if (userStr.includes('歌手')) {
-      singerName = userStr.replace('歌手:', '');
-    }
-    await queryMisic(lines, singerName, fileName);
-  });
-}
+// const parseMusic = () => {
+//   musics.map(async (music) => {
+//     const fileData = fs.readFileSync(path.resolve(__dirname, music), 'utf-8');
+//     const lines = fileData
+//       .split('\n')
+//       .map((v) => v.trim())
+//       .filter((item) => item);
+//     const fileName = music.replace('.txt', '');
+//     const [userStr = ''] = lines;
+//     let singerName = '';
+//     if (userStr.includes('歌手')) {
+//       singerName = userStr.replace('歌手:', '');
+//     }
+//     await queryMisic(lines, singerName, fileName);
+//   });
+// }
 
 // parseMusic();
+
+const queryMusic = async (keywords, singerName) => {
+  console.log(1, encodePrintableCode(keywords));
+  const { data } = await axios(encodePrintableCode(keywords));
+  const url = parseHtmlAndGetData(data, singerName || keywords);
+  console.log(2, url);
+  if (!url) {
+    return '';
+  }
+
+  const { data: html } = await axios(url);
+
+  if (!html) {
+    return '';
+  }
+  const musicSrc = getMusicSrc(html);
+  return musicSrc;
+};
+
+module.exports = {
+  queryMusic,
+};

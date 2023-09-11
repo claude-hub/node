@@ -1,10 +1,16 @@
+/*
+ * @@Author: zhangyunpeng@sensorsdata.cn
+ * @@Description: 
+ * @Date: 2023-09-05 18:31:52
+ * @LastEditTime: 2023-09-11 18:23:33
+ */
 const fs = require('fs');
 const path = require('path');
 
 /**
  * 判断路径是否存在
- * @param {*} path 
- * @returns 
+ * @param {*} path
+ * @returns
  */
 const getStat = (path) => {
   return new Promise((resolve) => {
@@ -38,7 +44,7 @@ const mkdir = (dir) => {
  * 路径是否存在，不存在则创建
  * @param {string} dir 路径
  */
-const createPath = async (filePath = '') => {
+const createPath = async (filePath = '', createFile = true) => {
   const isExists = await getStat(filePath);
   //如果存在该路径返回true
   if (isExists) {
@@ -72,11 +78,25 @@ const createPath = async (filePath = '') => {
   await dirExists(dirPath);
 
   // 如果是文件，则尝试写入，写入时，如果文件不存在则会创建
-  if (isFilePath) {
+  if (isFilePath && createFile) {
     fs.appendFileSync(filePath, '');
   }
 };
 
+/**
+ * 写入文件
+ * @param {*} filePath
+ * @param {*} data
+ */
+const writeFile = async (filePath, data) => {
+  await createPath(filePath);
+  fs.writeFileSync(
+    path.resolve(__dirname, musicPath),
+    JSON.stringify(data, '', '\t')
+  );
+};
+
 module.exports = {
-  createPath
-}
+  createPath,
+  writeFile,
+};

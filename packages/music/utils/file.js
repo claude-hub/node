@@ -2,7 +2,7 @@
  * @@Author: zhangyunpeng@sensorsdata.cn
  * @@Description: 
  * @Date: 2023-09-05 18:31:52
- * @LastEditTime: 2023-09-11 18:23:33
+ * @LastEditTime: 2023-09-11 19:36:00
  */
 const fs = require('fs');
 const path = require('path');
@@ -91,7 +91,7 @@ const createPath = async (filePath = '', createFile = true) => {
 const writeFile = async (filePath, data) => {
   await createPath(filePath);
   fs.writeFileSync(
-    path.resolve(__dirname, musicPath),
+    filePath,
     JSON.stringify(data, '', '\t')
   );
 };

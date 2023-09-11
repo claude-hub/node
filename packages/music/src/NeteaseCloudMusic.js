@@ -147,4 +147,5 @@ module.exports = {
   queryArtistSongs,
   neteaseCloudMusic,
   queryArtists,
+  queryLyric,
 };

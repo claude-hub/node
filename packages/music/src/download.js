@@ -2,13 +2,13 @@
  * @@Author: claudez1115@gmail.com
  * @@Description: 下载音乐
  * @Date: 2023-09-11 16:46:05
- * @LastEditTime: 2023-09-11 18:58:07
+ * @LastEditTime: 2023-09-11 19:39:28
  */
 
 const { default: axios } = require('axios');
 const fs = require('fs');
 const path = require('path');
-const { queryArtists, queryArtistSongs } = require('./NeteaseCloudMusic');
+const { queryArtists, queryArtistSongs, queryLyric } = require('./NeteaseCloudMusic');
 const { writeFile, createPath } = require('../utils/file');
 const { queryMusic } = require('./HifiniMusic');
 
@@ -38,6 +38,15 @@ const downloadNeteaseCloudMusic = async (url) => {
   return data;
 };
 
+const downloadLrc = async (id, filePath) => {
+  const lyric = await queryLyric(id);
+  // await writeFile(filePath, lyric)
+  fs.writeFileSync(
+    filePath,
+    lyric,
+  );
+}
+
 const downloadMp3 = async (id, artistName, name) => {
   return new Promise(async (resolve, reject) => {
     try {
@@ -56,15 +65,16 @@ const downloadMp3 = async (id, artistName, name) => {
         if (!data) return resolve();
       }
       const filePath = path.resolve(__dirname, musicPath);
-      console.log(filePath)
       await createPath(filePath);
 
       const writeStream = fs.createWriteStream(filePath, {
         flags: 'w',
         autoClose: true,
       });
-      data.pipe(writeStream).on('close', () => {
-        console.log('==close==');
+      data.pipe(writeStream).on('close', async () => {
+        console.log('==music done==', filePath);
+        await downloadLrc(id, filePath.replace('.mp3', '.lrc'));
+        console.log('==lrc done==');
         resolve();
       });
     } catch (e) {

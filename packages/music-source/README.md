@@ -1,11 +1,13 @@
 # `music-source`
 
-> TODO: description
-
 ## Usage
 
 ```
-const musicSource = require('music-source');
+const queryMusic = require('@claude/music-source');
 
-// TODO: DEMONSTRATE API
+(async () => {
+  const url = await queryMusic('稻香');
+  console.log(url);
+})()
+
 ```

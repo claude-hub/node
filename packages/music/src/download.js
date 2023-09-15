@@ -2,19 +2,19 @@
  * @@Author: claudez1115@gmail.com
  * @@Description: 下载音乐
  * @Date: 2023-09-11 16:46:05
- * @LastEditTime: 2023-09-11 19:39:28
+ * @LastEditTime: 2023-09-15 18:55:24
  */
 
 const { default: axios } = require('axios');
 const fs = require('fs');
 const path = require('path');
+const queryMusic = require('@claude-hub/music-source');
 const {
   queryArtists,
   queryArtistSongs,
   queryLyric,
 } = require('./NeteaseCloudMusic');
 const { createPath } = require('../utils/file');
-const { queryMusic } = require('./HifiniMusic');
 
 const headers = {
   accept: '*/*',
@@ -72,7 +72,7 @@ const downloadMp3 = async (id, artistName, name) => {
         let data = await downloadNeteaseCloudMusic(url);
         if (!data) {
           // 去 hifini.com 下载
-          const src = await queryMusic(`${artistName}${name}`, artistName);
+          const src = await queryMusic(name);
           data = await downloadNeteaseCloudMusic(src);
           // musicPath = `../songs/${artistName}/${name}.mp3`;
           if (!data) return resolve();
@@ -106,8 +106,10 @@ const downloadMusic = async () => {
     if (artistName === '刘大拿') continue;
     const musics = await queryArtistSongs(artistId);
     for (let i = 0; i < musics.length; i++) {
-      const { id, name } = musics[i];
-      await downloadMp3(id, artistName, name);
+      if (i === 1) {
+        const { id, name } = musics[i];
+        await downloadMp3(id, artistName, name);
+      }
     }
   }
 };

@@ -1,4 +1,5 @@
 {
+  "npmClient": "yarn",
   "packages": [
     {{#each packages}}
       {{#if @last}}

@@ -3,7 +3,7 @@
  * @@Description: 选择独立包发布
  * https://juejin.cn/post/7012622147726082055
  * @Date: 2023-09-15 15:38:31
- * @LastEditTime: 2023-09-15 16:20:00
+ * @LastEditTime: 2023-09-15 17:07:59
  */
 const globby = require('globby');
 const inquirer = require('inquirer');
@@ -42,7 +42,7 @@ const publish = async () => {
   const publishPackages = await choosePackage(packages);
   if (publishPackages.packages.length !== 0) {
     reWriteLerna(publishPackages);
-    execa.commandSync('lerna publish', {
+    execa.commandSync('npx lerna publish', {
       stdio: 'inherit',
       cwd,
     });

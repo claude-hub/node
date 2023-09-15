@@ -30,7 +30,7 @@ const headers = {
   'Content-Type': 'audio/mp4',
 };
 
-const downloadNeteaseCloudMusic = async (url) => {
+const downloadMusicStream = async (url) => {
   const { data } = await axios({
     url: encodeURI(url),
     method: 'get',
@@ -47,69 +47,79 @@ const downloadLrc = async (id, filePath) => {
   fs.writeFileSync(filePath, lyric, 'utf-8');
 };
 
-const downloadMp3 = async (id, artistName, name) => {
-  return new Promise(async (resolve, reject) => {
+const downloadHifini = async (name) => {
+  return new Promise(async (resolve) => {
     setTimeout(async () => {
       try {
-        if (!id || !artistName || !name) {
-          return resolve();
-        }
-        console.log('====0====', `${artistName}-${name}.mp3`);
-        const url = `https://music.163.com/song/media/outer/url?id=${id}.mp3`;
-        let musicPath = `../songs/${artistName}/${artistName}-${name}.mp3`;
-        const filePath = path.resolve(__dirname, musicPath);
-        const exists = fs.existsSync(filePath);
-        const lrcPath = filePath.replace('.mp3', '.lrc');
-        if (exists) {
-          if (fs.existsSync(lrcPath)) {
-            return resolve();
-          } else {
-            await downloadLrc(id, lrcPath);
-          }
-          return resolve();
-        }
-
-        let data = await downloadNeteaseCloudMusic(url);
-        if (!data) {
-          // 去 hifini.com 下载
-          const src = await queryMusic(name);
-          data = await downloadNeteaseCloudMusic(src);
-          // musicPath = `../songs/${artistName}/${name}.mp3`;
-          if (!data) return resolve();
-        }
-
-        await createPath(filePath.replace(`${artistName}-${name}.mp3`, ''));
-
-        const writeStream = fs.createWriteStream(filePath, {
-          flags: 'w',
-          autoClose: true,
-        });
-        data.pipe(writeStream).on('close', async () => {
-          // console.log('====3====', filePath);
-          await downloadLrc(id, lrcPath);
-          // console.log('====4====');
-          resolve();
-        });
-      } catch (e) {
-        console.log('====err====', `${artistName}-${name}.mp3`);
-        resolve(e);
+        const url = await queryMusic(name);
+        resolve(url);
+      } catch {
+        resolve('');
       }
-    }, 1000);
+    }, 2_1000);
+  });
+};
+
+const downloadMp3 = async (id, artistName, name) => {
+  return new Promise(async (resolve) => {
+    try {
+      if (!id || !artistName || !name) {
+        return resolve();
+      }
+      // console.log('====0====', `${artistName}-${name}.mp3`);
+      const url = `https://music.163.com/song/media/outer/url?id=${id}.mp3`;
+      let musicPath = `../songs/${artistName}/${artistName}-${name}.mp3`;
+      const filePath = path.resolve(__dirname, musicPath);
+      const exists = fs.existsSync(filePath);
+      const lrcPath = filePath.replace('.mp3', '.lrc');
+      if (exists) {
+        if (fs.existsSync(lrcPath)) {
+          return resolve();
+        } else {
+          await downloadLrc(id, lrcPath);
+        }
+        return resolve();
+      }
+
+      let data = await downloadMusicStream(url);
+      if (!data) {
+        console.log('====hifini====', `${artistName}-${name}.mp3`);
+        // 去 hifini.com 下载
+        const src = await downloadHifini(name);
+        data = await downloadMusicStream(src);
+        // musicPath = `../songs/${artistName}/${name}.mp3`;
+        if (!data) return resolve();
+      }
+
+      await createPath(filePath.replace(`${artistName}-${name}.mp3`, ''));
+
+      const writeStream = fs.createWriteStream(filePath, {
+        flags: 'w',
+        autoClose: true,
+      });
+      data.pipe(writeStream).on('close', async () => {
+        // console.log('====3====', filePath);
+        await downloadLrc(id, lrcPath);
+        // console.log('====4====');
+        resolve();
+      });
+    } catch (e) {
+      console.log('====err====', `${artistName}-${name}.mp3`);
+      resolve(e);
+    }
   });
 };
 
 const downloadMusic = async () => {
   const artists = await queryArtists();
-  for (let index = 0; index < 1; index++) {
+  for (let index = 0; index < artists.length; index++) {
     const artist = artists[index];
     const { id: artistId, name: artistName } = artist;
     if (artistName === '刘大拿') continue;
     const musics = await queryArtistSongs(artistId);
     for (let i = 0; i < musics.length; i++) {
-      if (i === 1) {
-        const { id, name } = musics[i];
-        await downloadMp3(id, artistName, name);
-      }
+      const { id, name } = musics[i];
+      await downloadMp3(id, artistName, name);
     }
   }
 };

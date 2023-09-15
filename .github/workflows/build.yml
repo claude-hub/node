@@ -1,36 +1,36 @@
-name: Cloud Music
+# name: Cloud Music
 
-on: 
-  push:
-    tags
+# on: 
+#   push:
+#     tags
   
-  # schedule:
-  #   # 每天运行一次
-  #   - cron:  '0 0 * * *'
-  #   # 没小时运行一次
-  #   # - cron:  '0 * * * *'
-  #   # 从0分钟开始，每5分钟运行一次
-  #   # - cron:  '0/5 * * * *'
+#   # schedule:
+#   #   # 每天运行一次
+#   #   - cron:  '0 0 * * *'
+#   #   # 没小时运行一次
+#   #   # - cron:  '0 * * * *'
+#   #   # 从0分钟开始，每5分钟运行一次
+#   #   # - cron:  '0/5 * * * *'
 
-jobs:
-  Build_Music:
-    runs-on: ubuntu-latest
-    steps:
-      # 第一步：下载源码（CI/CD拉取代码到自己的本地）
-      - name: Check out repository code
-        uses: actions/checkout@v3
+# jobs:
+#   Build_Music:
+#     runs-on: ubuntu-latest
+#     steps:
+#       # 第一步：下载源码（CI/CD拉取代码到自己的本地）
+#       - name: Check out repository code
+#         uses: actions/checkout@v3
 
-      # 第二步：依赖 node 18 环境
-      - name: Install Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18
+#       # 第二步：依赖 node 18 环境
+#       - name: Install Node.js
+#         uses: actions/setup-node@v3
+#         with:
+#           node-version: 18
 
-      # 第三步：安装依赖
-      - name: Install
-        run: npm i
+#       # 第三步：安装依赖
+#       - name: Install
+#         run: npm i
 
-      # 第四部：执行脚本
-      - run: npm run music
+#       # 第四部：执行脚本
+#       - run: npm run music
 
-      - run: echo "🍏 This job's status is ${{ job.status }}."
+#       - run: echo "🍏 This job's status is ${{ job.status }}."

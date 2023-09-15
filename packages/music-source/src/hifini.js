@@ -1,14 +1,10 @@
 /*
  * @@Author: zhangyunpeng@sensorsdata.cn
- * @@Description:
- * @Date: 2023-09-15 14:54:17
- * @LastEditTime: 2023-09-15 15:10:20
- */
-/**
- * 爬取 www.hifini.com 歌曲，获取到在线 url。
+ * @@Description: 爬取 www.hifini.com 歌曲，获取到在线 url。
  * 参考：https://github.com/HJrookie/note/blob/main/docs/my/music/parse.js
+ * @Date: 2023-09-15 14:54:17
+ * @LastEditTime: 2023-09-15 18:28:51
  */
-
 const cheerio = require('cheerio');
 const axios = require('axios');
 const quotedPrintable = require('quoted-printable');

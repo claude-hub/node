@@ -44,7 +44,11 @@ const downloadMusicStream = async (url) => {
 
 const downloadLrc = async (id, filePath) => {
   const lyric = await queryLyric(id);
-  fs.writeFileSync(filePath, lyric, 'utf-8');
+  try {
+    fs.writeFileSync(filePath, lyric, 'utf-8');
+  } catch {
+    console.log('-----写歌词失败-----');
+  }
 };
 
 const downloadHifini = async (name) => {
@@ -56,7 +60,7 @@ const downloadHifini = async (name) => {
       } catch {
         resolve('');
       }
-    }, 2_1000);
+    }, 3_000);
   });
 };
 
@@ -86,6 +90,10 @@ const downloadMp3 = async (id, artistName, name) => {
         console.log('====hifini====', `${artistName}-${name}.mp3`);
         // 去 hifini.com 下载
         const src = await downloadHifini(name);
+        if (!src) {
+          console.log('=====无此歌曲====', `${artistName}-${name}.mp3`);
+          return resolve();
+        }
         data = await downloadMusicStream(src);
         // musicPath = `../songs/${artistName}/${name}.mp3`;
         if (!data) return resolve();
@@ -97,15 +105,18 @@ const downloadMp3 = async (id, artistName, name) => {
         flags: 'w',
         autoClose: true,
       });
-      data.pipe(writeStream).on('close', async () => {
-        // console.log('====3====', filePath);
-        await downloadLrc(id, lrcPath);
-        // console.log('====4====');
-        resolve();
-      });
+      data
+        .pipe(writeStream)
+        .on('close', async () => {
+          await downloadLrc(id, lrcPath);
+          resolve();
+        })
+        .on('error', async () => {
+          return resolve();
+        });
     } catch (e) {
       console.log('====err====', `${artistName}-${name}.mp3`);
-      resolve(e);
+      resolve();
     }
   });
 };
@@ -115,7 +126,6 @@ const downloadMusic = async () => {
   for (let index = 0; index < artists.length; index++) {
     const artist = artists[index];
     const { id: artistId, name: artistName } = artist;
-    if (artistName === '刘大拿') continue;
     const musics = await queryArtistSongs(artistId);
     for (let i = 0; i < musics.length; i++) {
       const { id, name } = musics[i];

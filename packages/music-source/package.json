@@ -1,14 +1,17 @@
 {
   "name": "@claude-hub/music-source",
   "version": "1.0.0",
-  "license": "ISC",
-  "main": "src/index.js",
-  "directories": {
-    "lib": "lib"
-  },
-  "files": [
-    "lib"
+  "description": "音乐换源 API",
+  "license": "MIT",
+  "author": "Claude",
+  "keywords": [
+    "hifini",
+    "音乐"
   ],
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=14"
+  },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

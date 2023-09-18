@@ -1,6 +1,6 @@
 {
   "name": "@claude-hub/music-source",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "license": "ISC",
   "main": "src/index.js",
   "directories": {

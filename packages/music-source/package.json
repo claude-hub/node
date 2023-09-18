@@ -8,6 +8,10 @@
     "hifini",
     "音乐"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/claude-hub/node"
+  },
   "main": "src/index.js",
   "engines": {
     "node": ">=14"

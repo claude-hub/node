@@ -5,7 +5,7 @@
 ## Usage
 
 ```
-const queryMusic = require('@claude/music-source');
+const queryMusic = require('@claude-hub/music-source');
 
 (async () => {
   const url = await queryMusic('稻香');

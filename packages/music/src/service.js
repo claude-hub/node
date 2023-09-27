@@ -61,7 +61,10 @@ const downloadMp3 = async (id, artistName, name, lrc = true) => {
       }
       // console.log('====0====', `${artistName}-${name}.mp3`);
       const url = `https://music.163.com/song/media/outer/url?id=${id}.mp3`;
-      let musicPath = `../songs/${artistName}/${artistName}-${name}.mp3`;
+      let musicPath = `../songs/${artistName}/${artistName} - ${name}.mp3`;
+      if (!lrc) {
+        musicPath = `../songs/${artistName} - ${name}.mp3`;
+      }
       const filePath = path.resolve(__dirname, musicPath);
       const exists = fs.existsSync(filePath);
       const lrcPath = filePath.replace('.mp3', '.lrc');
@@ -88,7 +91,7 @@ const downloadMp3 = async (id, artistName, name, lrc = true) => {
         if (!data) return resolve();
       }
 
-      await createPath(filePath.replace(`${artistName}-${name}.mp3`, ''));
+      await createPath(filePath.replace(`${artistName} - ${name}.mp3`, ''));
 
       const writeStream = fs.createWriteStream(filePath, {
         flags: 'w',

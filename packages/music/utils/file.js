@@ -1,11 +1,12 @@
 /*
  * @@Author: zhangyunpeng@sensorsdata.cn
- * @@Description: 
+ * @@Description:
  * @Date: 2023-09-05 18:31:52
  * @LastEditTime: 2023-09-11 19:36:00
  */
 const fs = require('fs');
 const path = require('path');
+const join = require('path').join;
 
 /**
  * 判断路径是否存在
@@ -90,13 +91,43 @@ const createPath = async (filePath = '', createFile = true) => {
  */
 const writeFile = async (filePath, data) => {
   await createPath(filePath);
-  fs.writeFileSync(
-    filePath,
-    JSON.stringify(data, '', '\t')
-  );
+  fs.writeFileSync(filePath, JSON.stringify(data, '', '\t'));
+};
+
+/**
+ * 获取指定路径下的所有文件，包含子文件
+ * @param {string} path 路径
+ * @param {[]} excludeFolder 排除的文件夹
+ * @returns 文件数组
+ */
+const getPathFiles = (path, excludeFolder = []) => {
+  const jsonFiles = [];
+  const fillNames = [];
+
+  const findFile = (path) => {
+    const files = fs.readdirSync(path);
+    files.forEach((item) => {
+      if (excludeFolder.includes(item)) {
+        // 继续往下执行
+        return;
+      }
+      const fPath = join(path, item);
+      const stat = fs.statSync(fPath);
+      if (stat.isDirectory() === true) {
+        findFile(fPath);
+      }
+      if (stat.isFile() === true) {
+        fillNames.push(item);
+        jsonFiles.push(fPath);
+      }
+    });
+  };
+  findFile(path);
+  return [jsonFiles, fillNames];
 };
 
 module.exports = {
   createPath,
   writeFile,
+  getPathFiles,
 };

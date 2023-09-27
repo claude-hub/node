@@ -142,7 +142,21 @@ const neteaseCloudMusic = async () => {
   );
 };
 
+const serachMusic = async (keywords, type = 1) => {
+  const data = {
+    s: keywords,
+    type, // 1: 单曲, 10: 专辑, 100: 歌手, 1000: 歌单, 1002: 用户, 1004: MV, 1006: 歌词, 1009: 电台, 1014: 视频
+    limit: 30,
+  };
+  const res = await request('POST', `https://music.163.com/weapi/search/get`, data, {
+    crypto: 'weapi',
+  });
+  const { songs = [] } = res.body?.result || {};
+  return songs[0];
+};
+
 module.exports = {
+  serachMusic,
   artistSongs,
   queryArtistSongs,
   neteaseCloudMusic,

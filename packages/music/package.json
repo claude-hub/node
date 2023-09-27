@@ -22,7 +22,8 @@
   },
   "scripts": {
     "parse": "node src/index.js",
-    "download": "node src/index.js --download"
+    "download": "node src/index.js --download",
+    "single": "node src/index.js --single"
   },
   "dependencies": {
     "@claude-hub/music-source": "^1.0.0",

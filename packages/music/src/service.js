@@ -49,7 +49,7 @@ const downloadHifini = async (name) => {
       } catch {
         resolve('');
       }
-    }, 3_000);
+    }, 100);
   });
 };
 
@@ -68,11 +68,13 @@ const downloadMp3 = async (id, artistName, name, lrc = true) => {
       const filePath = path.resolve(__dirname, musicPath);
       const exists = fs.existsSync(filePath);
       const lrcPath = filePath.replace('.mp3', '.lrc');
-      if (exists && lrc) {
-        if (fs.existsSync(lrcPath)) {
-          return resolve();
-        } else {
-          await downloadLrc(id, lrcPath);
+      if (exists) {
+        if (lrc) {
+          if (fs.existsSync(lrcPath)) {
+            return resolve();
+          } else {
+            await downloadLrc(id, lrcPath);
+          }
         }
         return resolve();
       }

@@ -152,7 +152,10 @@ const serachMusic = async (keywords, type = 1) => {
     crypto: 'weapi',
   });
   const { songs = [] } = res.body?.result || {};
-  return songs[0];
+
+  const matched = songs.find(item => item.name === keywords);
+
+  return matched || songs[0];
 };
 
 module.exports = {

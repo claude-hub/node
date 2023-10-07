@@ -2,13 +2,14 @@
   "name": "root",
   "scripts": {
     "music": "lerna run parse --scope=@cloud/music",
+    "d": "lerna run download --scope=@cloud/download",
     "download": "lerna run download --scope=@cloud/music",
     "single": "lerna run single --scope=@cloud/music",
     "git": "lerna run git --scope=@cloud/git",
     "pub": "node scripts/publish.js"
   },
-  "dependencies": {},
   "devDependencies": {
     "lerna": "^6.0.0"
-  }
+  },
+  "dependencies": {}
 }

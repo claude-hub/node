@@ -1,0 +1,24 @@
+{
+  "name": "@cloud/download",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "zhangyunpeng <zhangyunpeng@sensorsdata.cn>",
+  "homepage": "https://github.com/claude-hub/node#readme",
+  "license": "ISC",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claude-hub/node.git"
+  },
+  "dependencies": {
+    "puppeteer": "^21.3.8",
+    "axios": "^1.5.1",
+    "NeteaseCloudMusicApi": "^4.13.2"
+  },
+  "scripts": {
+    "download": "node ./src/index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/claude-hub/node/issues"
+  }
+}

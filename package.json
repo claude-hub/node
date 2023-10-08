@@ -3,6 +3,7 @@
   "scripts": {
     "music": "lerna run parse --scope=@cloud/music",
     "d": "lerna run download --scope=@cloud/download",
+    "u": "lerna run upload --scope=@cloud/download",
     "download": "lerna run download --scope=@cloud/music",
     "single": "lerna run single --scope=@cloud/music",
     "git": "lerna run git --scope=@cloud/git",

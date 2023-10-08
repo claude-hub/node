@@ -2,10 +2,9 @@
   "name": "@cloud/download",
   "version": "1.0.0",
   "description": "> TODO: description",
-  "author": "zhangyunpeng <zhangyunpeng@sensorsdata.cn>",
+  "author": "Claude",
   "homepage": "https://github.com/claude-hub/node#readme",
-  "license": "ISC",
-  "main": "src/index.js",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/claude-hub/node.git"
@@ -14,10 +13,11 @@
     "puppeteer": "^21.3.8",
     "axios": "^1.5.1",
     "NeteaseCloudMusicApi": "^4.13.2",
-    "@claude-hub/node-utils": "^0.0.1"
+    "@claude-hub/node-utils": "^1.0.0"
   },
   "scripts": {
-    "download": "node ./src/index.js"
+    "download": "node ./src/download.js",
+    "upload": "node ./src/upload.js"
   },
   "bugs": {
     "url": "https://github.com/claude-hub/node/issues"

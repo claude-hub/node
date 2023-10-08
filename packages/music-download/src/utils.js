@@ -2,10 +2,12 @@
  * @@Author: zhangyunpeng@sensorsdata.cn
  * @@Description:
  * @Date: 2023-10-07 15:49:03
- * @LastEditTime: 2023-10-08 14:50:35
+ * @LastEditTime: 2023-10-08 17:46:27
  */
+const { dirExists } = require('@claude-hub/node-utils');
 const { default: axios } = require('axios');
 const fs = require('fs');
+const path = require('path');
 
 const headers = {
   accept: '*/*',
@@ -29,6 +31,8 @@ const downloadMusic = async (url, filePath) => {
       resolve();
       return;
     }
+    // 创建上层文件夹
+    await dirExists(filePath);
     const { data } = await axios({
       url: encodeURI(url),
       method: 'get',
@@ -46,6 +50,7 @@ const downloadMusic = async (url, filePath) => {
     data
       .pipe(writeStream)
       .on('close', async () => {
+        console.log('==下载完成==', path.basename(filePath));
         resolve();
       })
       .on('error', async () => {

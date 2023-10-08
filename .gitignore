@@ -132,3 +132,6 @@ dist
 lerna.json
 
 **/songs
+
+no_flac.txt
+error.txt

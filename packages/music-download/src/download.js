@@ -2,16 +2,20 @@
  * @@Author: zhangyunpeng@sensorsdata.cn
  * @@Description:
  * @Date: 2023-10-07 11:56:50
- * @LastEditTime: 2023-10-08 15:34:57
+ * @LastEditTime: 2023-10-08 18:29:13
  */
 
 const fs = require('fs');
 const puppeteer = require('puppeteer');
 const { downloadMusic } = require('./utils');
-const { dirExists } = require('@claude-hub/node-utils');
-const { playlist_track_all, song_detail } = require('NeteaseCloudMusicApi');
+const {
+  playlist_track_all,
+  song_detail,
+  user_cloud,
+} = require('NeteaseCloudMusicApi');
 const path = require('path');
 const { id } = require('./playlist');
+const { getCloudMusics, login, uploadSong } = require('./services');
 
 const queryFlacUrl = async (page, name, album) => {
   // 设置页面的URL
@@ -105,6 +109,10 @@ const queryFlacUrl = async (page, name, album) => {
 };
 
 const queryByIds = async (page) => {
+  const cookie = await login();
+  if (!cookie) return;
+  const cloudSongs = await getCloudMusics(cookie);
+
   const res = await playlist_track_all({
     id,
   });
@@ -116,29 +124,43 @@ const queryByIds = async (page) => {
     ids: ids.toString(),
   });
 
-  const songs = detail.body.songs;
+  const songs = detail.body.songs || [];
 
   for (let index = 0; index < songs.length; index++) {
     const { name, ar, al } = songs[index];
+    console.log(cloudSongs, name)
+    // 如果云端有这个歌曲了，则不需要继续去下载了
+    if (cloudSongs.includes(name)) continue;
+
     const singers = ar.map((item) => item.name).toString();
-    const filePath = path.resolve(
-      __dirname,
-      `./songs/${singers} - ${name}.flac`
-    );
+    const fileName = `${singers} - ${name}`;
+    const filePath = path.resolve(__dirname, `./songs/${fileName}.flac`);
 
     const exists = fs.existsSync(filePath);
     // 文件存在，则不需要下载
     if (exists) continue;
 
     const url = await queryFlacUrl(page, name, al.name);
-    if (!url) continue;
+    if (!url) {
+      // ==没找到无损flac音乐==
+      fs.appendFileSync(
+        path.resolve(__dirname, 'no_flac.txt'),
+        `${fileName}\n`,
+        'utf-8'
+      );
+      continue;
+    }
 
     try {
-      await dirExists(filePath);
+      // 下载
+      console.log('====开始下载')
       await downloadMusic(url, filePath);
-      console.log('==下载完成==', `${singers} - ${name}`);
+      console.log('====开始上传')
+      // 上传
+      await uploadSong(cookie, filePath);
     } catch (e) {
-      console.log('==失败：', `${singers} - ${name}`);
+      console.log(e)
+      fs.appendFileSync(path.resolve(__dirname, 'error.txt'), `${fileName}\n`);
     }
   }
 };
@@ -151,7 +173,12 @@ const downlaod = async () => {
   });
   // 打开一个新的页面
   const page = await browser.newPage();
-  await queryByIds(page);
+
+  try {
+    await queryByIds(page);
+  } catch (e) {
+    console.log(e);
+  }
 
   await browser.close();
 };

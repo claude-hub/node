@@ -2,7 +2,7 @@
  * @@Author: zhangyunpeng@sensorsdata.cn
  * @@Description:
  * @Date: 2023-09-05 18:31:52
- * @LastEditTime: 2023-10-08 15:23:09
+ * @LastEditTime: 2023-10-08 17:09:53
  */
 const fs = require('fs');
 const path = require('path');
@@ -74,6 +74,7 @@ const dirExists = async (dir) => {
  */
 const getPathFiles = (path, excludeFolder = []) => {
   const jsonFiles = [];
+  const fillNames = [];
 
   const findFile = (path) => {
     const files = fs.readdirSync(path);
@@ -88,12 +89,13 @@ const getPathFiles = (path, excludeFolder = []) => {
         findFile(fPath);
       }
       if (stat.isFile() === true) {
+        if (item !== '.DS_Store') fillNames.push(item);
         jsonFiles.push(fPath);
       }
     });
   };
   findFile(path);
-  return jsonFiles;
+  return [jsonFiles, fillNames];
 };
 
 module.exports = {

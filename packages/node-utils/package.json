@@ -1,6 +1,6 @@
 {
   "name": "@claude-hub/node-utils",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "node 工具集",
   "license": "MIT",
   "author": "Claude",

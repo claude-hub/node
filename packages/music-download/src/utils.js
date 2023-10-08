@@ -2,7 +2,7 @@
  * @@Author: zhangyunpeng@sensorsdata.cn
  * @@Description:
  * @Date: 2023-10-07 15:49:03
- * @LastEditTime: 2023-10-07 16:40:17
+ * @LastEditTime: 2023-10-08 14:50:35
  */
 const { default: axios } = require('axios');
 const fs = require('fs');
@@ -23,6 +23,12 @@ const headers = {
 
 const downloadMusic = async (url, filePath) => {
   return new Promise(async (resolve) => {
+    const exists = fs.existsSync(filePath);
+    // 文件存在，则不需要下载
+    if (exists) {
+      resolve();
+      return;
+    }
     const { data } = await axios({
       url: encodeURI(url),
       method: 'get',

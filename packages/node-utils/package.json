@@ -1,0 +1,25 @@
+{
+  "name": "@claude-hub/node-utils",
+  "version": "0.0.1",
+  "description": "node 工具集",
+  "license": "MIT",
+  "author": "Claude",
+  "keywords": [
+    "node",
+    "utils"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/claude-hub/node"
+  },
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=14"
+  },
+  "files": [
+    "src/*"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}

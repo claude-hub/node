@@ -2,7 +2,7 @@
  * @@Author: zhangyunpeng@sensorsdata.cn
  * @@Description:
  * @Date: 2023-10-08 17:26:12
- * @LastEditTime: 2023-10-09 12:07:41
+ * @LastEditTime: 2023-10-09 15:52:45
  */
 const { user_cloud, login_cellphone, cloud } = require('NeteaseCloudMusicApi');
 const fs = require('fs');
@@ -63,9 +63,16 @@ const getCloudMusics = async (cookie, limit = 10000) => {
 
 const uploadSong = async (cookie, filePath) => {
   try {
+    const fileName = path.basename(filePath);
+    const fileState = fs.statSync(filePath);
+    // 小于 2 M的歌曲不需要上传
+    if (fileState.size / 1024 / 1024 < 2.5) {
+      console.log('文件小于 2.5M 终止上传: ', fileName);
+    }
+
     const res = await cloud({
       songFile: {
-        name: path.basename(filePath),
+        name: fileName,
         data: fs.readFileSync(filePath),
       },
       cookie,

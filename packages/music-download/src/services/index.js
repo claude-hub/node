@@ -2,7 +2,7 @@
  * @@Author: zhangyunpeng@sensorsdata.cn
  * @@Description:
  * @Date: 2023-10-08 17:26:12
- * @LastEditTime: 2023-10-09 11:35:32
+ * @LastEditTime: 2023-10-09 11:37:04
  */
 const { user_cloud, login_cellphone, cloud } = require('NeteaseCloudMusicApi');
 const fs = require('fs');
@@ -17,8 +17,8 @@ const loginByPhone = async () => {
       password: '',
     });
     // 如果登录报错了。提示一下
-    if (result.body?.msg) {
-      console.log(result.body?.msg);
+    if (!result.body?.cookie) {
+      console.log('登录异常：', result);
     }
 
     const { cookie = '' } = result.body;

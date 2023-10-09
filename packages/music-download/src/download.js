@@ -2,7 +2,7 @@
  * @@Author: zhangyunpeng@sensorsdata.cn
  * @@Description:
  * @Date: 2023-10-07 11:56:50
- * @LastEditTime: 2023-10-09 12:13:10
+ * @LastEditTime: 2023-10-09 17:55:37
  */
 
 const fs = require('fs');
@@ -11,7 +11,6 @@ const { downloadMusic } = require('./utils');
 const {
   playlist_track_all,
   song_detail,
-  user_cloud,
 } = require('NeteaseCloudMusicApi');
 const path = require('path');
 const { id } = require('./playlist');
@@ -126,22 +125,21 @@ const queryByIds = async (page) => {
   const cookie = await login();
   if (!cookie) return;
   const cloudSongs = await getCloudMusics(cookie);
-
   const res = await playlist_track_all({
     id,
+    cookie
   });
-
   const { privileges } = res.body;
   const ids = privileges.map((item) => item.id);
-
   const detail = await song_detail({
     ids: ids.toString(),
+    cookie
   });
 
   const songs = detail.body.songs || [];
 
   for (let index = 0; index < songs.length; index++) {
-    const { name, ar, al } = songs[index];
+    const { name, ar, al, id: songId } = songs[index];
     const singers = ar.map((item) => item.name).toString();
     const fileName = `${singers} - ${name}`;
     // 如果云端有这个歌曲了，则不需要继续去下载了
@@ -156,7 +154,7 @@ const queryByIds = async (page) => {
     if (exists) {
       console.log('本地已存在：', fileName)
       // 直接上传
-      await uploadSong(cookie, filePath);
+      await uploadSong(cookie, filePath, songId);
       continue;
     }
 
@@ -175,7 +173,7 @@ const queryByIds = async (page) => {
       // 下载
       await downloadMusic(url, filePath);
       // 上传
-      await uploadSong(cookie, filePath);
+      await uploadSong(cookie, filePath, songId);
     } catch (e) {
       console.log(e)
       fs.appendFileSync(path.resolve(__dirname, 'error.txt'), `${fileName}\n`);

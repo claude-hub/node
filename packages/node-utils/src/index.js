@@ -2,7 +2,7 @@
  * @@Author: zhangyunpeng@sensorsdata.cn
  * @@Description:
  * @Date: 2023-09-05 18:31:52
- * @LastEditTime: 2023-10-08 17:09:53
+ * @LastEditTime: 2023-10-09 16:58:12
  */
 const fs = require('fs');
 const path = require('path');
@@ -98,7 +98,12 @@ const getPathFiles = (path, excludeFolder = []) => {
   return [jsonFiles, fillNames];
 };
 
+const sleep = (ms) => {
+  return new Promise((resolve) => setTimeout(() => resolve(), ms));
+};
+
 module.exports = {
   dirExists,
   getPathFiles,
+  sleep,
 };

@@ -2,11 +2,14 @@
  * @@Author: zhangyunpeng@sensorsdata.cn
  * @@Description:
  * @Date: 2023-10-08 17:26:12
- * @LastEditTime: 2023-10-09 15:52:45
+ * @LastEditTime: 2023-10-09 18:08:52
  */
+const mm = require('music-metadata');
+
 const { user_cloud, login_cellphone, cloud } = require('NeteaseCloudMusicApi');
 const fs = require('fs');
 const path = require('path');
+const { downloadMusic } = require('../utils');
 
 const cookiePath = path.resolve(__dirname, 'cookie.txt');
 
@@ -53,27 +56,56 @@ const login = async () => {
 };
 
 const getCloudMusics = async (cookie, limit = 10000) => {
-  const result = await user_cloud({
-    limit,
-    cookie,
-  });
+  try {
+    const result = await user_cloud({
+      limit,
+      cookie,
+    });
 
-  return result.body.data?.map((item) => item.simpleSong.name) || [];
+    return result.body.data?.map((item) => item.simpleSong.name) || [];
+  } catch (e) {
+    console.log('获取云盘歌单失败: ', e);
+    return [];
+  }
 };
 
-const uploadSong = async (cookie, filePath) => {
+const downlaodNeteaseCloudMusic = async (id, filePath) => {
+  const url = `https://music.163.com/song/media/outer/url?id=${id}.mp3`;
+  const mp3Path = filePath.replace('.flac', '.mp3');
+  if (fs.existsSync(mp3Path)) return mp3Path;
+  await downloadMusic(url, mp3Path);
+
+  return mp3Path;
+};
+
+const uploadSong = async (cookie, filePath, id) => {
   try {
-    const fileName = path.basename(filePath);
-    const fileState = fs.statSync(filePath);
+    let newFilePath = filePath;
+    // 判断是否能上传。如果歌曲没有专辑等信息则不能上传
+    const canUplaod = await checkUpload(newFilePath);
+
+    if(!canUplaod && !id) {
+      console.log('歌曲无专辑等信息，不能上传: ', path.basename(newFilePath));
+      return;
+    }
+
+    // 不能上传则下载网易云
+    if(!canUplaod && id) {
+      newFilePath = await downlaodNeteaseCloudMusic(id, newFilePath);
+    }
+
+    const fileName = path.basename(newFilePath);
+    const fileState = fs.statSync(newFilePath);
     // 小于 2 M的歌曲不需要上传
     if (fileState.size / 1024 / 1024 < 2.5) {
       console.log('文件小于 2.5M 终止上传: ', fileName);
+      return;
     }
 
     const res = await cloud({
       songFile: {
         name: fileName,
-        data: fs.readFileSync(filePath),
+        data: fs.readFileSync(newFilePath),
       },
       cookie,
     });
@@ -86,10 +118,27 @@ const uploadSong = async (cookie, filePath) => {
     console.log('上传异常：', e);
     fs.appendFileSync(
       path.resolve(__dirname, '../error.txt'),
-      `上传失败: ${filePath}\n`,
+      `上传失败: ${newFilePath}\n`,
       'utf-8'
     );
   }
+};
+
+const checkUpload = async (filePath) => {
+  if (!fs.existsSync(filePath)) return false;
+
+  const data = fs.readFileSync(filePath);
+  const metadata = await mm.parseBuffer(data);
+  const info = metadata.common;
+  const { album, artist } = info;
+
+  if (metadata.format.codec === 'FLAC') {
+    // 专辑 & 歌手，直接返回可上传
+    if (album && album !== 'kuwo' && artist) return true;
+
+    return false;
+  }
+  return true;
 };
 
 module.exports = {

@@ -2,7 +2,7 @@
  * @@Author: zhangyunpeng@sensorsdata.cn
  * @@Description:
  * @Date: 2023-10-07 11:56:50
- * @LastEditTime: 2023-10-08 18:29:13
+ * @LastEditTime: 2023-10-09 11:35:06
  */
 
 const fs = require('fs');
@@ -19,7 +19,10 @@ const { getCloudMusics, login, uploadSong } = require('./services');
 
 const queryFlacUrl = async (page, name, album) => {
   // 设置页面的URL
-  await page.goto(`https://tool.liumingye.cn/music/#/search/M/song/${name}`);
+  await page.goto(`https://tool.liumingye.cn/music/#/search/M/song/${name}`, {
+    // 该页面有个谷歌分析的请求。networkidle2 只有两个网络请求的时候触发，就避免了谷歌分析的请求
+    waitUntil: 'networkidle2'
+  });
 
   const url = await page.evaluate(
     async ({ name, album }) => {
@@ -128,7 +131,6 @@ const queryByIds = async (page) => {
 
   for (let index = 0; index < songs.length; index++) {
     const { name, ar, al } = songs[index];
-    console.log(cloudSongs, name)
     // 如果云端有这个歌曲了，则不需要继续去下载了
     if (cloudSongs.includes(name)) continue;
 
@@ -168,6 +170,7 @@ const queryByIds = async (page) => {
 const downlaod = async () => {
   // 创建一个浏览器对象
   const browser = await puppeteer.launch({
+    // headless: false
     headless: 'new',
     // devtools: true,
   });

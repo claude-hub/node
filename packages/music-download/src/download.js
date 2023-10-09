@@ -2,7 +2,7 @@
  * @@Author: zhangyunpeng@sensorsdata.cn
  * @@Description:
  * @Date: 2023-10-07 11:56:50
- * @LastEditTime: 2023-10-09 11:35:06
+ * @LastEditTime: 2023-10-09 12:13:10
  */
 
 const fs = require('fs');
@@ -18,10 +18,21 @@ const { id } = require('./playlist');
 const { getCloudMusics, login, uploadSong } = require('./services');
 
 const queryFlacUrl = async (page, name, album) => {
+
+  await page.setRequestInterception(true);
+  page.on('request', interceptedRequest => {
+    if (interceptedRequest.isInterceptResolutionHandled()) return;
+    // 该页面有个谷歌分析的请求。需要拦截掉
+    if (
+      interceptedRequest.url().includes('googlesyndication.com')
+    )
+      interceptedRequest.abort();
+    else interceptedRequest.continue();
+  });
+
   // 设置页面的URL
   await page.goto(`https://tool.liumingye.cn/music/#/search/M/song/${name}`, {
-    // 该页面有个谷歌分析的请求。networkidle2 只有两个网络请求的时候触发，就避免了谷歌分析的请求
-    waitUntil: 'networkidle2'
+    waitUntil: 'networkidle0'
   });
 
   const url = await page.evaluate(
@@ -131,16 +142,23 @@ const queryByIds = async (page) => {
 
   for (let index = 0; index < songs.length; index++) {
     const { name, ar, al } = songs[index];
-    // 如果云端有这个歌曲了，则不需要继续去下载了
-    if (cloudSongs.includes(name)) continue;
-
     const singers = ar.map((item) => item.name).toString();
     const fileName = `${singers} - ${name}`;
+    // 如果云端有这个歌曲了，则不需要继续去下载了
+    if (cloudSongs.includes(name)) {
+      console.log('云端已存在: ', fileName)
+      continue;
+    }
     const filePath = path.resolve(__dirname, `./songs/${fileName}.flac`);
 
     const exists = fs.existsSync(filePath);
     // 文件存在，则不需要下载
-    if (exists) continue;
+    if (exists) {
+      console.log('本地已存在：', fileName)
+      // 直接上传
+      await uploadSong(cookie, filePath);
+      continue;
+    }
 
     const url = await queryFlacUrl(page, name, al.name);
     if (!url) {
@@ -155,9 +173,7 @@ const queryByIds = async (page) => {
 
     try {
       // 下载
-      console.log('====开始下载')
       await downloadMusic(url, filePath);
-      console.log('====开始上传')
       // 上传
       await uploadSong(cookie, filePath);
     } catch (e) {
@@ -170,7 +186,7 @@ const queryByIds = async (page) => {
 const downlaod = async () => {
   // 创建一个浏览器对象
   const browser = await puppeteer.launch({
-    // headless: false
+    // headless: false,
     headless: 'new',
     // devtools: true,
   });
@@ -180,7 +196,7 @@ const downlaod = async () => {
   try {
     await queryByIds(page);
   } catch (e) {
-    console.log(e);
+    console.log('网络请求出错：', e);
   }
 
   await browser.close();

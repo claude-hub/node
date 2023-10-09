@@ -2,7 +2,7 @@
  * @@Author: zhangyunpeng@sensorsdata.cn
  * @@Description:
  * @Date: 2023-10-08 17:26:12
- * @LastEditTime: 2023-10-09 11:37:04
+ * @LastEditTime: 2023-10-09 12:07:41
  */
 const { user_cloud, login_cellphone, cloud } = require('NeteaseCloudMusicApi');
 const fs = require('fs');
@@ -28,7 +28,7 @@ const loginByPhone = async () => {
     }
     return cookie;
   } catch (e) {
-    console.log(e);
+    console.log('登录异常：', e);
     return '';
   }
 };
@@ -71,12 +71,12 @@ const uploadSong = async (cookie, filePath) => {
       cookie,
     });
     if ([200, 201].includes(res.body.code)) {
-      console.log('==上传成功==', res.body.privateCloud.fileName);
+      console.log('上传成功: ', res.body.privateCloud.fileName);
     } else {
-      console.log(res);
+      console.log('上传异常：', res);
     }
   } catch (e) {
-    console.log(e);
+    console.log('上传异常：', e);
     fs.appendFileSync(
       path.resolve(__dirname, '../error.txt'),
       `上传失败: ${filePath}\n`,

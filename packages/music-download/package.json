@@ -13,7 +13,8 @@
     "puppeteer": "^21.3.8",
     "axios": "^1.5.1",
     "NeteaseCloudMusicApi": "^4.13.2",
-    "@claude-hub/node-utils": "^1.0.0"
+    "@claude-hub/node-utils": "^1.0.0",
+    "@claude-hub/music-source": "^1.0.0"
   },
   "scripts": {
     "download": "node ./src/download.js",

@@ -2,10 +2,10 @@
  * @@Author: zhangyunpeng@sensorsdata.cn
  * @@Description:
  * @Date: 2023-10-08 17:26:12
- * @LastEditTime: 2023-10-09 18:08:52
+ * @LastEditTime: 2023-10-10 17:19:53
  */
 const mm = require('music-metadata');
-
+const queryMusic = require('@claude-hub/music-source');
 const { user_cloud, login_cellphone, cloud } = require('NeteaseCloudMusicApi');
 const fs = require('fs');
 const path = require('path');
@@ -73,9 +73,26 @@ const downlaodNeteaseCloudMusic = async (id, filePath) => {
   const url = `https://music.163.com/song/media/outer/url?id=${id}.mp3`;
   const mp3Path = filePath.replace('.flac', '.mp3');
   if (fs.existsSync(mp3Path)) return mp3Path;
-  await downloadMusic(url, mp3Path);
+  try {
+    await downloadMusic(url, mp3Path);
+  } catch (e) {
+    return '';
+  }
 
   return mp3Path;
+};
+
+const downloadHifini = async (name) => {
+  return new Promise(async (resolve) => {
+    setTimeout(async () => {
+      try {
+        const url = await queryMusic(name);
+        resolve(url);
+      } catch {
+        resolve('');
+      }
+    }, 100);
+  });
 };
 
 const uploadSong = async (cookie, filePath, id) => {
@@ -92,6 +109,26 @@ const uploadSong = async (cookie, filePath, id) => {
     // 不能上传则下载网易云
     if(!canUplaod && id) {
       newFilePath = await downlaodNeteaseCloudMusic(id, newFilePath);
+    }
+    if (!newFilePath) {
+      console.log('网易云下载不了');
+
+      const fileName = path.basename(filePath)
+      const formatted = fileName.replace(/\s/g, '');
+      const end = formatted.lastIndexOf('.');
+      const start = formatted.lastIndexOf('-');
+      const name = formatted.substring(start + 1, end);
+
+      const hifiniMusicUrl = await downloadHifini(name);
+      newFilePath = filePath.replace('.flac', '.mp3');
+      await downloadMusic(hifiniMusicUrl, newFilePath)
+
+      // 判断是否能上传。如果歌曲没有专辑等信息则不能上传
+      const canUplaod = await checkUpload(newFilePath);
+      if(!canUplaod) {
+        console.log('hifini 下载的不能上传');
+        return;
+      }
     }
 
     const fileName = path.basename(newFilePath);

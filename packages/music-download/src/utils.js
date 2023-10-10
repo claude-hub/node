@@ -2,7 +2,7 @@
  * @@Author: zhangyunpeng@sensorsdata.cn
  * @@Description:
  * @Date: 2023-10-07 15:49:03
- * @LastEditTime: 2023-10-09 17:25:23
+ * @LastEditTime: 2023-10-10 14:31:46
  */
 const { dirExists } = require('@claude-hub/node-utils');
 const { default: axios } = require('axios');
@@ -24,7 +24,7 @@ const headers = {
 };
 
 const downloadMusic = async (url, filePath) => {
-  return new Promise(async (resolve) => {
+  return new Promise(async (resolve, reject) => {
     const exists = fs.existsSync(filePath);
     // 文件存在，则不需要下载
     if (exists) {
@@ -41,7 +41,7 @@ const downloadMusic = async (url, filePath) => {
       timeout: 10000,
       responseType: 'stream',
     });
-    if (!data.responseUrl) return resolve();
+    if (!data.responseUrl) return reject();
 
     const writeStream = fs.createWriteStream(filePath, {
       flags: 'w',

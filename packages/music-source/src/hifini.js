@@ -3,8 +3,9 @@
  * @@Description: 爬取 www.hifini.com 歌曲，获取到在线 url。
  * 参考：https://github.com/HJrookie/note/blob/main/docs/my/music/parse.js
  * @Date: 2023-09-15 14:54:17
- * @LastEditTime: 2023-09-15 18:28:51
+ * @LastEditTime: 2023-10-10 17:20:33
  */
+const puppeteer = require('puppeteer');
 const cheerio = require('cheerio');
 const axios = require('axios');
 const quotedPrintable = require('quoted-printable');
@@ -69,7 +70,43 @@ const getMusicSrc = (body) => {
   return musicSrc;
 };
 
+
+const openBrowser = async (url) => {
+  // 创建一个浏览器对象
+  const browser = await puppeteer.launch({
+    headless: false,
+    // headless: 'new',
+    // devtools: true,
+  });
+  // 打开一个新的页面
+  const page = await browser.newPage();
+  // 设置页面的URL
+  await page.goto('https://www.hifini.com/', {
+    waitUntil: 'networkidle0',
+  });
+  const cookie = {
+    name: 'de246d5440af7315f5ca72cdada386ca',
+    value: 'e09e811a766638b9e7191f76a0185a57',
+    domain: 'www.hifini.com',
+    path: '/',
+  }
+  await page.setCookie(cookie)
+  // 设置页面的URL
+  await page.goto(url, {
+    waitUntil: 'networkidle0',
+  });
+  const html = await page.evaluate(async () => {
+    return document.getElementsByTagName('html')[0].innerHTML;
+  });
+  await browser.close();
+
+  return html;
+}
+
 const queryHifiniMusic = async (query) => {
+
+  
+
   const res = await axios(encodePrintableCode(query));
   // 搜索到的，所有的音乐列表
   const musics = parseHtmlAndGetData(res.data);
@@ -77,7 +114,14 @@ const queryHifiniMusic = async (query) => {
   for (let index = 0; index < musics.length; index++) {
     const musicSrc = musics[index].link;
     if (musicSrc) {
-      const { data: html } = await axios(musicSrc);
+      const { data } = await axios(musicSrc);
+      let html = data;
+      if (html.includes('机身份验证')) {
+        html = await openBrowser(musicSrc);
+      }
+
+      if(!html) return;
+
       const src = await getMusicSrc(html);
       if (src) {
         return src;

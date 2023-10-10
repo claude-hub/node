@@ -2,7 +2,7 @@
  * @@Author: zhangyunpeng@sensorsdata.cn
  * @@Description:
  * @Date: 2023-10-07 11:56:50
- * @LastEditTime: 2023-10-09 17:55:37
+ * @LastEditTime: 2023-10-10 14:31:57
  */
 
 const fs = require('fs');
@@ -160,6 +160,8 @@ const queryByIds = async (page) => {
 
     const url = await queryFlacUrl(page, name, al.name);
     if (!url) {
+      // 没有找到flac，则去网易云等下载
+      await uploadSong(cookie, filePath, songId);
       // ==没找到无损flac音乐==
       fs.appendFileSync(
         path.resolve(__dirname, 'no_flac.txt'),

@@ -26,6 +26,8 @@
     "axios": "^1.5.0",
     "cheerio": "^1.0.0-rc.12",
     "quoted-printable": "^1.0.1",
-    "utf8": "^3.0.0"
+    "utf8": "^3.0.0",
+    "puppeteer": "^21.3.8",
+    "@claude-hub/node-utils": "^1.0.0"
   }
 }

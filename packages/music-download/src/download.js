@@ -2,7 +2,7 @@
  * @@Author: zhangyunpeng@sensorsdata.cn
  * @@Description:
  * @Date: 2023-10-07 11:56:50
- * @LastEditTime: 2023-10-11 16:02:41
+ * @LastEditTime: 2023-10-11 18:58:30
  */
 
 const fs = require('fs');
@@ -105,19 +105,23 @@ const queryFlacUrl = async (page, name, album) => {
     return url;
   }
 
-  const ifrmeUrl = await page.evaluate(async () => {
-    return document.querySelector('iframe')?.src;
-  });
+  try {
+    const ifrmeUrl = await page.evaluate(async () => {
+      return document.querySelector('iframe')?.src;
+    });
 
-  await page.goto(ifrmeUrl, {
-    waitUntil: 'networkidle0',
-  });
+    await page.goto(ifrmeUrl, {
+      waitUntil: 'networkidle0',
+    });
 
-  const musicUrl = await page.evaluate(async () => {
-    const url = document.querySelector('a')?.href;
-    return url;
-  });
-  return musicUrl;
+    const musicUrl = await page.evaluate(async () => {
+      const url = document.querySelector('a')?.href;
+      return url;
+    });
+    return musicUrl;
+  } catch (e) {
+    return '';
+  }
 };
 
 const queryByIds = async (browser) => {

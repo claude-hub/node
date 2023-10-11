@@ -2,7 +2,7 @@
  * @@Author: zhangyunpeng@sensorsdata.cn
  * @@Description:
  * @Date: 2023-10-08 17:26:12
- * @LastEditTime: 2023-10-10 17:19:53
+ * @LastEditTime: 2023-10-11 14:40:13
  */
 const mm = require('music-metadata');
 const queryMusic = require('@claude-hub/music-source');
@@ -96,8 +96,8 @@ const downloadHifini = async (name) => {
 };
 
 const uploadSong = async (cookie, filePath, id) => {
+  let newFilePath = filePath;
   try {
-    let newFilePath = filePath;
     // 判断是否能上传。如果歌曲没有专辑等信息则不能上传
     const canUplaod = await checkUpload(newFilePath);
 
@@ -107,29 +107,29 @@ const uploadSong = async (cookie, filePath, id) => {
     }
 
     // 不能上传则下载网易云
-    if(!canUplaod && id) {
-      newFilePath = await downlaodNeteaseCloudMusic(id, newFilePath);
-    }
-    if (!newFilePath) {
-      console.log('网易云下载不了');
+    // if(!canUplaod && id) {
+    //   newFilePath = await downlaodNeteaseCloudMusic(id, newFilePath);
+    // }
+    // if (!newFilePath) {
+    //   console.log('网易云下载不了');
 
-      const fileName = path.basename(filePath)
-      const formatted = fileName.replace(/\s/g, '');
-      const end = formatted.lastIndexOf('.');
-      const start = formatted.lastIndexOf('-');
-      const name = formatted.substring(start + 1, end);
+    //   const fileName = path.basename(filePath)
+    //   const formatted = fileName.replace(/\s/g, '');
+    //   const end = formatted.lastIndexOf('.');
+    //   const start = formatted.lastIndexOf('-');
+    //   const name = formatted.substring(start + 1, end);
 
-      const hifiniMusicUrl = await downloadHifini(name);
-      newFilePath = filePath.replace('.flac', '.mp3');
-      await downloadMusic(hifiniMusicUrl, newFilePath)
+    //   const hifiniMusicUrl = await downloadHifini(name);
+    //   newFilePath = filePath.replace('.flac', '.mp3');
+    //   await downloadMusic(hifiniMusicUrl, newFilePath)
 
-      // 判断是否能上传。如果歌曲没有专辑等信息则不能上传
-      const canUplaod = await checkUpload(newFilePath);
-      if(!canUplaod) {
-        console.log('hifini 下载的不能上传');
-        return;
-      }
-    }
+    //   // 判断是否能上传。如果歌曲没有专辑等信息则不能上传
+    //   const canUplaod = await checkUpload(newFilePath);
+    //   if(!canUplaod) {
+    //     console.log('hifini 下载的不能上传');
+    //     return;
+    //   }
+    // }
 
     const fileName = path.basename(newFilePath);
     const fileState = fs.statSync(newFilePath);
@@ -155,7 +155,7 @@ const uploadSong = async (cookie, filePath, id) => {
     console.log('上传异常：', e);
     fs.appendFileSync(
       path.resolve(__dirname, '../error.txt'),
-      `上传失败: ${newFilePath}\n`,
+      `上传失败: ${path.basename(newFilePath)}\n`,
       'utf-8'
     );
   }

@@ -2,7 +2,7 @@
  * @@Author: zhangyunpeng@sensorsdata.cn
  * @@Description:
  * @Date: 2023-10-07 15:49:03
- * @LastEditTime: 2023-10-10 14:31:46
+ * @LastEditTime: 2023-10-11 15:20:06
  */
 const { dirExists } = require('@claude-hub/node-utils');
 const { default: axios } = require('axios');
@@ -51,6 +51,7 @@ const downloadMusic = async (url, filePath) => {
     data
       .pipe(writeStream)
       .on('close', async () => {
+        console.log('下载完成: ', path.basename(filePath));
         resolve();
       })
       .on('error', async () => {

@@ -2,36 +2,30 @@
  * @@Author: zhangyunpeng@sensorsdata.cn
  * @@Description:
  * @Date: 2023-10-07 11:56:50
- * @LastEditTime: 2023-10-10 14:31:57
+ * @LastEditTime: 2023-10-11 16:02:41
  */
 
 const fs = require('fs');
 const puppeteer = require('puppeteer');
 const { downloadMusic } = require('./utils');
-const {
-  playlist_track_all,
-  song_detail,
-} = require('NeteaseCloudMusicApi');
+const { playlist_track_all, song_detail } = require('NeteaseCloudMusicApi');
 const path = require('path');
 const { id } = require('./playlist');
 const { getCloudMusics, login, uploadSong } = require('./services');
 
 const queryFlacUrl = async (page, name, album) => {
-
   await page.setRequestInterception(true);
-  page.on('request', interceptedRequest => {
+  page.on('request', (interceptedRequest) => {
     if (interceptedRequest.isInterceptResolutionHandled()) return;
     // 该页面有个谷歌分析的请求。需要拦截掉
-    if (
-      interceptedRequest.url().includes('googlesyndication.com')
-    )
+    if (interceptedRequest.url().includes('googlesyndication.com'))
       interceptedRequest.abort();
     else interceptedRequest.continue();
   });
 
   // 设置页面的URL
   await page.goto(`https://tool.liumingye.cn/music/#/search/M/song/${name}`, {
-    waitUntil: 'networkidle0'
+    waitUntil: 'networkidle0',
   });
 
   const url = await page.evaluate(
@@ -102,9 +96,14 @@ const queryFlacUrl = async (page, name, album) => {
     return '';
   }
 
-  await page.goto(url, {
-    waitUntil: 'networkidle0',
-  });
+  try {
+    await page.goto(url, {
+      waitUntil: 'networkidle0',
+    });
+  } catch (e) {
+    // 如果跳转页面报错，说明直接是音乐地址，可直接下载
+    return url;
+  }
 
   const ifrmeUrl = await page.evaluate(async () => {
     return document.querySelector('iframe')?.src;
@@ -121,19 +120,19 @@ const queryFlacUrl = async (page, name, album) => {
   return musicUrl;
 };
 
-const queryByIds = async (page) => {
+const queryByIds = async (browser) => {
   const cookie = await login();
   if (!cookie) return;
   const cloudSongs = await getCloudMusics(cookie);
   const res = await playlist_track_all({
     id,
-    cookie
+    cookie,
   });
   const { privileges } = res.body;
   const ids = privileges.map((item) => item.id);
   const detail = await song_detail({
     ids: ids.toString(),
-    cookie
+    cookie,
   });
 
   const songs = detail.body.songs || [];
@@ -144,7 +143,7 @@ const queryByIds = async (page) => {
     const fileName = `${singers} - ${name}`;
     // 如果云端有这个歌曲了，则不需要继续去下载了
     if (cloudSongs.includes(name)) {
-      console.log('云端已存在: ', fileName)
+      console.log('云端已存在: ', fileName);
       continue;
     }
     const filePath = path.resolve(__dirname, `./songs/${fileName}.flac`);
@@ -152,16 +151,21 @@ const queryByIds = async (page) => {
     const exists = fs.existsSync(filePath);
     // 文件存在，则不需要下载
     if (exists) {
-      console.log('本地已存在：', fileName)
+      console.log('本地已存在：', fileName);
       // 直接上传
-      await uploadSong(cookie, filePath, songId);
+      // await uploadSong(cookie, filePath, songId);
       continue;
     }
 
+    // 打开一个新的页面
+    const page = await browser.newPage();
     const url = await queryFlacUrl(page, name, al.name);
+    // 关闭当前页面
+    page.close();
+
     if (!url) {
       // 没有找到flac，则去网易云等下载
-      await uploadSong(cookie, filePath, songId);
+      // await uploadSong(cookie, filePath, songId);
       // ==没找到无损flac音乐==
       fs.appendFileSync(
         path.resolve(__dirname, 'no_flac.txt'),
@@ -175,9 +179,9 @@ const queryByIds = async (page) => {
       // 下载
       await downloadMusic(url, filePath);
       // 上传
-      await uploadSong(cookie, filePath, songId);
+      // await uploadSong(cookie, filePath, songId);
     } catch (e) {
-      console.log(e)
+      console.log(e);
       fs.appendFileSync(path.resolve(__dirname, 'error.txt'), `${fileName}\n`);
     }
   }
@@ -190,11 +194,9 @@ const downlaod = async () => {
     headless: 'new',
     // devtools: true,
   });
-  // 打开一个新的页面
-  const page = await browser.newPage();
 
   try {
-    await queryByIds(page);
+    await queryByIds(browser);
   } catch (e) {
     console.log('网络请求出错：', e);
   }
